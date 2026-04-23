@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="en" class="light-theme" style="color-scheme: light;">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" href="/favicon.png">
+		<link rel="icon" href="/favicon-black.svg">
+		<meta name="description" content="An open-source color system for designing beautiful, accessible websites and apps.">
+		<meta property="og:url" content="https://radix-ui.com/colors/custom">
+		<meta property="og:title" content="Create a custom palette – Radix Colors">
+		<meta property="og:description" content="An open-source color system for designing beautiful, accessible websites and apps.">
+		<meta property="og:image" content="https://radix-ui.com/social/colors.png">
+		<meta name="twitter:site" content="@radix_ui">
+		<meta name="twitter:card" content="summary_large_image">
+		<style>
+        :root, .light, .light-theme {
+          --theme-toggle-sun-icon-display: block;
+          --theme-toggle-moon-icon-display: none;
+        }
+        .dark, .dark-theme {
+          --theme-toggle-sun-icon-display: none;
+          --theme-toggle-moon-icon-display: block;
+        }
+      
+		</style>
+		<style>
+        :root, .light, .light-theme {
+          --theme-toggle-sun-icon-display: block;
+          --theme-toggle-moon-icon-display: none;
+        }
+        .dark, .dark-theme {
+          --theme-toggle-sun-icon-display: none;
+          --theme-toggle-moon-icon-display: block;
+        }
+      
+		</style>
+		<meta name="next-head-count" content="13">
+		<link rel="preload" href="/fonts/AdobeTextPro-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="/fonts/soehne-mono-web-buch.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="https://cdn.workos.com/fonts/untitled-sans-regular-v2.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="https://cdn.workos.com/fonts/untitled-sans-medium-v2.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<style>
+@font-face {
+  font-family: 'Adobe Text Pro';
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/AdobeTextPro-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Untitled Sans';
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://cdn.workos.com/fonts/untitled-sans-regular-v2.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Untitled Sans';
+  font-weight: 500;
+  font-display: swap;
+  src: url('https://cdn.workos.com/fonts/untitled-sans-medium-v2.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Untitled Sans';
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://cdn.workos.com/fonts/untitled-sans-medium-v2.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Söhne Mono';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/soehne-mono-web-buch.woff2') format('woff2'), url('/fonts/soehne-mono-web-buch.woff') format('woff');
+}
+
+		</style>
+		<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ZTHXHJWP08"></script>
+		<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZTHXHJWP08');
+    
+		</script>
+		<link rel="preload" href="/_next/static/css/7f2bf5544d8c5df8.css" as="style">
+		<link rel="stylesheet" href="/_next/static/css/7f2bf5544d8c5df8.css" data-n-g="">
+		<link rel="preload" href="/_next/static/css/5d9bbfd7f4ce7e88.css" as="style">
+		<link rel="stylesheet" href="/_next/static/css/5d9bbfd7f4ce7e88.css" data-n-p="">
+		<noscript data-n-css=""></noscript>
+		<script defer="" nomodule="" src="/_next/static/chunks/polyfills-42372ed130431b0a.js"></script>
+		<script src="/_next/static/chunks/webpack-4cf3a1b70f9bcafa.js" defer=""></script>
+		<script src="/_next/static/chunks/framework-6603b6fce1ea64cf.js" defer=""></script>
+		<script src="/_next/static/chunks/main-7a0b0bbd87343ae2.js" defer=""></script>
+		<script src="/_next/static/chunks/pages/_app-438c8693a0d331e6.js" defer=""></script>
+		<script src="/_next/static/chunks/8034-c6d9fb6c43cab131.js" defer=""></script>
+		<script src="/_next/static/chunks/6581-d86803ee0b4ca4c2.js" defer=""></script>
+		<script src="/_next/static/chunks/5201-d14f22a4fe9c5afa.js" defer=""></script>
+		<script src="/_next/static/chunks/6858-37364a1d4b8f22d9.js" defer=""></script>
+		<script src="/_next/static/chunks/4090-3cec908d193945e8.js" defer=""></script>
+		<script src="/_next/static/chunks/3306-bdd6341c4be5c616.js" defer=""></script>
+		<script src="/_next/static/chunks/710-a7103b87dc272311.js" defer=""></script>
+		<script src="/_next/static/chunks/7111-4273ec88a525fffd.js" defer=""></script>
+		<script src="/_next/static/chunks/pages/colors/custom-84244f2b70c885ff.js" defer=""></script>
+		<script src="/_next/static/jFVnX5SGnpsoUb3OsTWB2/_buildManifest.js" defer=""></script>
+		<script src="/_next/static/jFVnX5SGnpsoUb3OsTWB2/_ssgManifest.js" defer=""></script>
+		<title>Create a custom palette – Radix Colors</title>
+		<link as="script" rel="prefetch" href="/_next/static/chunks/7079-023a46b424ab9c02.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/4464-0f939aa18881ffaa.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/3911-9af8f6c80c54e502.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/5520-fdd4cd5454a3fadb.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/5545-02e621e534c85a48.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/5583-3409f9b8866ac1c8.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/8760-80e3ca013eb53c66.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/1635-d070f6cd1d2d653f.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/pages/index-04969e5c2ffd9c81.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/8394-d030521bf6178e38.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/1813-5e1053ef08a9c150.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/7253-653716baf64357f8.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/pages/primitives-d1c64cf21465c72b.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/2648-7f9c1a9f9130fba5.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/pages/icons-0f8827a583ccae82.js">
+		<link as="script" rel="prefetch" href="/_next/static/chunks/pages/colors-e4f030322a7bf102.js">
+	</head>
+	<body>
+		<div id="__next">
+			<script>!function(){try{var d=document.documentElement,c=d.classList;c.remove('light-theme','dark-theme');var e=localStorage.getItem('theme');if('system'===e||(!e&&true)){var t='(prefers-color-scheme: dark)',m=window.matchMedia(t);if(m.media!==t||m.matches){d.style.colorScheme = 'dark';c.add('dark-theme')}else{d.style.colorScheme = 'light';c.add('light-theme')}}else if(e){var x={"light":"light-theme","dark":"dark-theme"};c.add(x[e]|| '')}if(e==='light'||e==='dark')d.style.colorScheme=e}catch(e){}}()</script>
+			<div data-is-root-theme="true" data-accent-color="pink" data-gray-color="gray" data-has-background="true" data-panel-background="translucent" data-radius="medium" data-scaling="100%" class="radix-themes radix-themes-custom-fonts">
+				<style>[data-accent-color='custom'] {
+  --accent-1: var(--custom-1);
+  --accent-2: var(--custom-2);
+  --accent-3: var(--custom-3);
+  --accent-4: var(--custom-4);
+  --accent-5: var(--custom-5);
+  --accent-6: var(--custom-6);
+  --accent-7: var(--custom-7);
+  --accent-8: var(--custom-8);
+  --accent-9: var(--custom-9);
+  --accent-10: var(--custom-10);
+  --accent-11: var(--custom-11);
+  --accent-12: var(--custom-12);
+
+  --accent-a1: var(--custom-a1);
+  --accent-a2: var(--custom-a2);
+  --accent-a3: var(--custom-a3);
+  --accent-a4: var(--custom-a4);
+  --accent-a5: var(--custom-a5);
+  --accent-a6: var(--custom-a6);
+  --accent-a7: var(--custom-a7);
+  --accent-a8: var(--custom-a8);
+  --accent-a9: var(--custom-a9);
+  --accent-a10: var(--custom-a10);
+  --accent-a11: var(--custom-a11);
+  --accent-a12: var(--custom-a12);
+
+  --accent-contrast: var(--custom-contrast);
+  --accent-surface: var(--custom-surface);
+  --accent-indicator: var(--custom-indicator);
+  --accent-track: var(--custom-track);
+}
+
+:root, .light, .light-theme, .radix-themes {
+  --color-background: #fff;
+}
+:root, .light, .light-theme {
+  --blue-1: #fdfdfe;
+  --blue-2: #f7f9ff;
+  --blue-3: #edf2fe;
+  --blue-4: #dfeaff;
+  --blue-5: #d0dfff;
+  --blue-6: #bdd1ff;
+  --blue-7: #a6bff9;
+  --blue-8: #87a5ef;
+  --blue-9: #3d63dd;
+  --blue-10: #3657c3;
+  --blue-11: #395bc7;
+  --blue-12: #1d2e5c;
+
+  --blue-a1: #00008002;
+  --blue-a2: #0040ff08;
+  --blue-a3: #0047f112;
+  --blue-a4: #0058ff20;
+  --blue-a5: #0052ff2f;
+  --blue-a6: #004eff42;
+  --blue-a7: #0048ee59;
+  --blue-a8: #0040dd78;
+  --blue-a9: #0032d2c2;
+  --blue-a10: #002ab3c9;
+  --blue-a11: #002cb7c6;
+  --blue-a12: #001347e2;
+
+  --blue-contrast: #fff;
+  --blue-surface: #f5f8ffcc;
+  --blue-indicator: #3d63dd;
+  --blue-track: #3d63dd;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    :root, .light, .light-theme {
+      --blue-1: oklch(99.4% 0.0015 266.8);
+      --blue-2: oklch(98.3% 0.008 266.8);
+      --blue-3: oklch(96.1% 0.0172 266.8);
+      --blue-4: oklch(93.5% 0.0338 266.8);
+      --blue-5: oklch(90.3% 0.0512 266.8);
+      --blue-6: oklch(86.3% 0.0714 266.8);
+      --blue-7: oklch(80.7% 0.0869 266.8);
+      --blue-8: oklch(73% 0.1134 266.8);
+      --blue-9: oklch(54.3% 0.1913 266.8);
+      --blue-10: oklch(49.7% 0.1729 266.8);
+      --blue-11: oklch(51% 0.1729 266.8);
+      --blue-12: oklch(31.3% 0.0856 266.8);
+
+      --blue-a1: color(display-p3 0.0196 0.0196 0.5098 / 0.008);
+      --blue-a2: color(display-p3 0.0196 0.2667 0.8784 / 0.032);
+      --blue-a3: color(display-p3 0.0078 0.2392 0.8863 / 0.067);
+      --blue-a4: color(display-p3 0.0039 0.3059 0.9373 / 0.118);
+      --blue-a5: color(display-p3 0.0039 0.2784 0.9333 / 0.173);
+      --blue-a6: color(display-p3 0.0039 0.2471 0.9373 / 0.244);
+      --blue-a7: color(display-p3 0.0039 0.2314 0.8706 / 0.33);
+      --blue-a8: color(display-p3 0.0039 0.2039 0.8078 / 0.448);
+      --blue-a9: color(display-p3 0 0.1529 0.7725 / 0.726);
+      --blue-a10: color(display-p3 0 0.1294 0.6549 / 0.761);
+      --blue-a11: color(display-p3 0 0.1333 0.6667 / 0.746);
+      --blue-a12: color(display-p3 0 0.0588 0.251 / 0.871);
+
+      --blue-contrast: #fff;
+      --blue-surface: color(display-p3 0.9608 0.9725 1 / 0.8);
+      --blue-indicator: oklch(54.3% 0.1913 266.8);
+      --blue-track: oklch(54.3% 0.1913 266.8);
+    }
+  }
+}
+:root, .light, .light-theme {
+  --gray-1: #fcfcfd;
+  --gray-2: #f9f9fb;
+  --gray-3: #eff0f3;
+  --gray-4: #e7e8ec;
+  --gray-5: #e0e1e6;
+  --gray-6: #d8d9e0;
+  --gray-7: #cdced7;
+  --gray-8: #b9bbc6;
+  --gray-9: #8b8d98;
+  --gray-10: #80828d;
+  --gray-11: #62636c;
+  --gray-12: #1e1f24;
+
+  --gray-a1: #00005503;
+  --gray-a2: #00005506;
+  --gray-a3: #00104010;
+  --gray-a4: #000b3618;
+  --gray-a5: #0009321f;
+  --gray-a6: #00073527;
+  --gray-a7: #00063332;
+  --gray-a8: #00083046;
+  --gray-a9: #00051d74;
+  --gray-a10: #00051b7f;
+  --gray-a11: #0002119d;
+  --gray-a12: #000107e1;
+
+  --gray-contrast: #fff;
+  --gray-surface: #ffffffcc;
+  --gray-indicator: #8b8d98;
+  --gray-track: #8b8d98;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    :root, .light, .light-theme {
+      --gray-1: oklch(99.1% 0.0015 277.7);
+      --gray-2: oklch(98.2% 0.003 277.7);
+      --gray-3: oklch(95.6% 0.0045 277.7);
+      --gray-4: oklch(93.1% 0.0061 277.7);
+      --gray-5: oklch(91% 0.0077 277.7);
+      --gray-6: oklch(88.8% 0.0093 277.7);
+      --gray-7: oklch(85.3% 0.0117 277.7);
+      --gray-8: oklch(79.4% 0.016 277.7);
+      --gray-9: oklch(64.6% 0.0165 277.7);
+      --gray-10: oklch(61% 0.0161 277.7);
+      --gray-11: oklch(50.3% 0.0139 277.7);
+      --gray-12: oklch(24.1% 0.0099 277.7);
+
+      --gray-a1: color(display-p3 0.0235 0.0235 0.349 / 0.012);
+      --gray-a2: color(display-p3 0.0235 0.0235 0.349 / 0.024);
+      --gray-a3: color(display-p3 0.0078 0.0667 0.2549 / 0.063);
+      --gray-a4: color(display-p3 0.0118 0.051 0.2157 / 0.095);
+      --gray-a5: color(display-p3 0.0039 0.0392 0.2 / 0.122);
+      --gray-a6: color(display-p3 0.0039 0.0275 0.1804 / 0.153);
+      --gray-a7: color(display-p3 0.0078 0.0275 0.1843 / 0.197);
+      --gray-a8: color(display-p3 0.0039 0.0314 0.1765 / 0.275);
+      --gray-a9: color(display-p3 0.0039 0.0196 0.1059 / 0.455);
+      --gray-a10: color(display-p3 0.0039 0.0196 0.098 / 0.499);
+      --gray-a11: color(display-p3 0 0.0078 0.0588 / 0.616);
+      --gray-a12: color(display-p3 0 0.0039 0.0275 / 0.883);
+
+      --gray-contrast: #fff;
+      --gray-surface: color(display-p3 1 1 1 / 80%);
+      --gray-indicator: oklch(64.6% 0.0165 277.7);
+      --gray-track: oklch(64.6% 0.0165 277.7);
+    }
+  }
+}
+.dark, .dark-theme, :is(.dark, .dark-theme) :where(.radix-themes:not(.light, .light-theme)) {
+  --color-background: #111;
+}
+.dark, .dark-theme {
+  --blue-1: #0c111c;
+  --blue-2: #111725;
+  --blue-3: #172448;
+  --blue-4: #1d2e61;
+  --blue-5: #243974;
+  --blue-6: #2d4484;
+  --blue-7: #375098;
+  --blue-8: #405eb2;
+  --blue-9: #3d63dd;
+  --blue-10: #3f5cb0;
+  --blue-11: #93b4ff;
+  --blue-12: #d5e2ff;
+
+  --blue-a1: #0012fb0c;
+  --blue-a2: #1156f916;
+  --blue-a3: #2b64ff3b;
+  --blue-a4: #3567ff56;
+  --blue-a5: #3f71fd6b;
+  --blue-a6: #4b7afd7c;
+  --blue-a7: #5480ff91;
+  --blue-a8: #5783ffad;
+  --blue-a9: #4571ffdb;
+  --blue-a10: #5580feab;
+  --blue-a11: #93b4ff;
+  --blue-a12: #d5e2ff;
+
+  --blue-contrast: #fff;
+  --blue-surface: #111d3980;
+  --blue-indicator: #3d63dd;
+  --blue-track: #3d63dd;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    .dark, .dark-theme {
+      --blue-1: oklch(17.8% 0.0247 266.8);
+      --blue-2: oklch(20.7% 0.0302 266.8);
+      --blue-3: oklch(27.1% 0.0694 266.8);
+      --blue-4: oklch(31.8% 0.0933 266.8);
+      --blue-5: oklch(36.1% 0.1046 266.8);
+      --blue-6: oklch(40.4% 0.1106 266.8);
+      --blue-7: oklch(45% 0.1203 266.8);
+      --blue-8: oklch(50.3% 0.1373 266.8);
+      --blue-9: oklch(54.3% 0.1913 266.8);
+      --blue-10: oklch(49.7% 0.1373 266.8);
+      --blue-11: oklch(77.7% 0.1234 266.8);
+      --blue-12: oklch(91.1% 0.0428 266.8);
+
+      --blue-a1: color(display-p3 0 0.0706 0.9804 / 0.043);
+      --blue-a2: color(display-p3 0.1176 0.3608 1 / 0.08);
+      --blue-a3: color(display-p3 0.2275 0.4039 1 / 0.223);
+      --blue-a4: color(display-p3 0.2627 0.4196 1 / 0.324);
+      --blue-a5: color(display-p3 0.302 0.451 1 / 0.4);
+      --blue-a6: color(display-p3 0.3451 0.4902 1 / 0.467);
+      --blue-a7: color(display-p3 0.3725 0.5098 1 / 0.547);
+      --blue-a8: color(display-p3 0.3843 0.5255 1 / 0.652);
+      --blue-a9: color(display-p3 0.3176 0.451 1 / 0.824);
+      --blue-a10: color(display-p3 0.3843 0.5176 1 / 0.643);
+      --blue-a11: color(display-p3 0.6196 0.7216 1 / 0.975);
+      --blue-a12: color(display-p3 0.8549 0.898 1 / 0.988);
+
+      --blue-contrast: #fff;
+      --blue-surface: color(display-p3 0.0706 0.1098 0.2118 / 0.5);
+      --blue-indicator: oklch(54.3% 0.1913 266.8);
+      --blue-track: oklch(54.3% 0.1913 266.8);
+    }
+  }
+}
+.dark, .dark-theme {
+  --gray-1: #111113;
+  --gray-2: #19191b;
+  --gray-3: #222325;
+  --gray-4: #292a2e;
+  --gray-5: #303136;
+  --gray-6: #393a40;
+  --gray-7: #46484f;
+  --gray-8: #5f606a;
+  --gray-9: #6c6e79;
+  --gray-10: #797b86;
+  --gray-11: #b2b3bd;
+  --gray-12: #eeeef0;
+
+  --gray-a1: #1111bb03;
+  --gray-a2: #cbcbf90b;
+  --gray-a3: #d6e2f916;
+  --gray-a4: #d1d9f920;
+  --gray-a5: #d7ddfd28;
+  --gray-a6: #d9defc33;
+  --gray-a7: #dae2fd43;
+  --gray-a8: #e0e3fd60;
+  --gray-a9: #e0e4fd70;
+  --gray-a10: #e3e7fd7e;
+  --gray-a11: #eff0feb9;
+  --gray-a12: #fdfdffef;
+
+  --gray-contrast: #fff;
+  --gray-surface: rgba(0, 0, 0, 0.05);
+  --gray-indicator: #6c6e79;
+  --gray-track: #6c6e79;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    .dark, .dark-theme {
+      --gray-1: oklch(17.8% 0.0042 277.7);
+      --gray-2: oklch(21.5% 0.004 277.7);
+      --gray-3: oklch(25.5% 0.0055 277.7);
+      --gray-4: oklch(28.4% 0.0075 277.7);
+      --gray-5: oklch(31.4% 0.0089 277.7);
+      --gray-6: oklch(35% 0.01 277.7);
+      --gray-7: oklch(40.2% 0.0121 277.7);
+      --gray-8: oklch(49.2% 0.0157 277.7);
+      --gray-9: oklch(54% 0.0167 277.7);
+      --gray-10: oklch(58.6% 0.0165 277.7);
+      --gray-11: oklch(77% 0.0138 277.7);
+      --gray-12: oklch(94.9% 0.0026 277.7);
+
+      --gray-a1: color(display-p3 0.0667 0.0667 0.9412 / 0.009);
+      --gray-a2: color(display-p3 0.8 0.8 0.9804 / 0.043);
+      --gray-a3: color(display-p3 0.851 0.898 0.9882 / 0.085);
+      --gray-a4: color(display-p3 0.8392 0.8706 1 / 0.122);
+      --gray-a5: color(display-p3 0.8471 0.8745 1 / 0.156);
+      --gray-a6: color(display-p3 0.8784 0.898 1 / 0.194);
+      --gray-a7: color(display-p3 0.8745 0.9059 0.9961 / 0.257);
+      --gray-a8: color(display-p3 0.8941 0.9059 1 / 0.37);
+      --gray-a9: color(display-p3 0.8902 0.9098 1 / 0.433);
+      --gray-a10: color(display-p3 0.902 0.9176 1 / 0.488);
+      --gray-a11: color(display-p3 0.9451 0.949 1 / 0.719);
+      --gray-a12: color(display-p3 0.9922 0.9922 1 / 0.937);
+
+      --gray-contrast: #fff;
+      --gray-surface: color(display-p3 0 0 0 / 5%);
+      --gray-indicator: oklch(54% 0.0167 277.7);
+      --gray-track: oklch(54% 0.0167 277.7);
+    }
+  }
+}</style>
+				<div data-is-root-theme="false" data-accent-color="blue" data-gray-color="gray" data-has-background="false" data-panel-background="translucent" data-radius="medium" data-scaling="100%" class="radix-themes">
+					<div class="rt-Box" style="position: absolute; left: 0px; right: 0px; height: 480px; opacity: 0.6; background: linear-gradient(to bottom, var(--accent-4), transparent);"></div>
+					<div data-scroll-state="at-top" data-mobile-menu-open="false" class="radix-themes radix-themes-custom-fonts Header_HeaderRoot__jxugv Header_ghost__F9M5f" data-is-root-theme="false" data-accent-color="blue" data-gray-color="gray" data-has-background="false" data-panel-background="translucent" data-radius="medium" data-scaling="100%">
+						<div class="Header_HeaderInner__cPDQv">
+							<div class="width-before-scroll-bar" style="position: absolute; height: inherit; top: 0px; left: 0px; right: 0px;">
+								<div class="rt-Flex sm:rt-r-display-none rt-r-ai-center rt-r-pl-4 rt-r-position-absolute rt-r-top-0 rt-r-bottom-0 rt-r-left-0">
+									<div class="rt-Flex rt-r-ai-center rt-r-gap-3">
+										<a class="BoxLink_BoxLink__IYF6i" href="/">
+											<svg width="76" height="24" viewBox="0 0 76 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+												<path d="M43.9022 20.0061H46.4499C46.2647 19.0375 46.17 18.1161 46.17 17.0058V12.3753C46.17 9.25687 44.3893 7.72127 41.1943 7.72127C38.3003 7.72127 36.3324 9.23324 36.0777 11.8083H38.9254C39.0181 10.698 39.8052 9.96561 41.1017 9.96561C42.4446 9.96561 43.3243 10.6743 43.3243 12.1391V12.7061L39.8052 13.1077C37.4206 13.3912 35.5684 14.3834 35.5684 16.7931C35.5684 18.9666 37.2353 20.2659 39.5274 20.2659C41.4027 20.2659 42.9845 19.4863 43.6401 18.1161C43.6689 18.937 43.9022 20.0061 43.9022 20.0061ZM40.3377 18.1634C39.157 18.1634 38.5087 17.5727 38.5087 16.6278C38.5087 15.3757 39.4579 15.0922 40.7082 14.9268L43.3243 14.6197V15.352C43.3243 17.242 41.8658 18.1634 40.3377 18.1634ZM56.2588 20.0061H59.176V3H56.2125V9.96561C55.6569 8.76075 54.3141 7.72127 52.4851 7.72127C49.3058 7.72127 47.099 10.2963 47.099 14.0054C47.099 17.7381 49.3058 20.2896 52.4851 20.2896C54.2678 20.2896 55.68 19.2973 56.2588 18.0925V20.0061ZM56.282 14.218C56.282 16.5569 55.1938 18.0689 53.3185 18.0689C51.3969 18.0689 50.1856 16.486 50.1856 14.0054C50.1856 11.5485 51.3969 9.94198 53.3185 9.94198C55.1938 9.94198 56.282 11.454 56.282 13.7928V14.218ZM60.9066 5.97304H64.0553V3.01996H60.9066V5.97304ZM60.9992 20.0061H63.9627V8.00476H60.9992V20.0061ZM67.6638 20.0061L70.6041 15.8954L73.5212 20.0061H76.9246L72.3636 13.7219L76.5542 8.00476H73.3823L70.7661 11.7138L68.1731 8.00476H64.7697L69.0066 13.8637L64.4919 20.0061H67.6638Z"></path>
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M24.9132 20V14.0168H28.7986L32.4513 20H35.7006L31.6894 13.5686C33.5045 12.986 35.0955 11.507 35.0955 9.01961C35.0955 5.7479 32.7994 4 28.9571 4H22V20H24.9132ZM24.9132 6.35294V11.6863H28.821C31.0395 11.6863 32.1599 10.7675 32.1599 9.01961C32.1599 7.27171 30.9395 6.35294 28.621 6.35294H24.9132Z"></path>
+												<path d="M7 23C3.13401 23 0 19.6422 0 15.5C0 11.3578 3.13401 8 7 8V23Z"></path>
+												<path d="M7 0H0V7H7V0Z"></path>
+												<path d="M11.5 7C13.433 7 15 5.433 15 3.5C15 1.567 13.433 0 11.5 0C9.56704 0 8 1.567 8 3.5C8 5.433 9.56704 7 11.5 7Z"></path>
+											</svg>
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">Radix Homepage</span>
+										</a>
+										<div style="background: currentcolor; opacity: 0.15; width: 1px; height: 24px;"></div>
+										<a class="BoxLink_BoxLink__IYF6i" href="https://workos.com" target="_blank">
+											<svg width="85" height="24" viewBox="0 0 85 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+												<path d="M35.631 10.3501H33.6565L36.2104 19.9984H38.4739L39.8956 14.1564C40.1844 12.8878 40.2111 12.3196 40.2111 12.3196H40.2378C40.2378 12.3196 40.2644 12.8878 40.5806 14.1564L42.0937 19.9989H44.2918L46.7924 10.3507H44.8179L43.449 16.2319C43.1862 17.382 43.1601 18.0032 43.1601 18.0032H43.1204C43.1204 18.0032 43.0539 17.382 42.7775 16.2319L41.3433 10.3507H39.1055L37.7502 16.2319C37.4869 17.3558 37.395 18.0032 37.395 18.0032H37.3683C37.3683 18.0032 37.316 17.3421 37.0527 16.2319L35.631 10.3501ZM46.4627 16.4936C46.4627 14.2858 47.8844 12.8588 50.0303 12.8588C52.1625 12.8588 53.5836 14.2858 53.5836 16.4929C53.5836 18.7132 52.1619 20.1545 50.0303 20.1545C47.8849 20.154 46.4627 18.7138 46.4627 16.4936ZM51.7409 16.4936C51.7409 15.066 51.0564 14.2596 50.0303 14.2596C48.9246 14.2596 48.3054 15.1583 48.3054 16.4936C48.3054 17.9473 48.9899 18.7531 50.0303 18.7531C51.1358 18.7531 51.7409 17.8544 51.7409 16.4936ZM54.465 12.9665H56.2154V14.2624H56.2551C56.5582 13.5882 57.2813 12.914 58.5185 12.914C58.7285 12.914 58.8607 12.9408 58.9527 12.9665V14.724H58.9004C58.9004 14.724 58.7427 14.6716 58.3079 14.6716C56.9526 14.6716 56.2154 15.4774 56.2154 16.9842V19.9973H54.465V12.9665ZM59.7688 10.3501H61.5191V13.4429C61.5191 15.2666 61.4924 15.5971 61.4924 15.5971H61.5191L64.1252 12.967H66.3098L63.2575 16.0069L66.7984 19.9984H64.7309L62.1769 17.0902L61.5185 17.7376V19.9973H59.7682L59.7688 10.3501ZM66.8234 15.2095C66.8234 12.2359 68.6667 10.2538 71.4307 10.2538C74.1947 10.2538 76.0375 12.2359 76.0375 15.2095C76.0375 18.1833 74.1947 20.1653 71.4307 20.1653C68.6667 20.1653 66.8234 18.1833 66.8234 15.2095ZM74.1283 15.2095C74.1283 13.1876 73.0494 11.8255 71.4296 11.8255C69.8098 11.8255 68.7321 13.1876 68.7321 15.2095C68.7321 17.2316 69.8104 18.5936 71.4296 18.5936C73.0482 18.5936 74.1283 17.2316 74.1283 15.2095ZM76.7072 16.787H78.7084C78.7084 17.924 79.4853 18.5583 80.6698 18.5583C81.6697 18.5583 82.3552 18.0556 82.3552 17.3421C82.3552 16.5363 81.8289 16.3243 80.1562 15.9943C78.6295 15.69 77.0103 15.1742 77.0103 13.1654C77.0103 11.487 78.432 10.2184 80.6032 10.2184C82.8672 10.2184 84.263 11.4078 84.263 13.2047H82.2619C82.2619 12.3327 81.5907 11.7902 80.6032 11.7902C79.6034 11.7902 78.9848 12.2792 78.9848 12.9927C78.9848 13.7461 79.419 14.0362 80.7618 14.3137C82.7484 14.7371 84.381 14.9611 84.381 17.1814C84.381 18.9406 82.8541 20.13 80.6032 20.13C78.3134 20.13 76.7072 18.7953 76.7072 16.787Z"></path>
+												<path d="M0.469655 11C0.469655 11.4821 0.595635 11.9644 0.84029 12.3796L5.27331 20.0879C5.72793 20.8744 6.41899 21.5179 7.27802 21.8056C8.06758 22.0768 8.92645 22.0639 9.70754 21.769C10.4886 21.4742 11.1433 20.9158 11.5595 20.1896L12.6294 18.3279L8.40727 11L12.8649 3.24041L13.9358 1.37959C14.2505 0.834441 14.6786 0.36388 15.191 0H8.31507C7.11004 0 5.99723 0.6435 5.39929 1.69216L0.84029 9.62134C0.596697 10.0396 0.468745 10.5155 0.469655 11ZM25.7496 11C25.7496 10.5178 25.6236 10.0347 25.3789 9.62041L20.8874 1.81041C20.4685 1.08695 19.8135 0.530974 19.0334 0.236502C18.2532 -0.05797 17.3958 -0.0728672 16.606 0.19433C15.7479 0.482163 15.0559 1.12475 14.6013 1.91216L13.5898 3.663L17.8119 11L13.3543 18.7586L12.2835 20.6204C11.9639 21.1704 11.5339 21.6361 11.0282 22H17.9041C19.1091 22 20.2219 21.3565 20.8199 20.3079L25.3789 12.3786C25.6236 11.9644 25.7496 11.4821 25.7496 11Z"></path>
+												<path fill-opacity="0.8" d="M34.037 6.00916V0.26915H35.0633L36.8931 4.84763H36.9567L38.7865 0.26915H39.8128V6.00916H39.0013V1.79664H38.9416L37.2551 6.00916H36.5947L34.9121 1.79664H34.8485V6.00916H34.037ZM42.3387 6.08076C41.5153 6.08076 40.9067 5.57955 40.9067 4.79592V4.78796C40.9067 4.01626 41.4875 3.56677 42.5177 3.50312L43.6872 3.4355V3.05363C43.6872 2.58027 43.3889 2.31773 42.8041 2.31773C42.3268 2.31773 42.0125 2.49276 41.9091 2.79905L41.9051 2.81496H41.0738L41.0777 2.78711C41.1812 2.07906 41.8614 1.6057 42.8439 1.6057C43.9298 1.6057 44.5424 2.14668 44.5424 3.05363V6.00916H43.6872V5.39657H43.6196C43.365 5.83413 42.9115 6.08076 42.3387 6.08076ZM41.7659 4.76012C41.7659 5.1579 42.104 5.39259 42.5694 5.39259C43.2138 5.39259 43.6872 4.97094 43.6872 4.41405V4.04411L42.6331 4.11173C42.0364 4.14753 41.7659 4.36233 41.7659 4.75216V4.76012ZM47.3349 6.08076C46.2489 6.08076 45.5448 5.20961 45.5448 3.85317V3.84522C45.5448 2.47684 46.237 1.61366 47.3349 1.61366C47.9276 1.61366 48.4327 1.90801 48.6635 2.37342H48.7311V-0.00532025H49.5903V6.00916H48.7311V5.32895H48.6635C48.4129 5.80231 47.9395 6.08076 47.3349 6.08076ZM47.5815 5.34486C48.3015 5.34486 48.743 4.77603 48.743 3.85317V3.84522C48.743 2.92236 48.2975 2.35353 47.5815 2.35353C46.8575 2.35353 46.4239 2.91838 46.4239 3.84522V3.85317C46.4239 4.78001 46.8575 5.34486 47.5815 5.34486ZM52.689 6.09269C51.4241 6.09269 50.6603 5.2295 50.6603 3.86113V3.85715C50.6603 2.50867 51.44 1.6057 52.6453 1.6057C53.8505 1.6057 54.5904 2.47684 54.5904 3.77362V4.07593H51.5275C51.5434 4.90332 51.9969 5.38464 52.7089 5.38464C53.2618 5.38464 53.592 5.11017 53.6954 4.88741L53.7113 4.85559L54.5427 4.85161L54.5347 4.88741C54.3915 5.45624 53.7949 6.09269 52.689 6.09269ZM52.6492 2.31375C52.0605 2.31375 51.615 2.71551 51.5394 3.45937H53.7352C53.6676 2.68767 53.234 2.31375 52.6492 2.31375ZM59.5525 6.08076C58.9479 6.08076 58.4745 5.80231 58.2239 5.32895H58.1603V6.00916H57.2971V-0.00532025H58.1603V2.37342H58.2239C58.4547 1.90801 58.9598 1.61366 59.5525 1.61366C60.6504 1.61366 61.3426 2.47684 61.3426 3.84522V3.85317C61.3426 5.20961 60.6425 6.08076 59.5525 6.08076ZM59.3099 5.34486C60.0299 5.34486 60.4635 4.78001 60.4635 3.85317V3.84522C60.4635 2.91838 60.0299 2.35353 59.3099 2.35353C58.5899 2.35353 58.1444 2.92236 58.1444 3.84522V3.85317C58.1444 4.77603 58.5899 5.34486 59.3099 5.34486ZM62.6274 7.52869C62.52 7.52869 62.3927 7.52073 62.2813 7.5088V6.82859C62.3649 6.84052 62.4723 6.8445 62.5717 6.8445C62.9735 6.8445 63.2121 6.67345 63.3434 6.23589L63.4071 6.01313L61.8398 1.68923H62.7706L63.8526 5.14199H63.9281L65.0061 1.68923H65.9131L64.306 6.17622C63.9401 7.21046 63.5025 7.52869 62.6274 7.52869Z"></path>
+											</svg>
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">Made by WorkOS</span>
+										</a>
+									</div>
+								</div>
+								<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-ai-center rt-r-pl-4 rt-r-position-absolute rt-r-top-0 rt-r-bottom-0 rt-r-left-0">
+									<div class="rt-Flex rt-r-ai-center rt-r-gap-3">
+										<a class="BoxLink_BoxLink__IYF6i" href="/">
+											<svg width="76" height="24" viewBox="0 0 76 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+												<path d="M43.9022 20.0061H46.4499C46.2647 19.0375 46.17 18.1161 46.17 17.0058V12.3753C46.17 9.25687 44.3893 7.72127 41.1943 7.72127C38.3003 7.72127 36.3324 9.23324 36.0777 11.8083H38.9254C39.0181 10.698 39.8052 9.96561 41.1017 9.96561C42.4446 9.96561 43.3243 10.6743 43.3243 12.1391V12.7061L39.8052 13.1077C37.4206 13.3912 35.5684 14.3834 35.5684 16.7931C35.5684 18.9666 37.2353 20.2659 39.5274 20.2659C41.4027 20.2659 42.9845 19.4863 43.6401 18.1161C43.6689 18.937 43.9022 20.0061 43.9022 20.0061ZM40.3377 18.1634C39.157 18.1634 38.5087 17.5727 38.5087 16.6278C38.5087 15.3757 39.4579 15.0922 40.7082 14.9268L43.3243 14.6197V15.352C43.3243 17.242 41.8658 18.1634 40.3377 18.1634ZM56.2588 20.0061H59.176V3H56.2125V9.96561C55.6569 8.76075 54.3141 7.72127 52.4851 7.72127C49.3058 7.72127 47.099 10.2963 47.099 14.0054C47.099 17.7381 49.3058 20.2896 52.4851 20.2896C54.2678 20.2896 55.68 19.2973 56.2588 18.0925V20.0061ZM56.282 14.218C56.282 16.5569 55.1938 18.0689 53.3185 18.0689C51.3969 18.0689 50.1856 16.486 50.1856 14.0054C50.1856 11.5485 51.3969 9.94198 53.3185 9.94198C55.1938 9.94198 56.282 11.454 56.282 13.7928V14.218ZM60.9066 5.97304H64.0553V3.01996H60.9066V5.97304ZM60.9992 20.0061H63.9627V8.00476H60.9992V20.0061ZM67.6638 20.0061L70.6041 15.8954L73.5212 20.0061H76.9246L72.3636 13.7219L76.5542 8.00476H73.3823L70.7661 11.7138L68.1731 8.00476H64.7697L69.0066 13.8637L64.4919 20.0061H67.6638Z"></path>
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M24.9132 20V14.0168H28.7986L32.4513 20H35.7006L31.6894 13.5686C33.5045 12.986 35.0955 11.507 35.0955 9.01961C35.0955 5.7479 32.7994 4 28.9571 4H22V20H24.9132ZM24.9132 6.35294V11.6863H28.821C31.0395 11.6863 32.1599 10.7675 32.1599 9.01961C32.1599 7.27171 30.9395 6.35294 28.621 6.35294H24.9132Z"></path>
+												<path d="M7 23C3.13401 23 0 19.6422 0 15.5C0 11.3578 3.13401 8 7 8V23Z"></path>
+												<path d="M7 0H0V7H7V0Z"></path>
+												<path d="M11.5 7C13.433 7 15 5.433 15 3.5C15 1.567 13.433 0 11.5 0C9.56704 0 8 1.567 8 3.5C8 5.433 9.56704 7 11.5 7Z"></path>
+											</svg>
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">Radix Homepage</span>
+										</a>
+										<div style="background: currentcolor; opacity: 0.15; width: 1px; height: 24px;"></div>
+										<a class="BoxLink_BoxLink__IYF6i" href="https://workos.com" target="_blank">
+											<svg width="85" height="24" viewBox="0 0 85 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+												<path d="M35.631 10.3501H33.6565L36.2104 19.9984H38.4739L39.8956 14.1564C40.1844 12.8878 40.2111 12.3196 40.2111 12.3196H40.2378C40.2378 12.3196 40.2644 12.8878 40.5806 14.1564L42.0937 19.9989H44.2918L46.7924 10.3507H44.8179L43.449 16.2319C43.1862 17.382 43.1601 18.0032 43.1601 18.0032H43.1204C43.1204 18.0032 43.0539 17.382 42.7775 16.2319L41.3433 10.3507H39.1055L37.7502 16.2319C37.4869 17.3558 37.395 18.0032 37.395 18.0032H37.3683C37.3683 18.0032 37.316 17.3421 37.0527 16.2319L35.631 10.3501ZM46.4627 16.4936C46.4627 14.2858 47.8844 12.8588 50.0303 12.8588C52.1625 12.8588 53.5836 14.2858 53.5836 16.4929C53.5836 18.7132 52.1619 20.1545 50.0303 20.1545C47.8849 20.154 46.4627 18.7138 46.4627 16.4936ZM51.7409 16.4936C51.7409 15.066 51.0564 14.2596 50.0303 14.2596C48.9246 14.2596 48.3054 15.1583 48.3054 16.4936C48.3054 17.9473 48.9899 18.7531 50.0303 18.7531C51.1358 18.7531 51.7409 17.8544 51.7409 16.4936ZM54.465 12.9665H56.2154V14.2624H56.2551C56.5582 13.5882 57.2813 12.914 58.5185 12.914C58.7285 12.914 58.8607 12.9408 58.9527 12.9665V14.724H58.9004C58.9004 14.724 58.7427 14.6716 58.3079 14.6716C56.9526 14.6716 56.2154 15.4774 56.2154 16.9842V19.9973H54.465V12.9665ZM59.7688 10.3501H61.5191V13.4429C61.5191 15.2666 61.4924 15.5971 61.4924 15.5971H61.5191L64.1252 12.967H66.3098L63.2575 16.0069L66.7984 19.9984H64.7309L62.1769 17.0902L61.5185 17.7376V19.9973H59.7682L59.7688 10.3501ZM66.8234 15.2095C66.8234 12.2359 68.6667 10.2538 71.4307 10.2538C74.1947 10.2538 76.0375 12.2359 76.0375 15.2095C76.0375 18.1833 74.1947 20.1653 71.4307 20.1653C68.6667 20.1653 66.8234 18.1833 66.8234 15.2095ZM74.1283 15.2095C74.1283 13.1876 73.0494 11.8255 71.4296 11.8255C69.8098 11.8255 68.7321 13.1876 68.7321 15.2095C68.7321 17.2316 69.8104 18.5936 71.4296 18.5936C73.0482 18.5936 74.1283 17.2316 74.1283 15.2095ZM76.7072 16.787H78.7084C78.7084 17.924 79.4853 18.5583 80.6698 18.5583C81.6697 18.5583 82.3552 18.0556 82.3552 17.3421C82.3552 16.5363 81.8289 16.3243 80.1562 15.9943C78.6295 15.69 77.0103 15.1742 77.0103 13.1654C77.0103 11.487 78.432 10.2184 80.6032 10.2184C82.8672 10.2184 84.263 11.4078 84.263 13.2047H82.2619C82.2619 12.3327 81.5907 11.7902 80.6032 11.7902C79.6034 11.7902 78.9848 12.2792 78.9848 12.9927C78.9848 13.7461 79.419 14.0362 80.7618 14.3137C82.7484 14.7371 84.381 14.9611 84.381 17.1814C84.381 18.9406 82.8541 20.13 80.6032 20.13C78.3134 20.13 76.7072 18.7953 76.7072 16.787Z"></path>
+												<path d="M0.469655 11C0.469655 11.4821 0.595635 11.9644 0.84029 12.3796L5.27331 20.0879C5.72793 20.8744 6.41899 21.5179 7.27802 21.8056C8.06758 22.0768 8.92645 22.0639 9.70754 21.769C10.4886 21.4742 11.1433 20.9158 11.5595 20.1896L12.6294 18.3279L8.40727 11L12.8649 3.24041L13.9358 1.37959C14.2505 0.834441 14.6786 0.36388 15.191 0H8.31507C7.11004 0 5.99723 0.6435 5.39929 1.69216L0.84029 9.62134C0.596697 10.0396 0.468745 10.5155 0.469655 11ZM25.7496 11C25.7496 10.5178 25.6236 10.0347 25.3789 9.62041L20.8874 1.81041C20.4685 1.08695 19.8135 0.530974 19.0334 0.236502C18.2532 -0.05797 17.3958 -0.0728672 16.606 0.19433C15.7479 0.482163 15.0559 1.12475 14.6013 1.91216L13.5898 3.663L17.8119 11L13.3543 18.7586L12.2835 20.6204C11.9639 21.1704 11.5339 21.6361 11.0282 22H17.9041C19.1091 22 20.2219 21.3565 20.8199 20.3079L25.3789 12.3786C25.6236 11.9644 25.7496 11.4821 25.7496 11Z"></path>
+												<path fill-opacity="0.8" d="M34.037 6.00916V0.26915H35.0633L36.8931 4.84763H36.9567L38.7865 0.26915H39.8128V6.00916H39.0013V1.79664H38.9416L37.2551 6.00916H36.5947L34.9121 1.79664H34.8485V6.00916H34.037ZM42.3387 6.08076C41.5153 6.08076 40.9067 5.57955 40.9067 4.79592V4.78796C40.9067 4.01626 41.4875 3.56677 42.5177 3.50312L43.6872 3.4355V3.05363C43.6872 2.58027 43.3889 2.31773 42.8041 2.31773C42.3268 2.31773 42.0125 2.49276 41.9091 2.79905L41.9051 2.81496H41.0738L41.0777 2.78711C41.1812 2.07906 41.8614 1.6057 42.8439 1.6057C43.9298 1.6057 44.5424 2.14668 44.5424 3.05363V6.00916H43.6872V5.39657H43.6196C43.365 5.83413 42.9115 6.08076 42.3387 6.08076ZM41.7659 4.76012C41.7659 5.1579 42.104 5.39259 42.5694 5.39259C43.2138 5.39259 43.6872 4.97094 43.6872 4.41405V4.04411L42.6331 4.11173C42.0364 4.14753 41.7659 4.36233 41.7659 4.75216V4.76012ZM47.3349 6.08076C46.2489 6.08076 45.5448 5.20961 45.5448 3.85317V3.84522C45.5448 2.47684 46.237 1.61366 47.3349 1.61366C47.9276 1.61366 48.4327 1.90801 48.6635 2.37342H48.7311V-0.00532025H49.5903V6.00916H48.7311V5.32895H48.6635C48.4129 5.80231 47.9395 6.08076 47.3349 6.08076ZM47.5815 5.34486C48.3015 5.34486 48.743 4.77603 48.743 3.85317V3.84522C48.743 2.92236 48.2975 2.35353 47.5815 2.35353C46.8575 2.35353 46.4239 2.91838 46.4239 3.84522V3.85317C46.4239 4.78001 46.8575 5.34486 47.5815 5.34486ZM52.689 6.09269C51.4241 6.09269 50.6603 5.2295 50.6603 3.86113V3.85715C50.6603 2.50867 51.44 1.6057 52.6453 1.6057C53.8505 1.6057 54.5904 2.47684 54.5904 3.77362V4.07593H51.5275C51.5434 4.90332 51.9969 5.38464 52.7089 5.38464C53.2618 5.38464 53.592 5.11017 53.6954 4.88741L53.7113 4.85559L54.5427 4.85161L54.5347 4.88741C54.3915 5.45624 53.7949 6.09269 52.689 6.09269ZM52.6492 2.31375C52.0605 2.31375 51.615 2.71551 51.5394 3.45937H53.7352C53.6676 2.68767 53.234 2.31375 52.6492 2.31375ZM59.5525 6.08076C58.9479 6.08076 58.4745 5.80231 58.2239 5.32895H58.1603V6.00916H57.2971V-0.00532025H58.1603V2.37342H58.2239C58.4547 1.90801 58.9598 1.61366 59.5525 1.61366C60.6504 1.61366 61.3426 2.47684 61.3426 3.84522V3.85317C61.3426 5.20961 60.6425 6.08076 59.5525 6.08076ZM59.3099 5.34486C60.0299 5.34486 60.4635 4.78001 60.4635 3.85317V3.84522C60.4635 2.91838 60.0299 2.35353 59.3099 2.35353C58.5899 2.35353 58.1444 2.92236 58.1444 3.84522V3.85317C58.1444 4.77603 58.5899 5.34486 59.3099 5.34486ZM62.6274 7.52869C62.52 7.52869 62.3927 7.52073 62.2813 7.5088V6.82859C62.3649 6.84052 62.4723 6.8445 62.5717 6.8445C62.9735 6.8445 63.2121 6.67345 63.3434 6.23589L63.4071 6.01313L61.8398 1.68923H62.7706L63.8526 5.14199H63.9281L65.0061 1.68923H65.9131L64.306 6.17622C63.9401 7.21046 63.5025 7.52869 62.6274 7.52869Z"></path>
+											</svg>
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">Made by WorkOS</span>
+										</a>
+									</div>
+								</div>
+								<div class="Header_HeaderProductLinksContainer__DKECr">
+									<a data-state="inactive" class="Header_HeaderProductLink__E4nh2" href="/">
+										<span class="Header_HeaderProductLinkInner__KNq74">Themes</span>
+										<span class="Header_HeaderProductLinkInnerHidden__NlnOP">Themes</span>
+									</a>
+									<a data-state="inactive" class="Header_HeaderProductLink__E4nh2" href="/primitives">
+										<span class="Header_HeaderProductLinkInner__KNq74">Primitives</span>
+										<span class="Header_HeaderProductLinkInnerHidden__NlnOP">Primitives</span>
+									</a>
+									<a data-state="inactive" class="Header_HeaderProductLink__E4nh2" href="/icons">
+										<span class="Header_HeaderProductLinkInner__KNq74">Icons</span>
+										<span class="Header_HeaderProductLinkInnerHidden__NlnOP">Icons</span>
+									</a>
+									<a data-state="active" class="Header_HeaderProductLink__E4nh2" href="/colors">
+										<span class="Header_HeaderProductLinkInner__KNq74">Colors</span>
+										<span class="Header_HeaderProductLinkInnerHidden__NlnOP">Colors</span>
+									</a>
+								</div>
+								<div class="rt-Flex rt-r-display-none md:rt-r-display-flex rt-r-ai-center rt-r-gap-5 rt-r-pr-4 rt-r-position-absolute rt-r-top-0 rt-r-right-0 rt-r-bottom-0">
+									<a data-accent-color="gray" href="/colors/docs" class="rt-Text rt-reset rt-Link rt-r-size-2 rt-underline-auto">Documentation</a>
+									<a data-accent-color="gray" href="/colors/custom" class="rt-Text rt-reset rt-Link rt-r-size-2 rt-underline-auto rt-high-contrast">Custom palette</a>
+									<a data-accent-color="gray" href="/blog" class="rt-Text rt-reset rt-Link rt-r-size-2 rt-underline-auto">Blog</a>
+									<a href="https://github.com/radix-ui/colors" target="_blank" aria-label="View GitHub" data-accent-color="gray" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-3 rt-variant-ghost rt-IconButton">
+										<svg width="16" height="16" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M7.49933 0.25C3.49635 0.25 0.25 3.49593 0.25 7.50024C0.25 10.703 2.32715 13.4206 5.2081 14.3797C5.57084 14.446 5.70302 14.2222 5.70302 14.0299C5.70302 13.8576 5.69679 13.4019 5.69323 12.797C3.67661 13.235 3.25112 11.825 3.25112 11.825C2.92132 10.9874 2.44599 10.7644 2.44599 10.7644C1.78773 10.3149 2.49584 10.3238 2.49584 10.3238C3.22353 10.375 3.60629 11.0711 3.60629 11.0711C4.25298 12.1788 5.30335 11.8588 5.71638 11.6732C5.78225 11.205 5.96962 10.8854 6.17658 10.7043C4.56675 10.5209 2.87415 9.89918 2.87415 7.12104C2.87415 6.32925 3.15677 5.68257 3.62053 5.17563C3.54576 4.99226 3.29697 4.25521 3.69174 3.25691C3.69174 3.25691 4.30015 3.06196 5.68522 3.99973C6.26337 3.83906 6.8838 3.75895 7.50022 3.75583C8.1162 3.75895 8.73619 3.83906 9.31523 3.99973C10.6994 3.06196 11.3069 3.25691 11.3069 3.25691C11.7026 4.25521 11.4538 4.99226 11.3795 5.17563C11.8441 5.68257 12.1245 6.32925 12.1245 7.12104C12.1245 9.9063 10.4292 10.5192 8.81452 10.6985C9.07444 10.9224 9.30633 11.3648 9.30633 12.0413C9.30633 13.0102 9.29742 13.7922 9.29742 14.0299C9.29742 14.2239 9.42828 14.4496 9.79591 14.3788C12.6746 13.4179 14.75 10.7025 14.75 7.50024C14.75 3.49593 11.5036 0.25 7.49933 0.25Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+										</svg>
+									</a>
+									<button data-accent-color="gray" aria-label="Toggle theme" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-3 rt-variant-ghost rt-IconButton">
+										<svg width="16" height="16" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: var(--theme-toggle-sun-icon-display);">
+											<path d="M7.5 0C7.77614 0 8 0.223858 8 0.5V2.5C8 2.77614 7.77614 3 7.5 3C7.22386 3 7 2.77614 7 2.5V0.5C7 0.223858 7.22386 0 7.5 0ZM2.1967 2.1967C2.39196 2.00144 2.70854 2.00144 2.90381 2.1967L4.31802 3.61091C4.51328 3.80617 4.51328 4.12276 4.31802 4.31802C4.12276 4.51328 3.80617 4.51328 3.61091 4.31802L2.1967 2.90381C2.00144 2.70854 2.00144 2.39196 2.1967 2.1967ZM0.5 7C0.223858 7 0 7.22386 0 7.5C0 7.77614 0.223858 8 0.5 8H2.5C2.77614 8 3 7.77614 3 7.5C3 7.22386 2.77614 7 2.5 7H0.5ZM2.1967 12.8033C2.00144 12.608 2.00144 12.2915 2.1967 12.0962L3.61091 10.682C3.80617 10.4867 4.12276 10.4867 4.31802 10.682C4.51328 10.8772 4.51328 11.1938 4.31802 11.3891L2.90381 12.8033C2.70854 12.9986 2.39196 12.9986 2.1967 12.8033ZM12.5 7C12.2239 7 12 7.22386 12 7.5C12 7.77614 12.2239 8 12.5 8H14.5C14.7761 8 15 7.77614 15 7.5C15 7.22386 14.7761 7 14.5 7H12.5ZM10.682 4.31802C10.4867 4.12276 10.4867 3.80617 10.682 3.61091L12.0962 2.1967C12.2915 2.00144 12.608 2.00144 12.8033 2.1967C12.9986 2.39196 12.9986 2.70854 12.8033 2.90381L11.3891 4.31802C11.1938 4.51328 10.8772 4.51328 10.682 4.31802ZM8 12.5C8 12.2239 7.77614 12 7.5 12C7.22386 12 7 12.2239 7 12.5V14.5C7 14.7761 7.22386 15 7.5 15C7.77614 15 8 14.7761 8 14.5V12.5ZM10.682 10.682C10.8772 10.4867 11.1938 10.4867 11.3891 10.682L12.8033 12.0962C12.9986 12.2915 12.9986 12.608 12.8033 12.8033C12.608 12.9986 12.2915 12.9986 12.0962 12.8033L10.682 11.3891C10.4867 11.1938 10.4867 10.8772 10.682 10.682ZM5.5 7.5C5.5 6.39543 6.39543 5.5 7.5 5.5C8.60457 5.5 9.5 6.39543 9.5 7.5C9.5 8.60457 8.60457 9.5 7.5 9.5C6.39543 9.5 5.5 8.60457 5.5 7.5ZM7.5 4.5C5.84315 4.5 4.5 5.84315 4.5 7.5C4.5 9.15685 5.84315 10.5 7.5 10.5C9.15685 10.5 10.5 9.15685 10.5 7.5C10.5 5.84315 9.15685 4.5 7.5 4.5Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+										</svg>
+										<svg width="16" height="16" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: var(--theme-toggle-moon-icon-display);">
+											<path d="M2.89998 0.499976C2.89998 0.279062 2.72089 0.0999756 2.49998 0.0999756C2.27906 0.0999756 2.09998 0.279062 2.09998 0.499976V1.09998H1.49998C1.27906 1.09998 1.09998 1.27906 1.09998 1.49998C1.09998 1.72089 1.27906 1.89998 1.49998 1.89998H2.09998V2.49998C2.09998 2.72089 2.27906 2.89998 2.49998 2.89998C2.72089 2.89998 2.89998 2.72089 2.89998 2.49998V1.89998H3.49998C3.72089 1.89998 3.89998 1.72089 3.89998 1.49998C3.89998 1.27906 3.72089 1.09998 3.49998 1.09998H2.89998V0.499976ZM5.89998 3.49998C5.89998 3.27906 5.72089 3.09998 5.49998 3.09998C5.27906 3.09998 5.09998 3.27906 5.09998 3.49998V4.09998H4.49998C4.27906 4.09998 4.09998 4.27906 4.09998 4.49998C4.09998 4.72089 4.27906 4.89998 4.49998 4.89998H5.09998V5.49998C5.09998 5.72089 5.27906 5.89998 5.49998 5.89998C5.72089 5.89998 5.89998 5.72089 5.89998 5.49998V4.89998H6.49998C6.72089 4.89998 6.89998 4.72089 6.89998 4.49998C6.89998 4.27906 6.72089 4.09998 6.49998 4.09998H5.89998V3.49998ZM1.89998 6.49998C1.89998 6.27906 1.72089 6.09998 1.49998 6.09998C1.27906 6.09998 1.09998 6.27906 1.09998 6.49998V7.09998H0.499976C0.279062 7.09998 0.0999756 7.27906 0.0999756 7.49998C0.0999756 7.72089 0.279062 7.89998 0.499976 7.89998H1.09998V8.49998C1.09998 8.72089 1.27906 8.89997 1.49998 8.89997C1.72089 8.89997 1.89998 8.72089 1.89998 8.49998V7.89998H2.49998C2.72089 7.89998 2.89998 7.72089 2.89998 7.49998C2.89998 7.27906 2.72089 7.09998 2.49998 7.09998H1.89998V6.49998ZM8.54406 0.98184L8.24618 0.941586C8.03275 0.917676 7.90692 1.1655 8.02936 1.34194C8.17013 1.54479 8.29981 1.75592 8.41754 1.97445C8.91878 2.90485 9.20322 3.96932 9.20322 5.10022C9.20322 8.37201 6.82247 11.0878 3.69887 11.6097C3.45736 11.65 3.20988 11.6772 2.96008 11.6906C2.74563 11.702 2.62729 11.9535 2.77721 12.1072C2.84551 12.1773 2.91535 12.2458 2.98667 12.3128L3.05883 12.3795L3.31883 12.6045L3.50684 12.7532L3.62796 12.8433L3.81491 12.9742L3.99079 13.089C4.11175 13.1651 4.23536 13.2375 4.36157 13.3059L4.62496 13.4412L4.88553 13.5607L5.18837 13.6828L5.43169 13.7686C5.56564 13.8128 5.70149 13.8529 5.83857 13.8885C5.94262 13.9155 6.04767 13.9401 6.15405 13.9622C6.27993 13.9883 6.40713 14.0109 6.53544 14.0298L6.85241 14.0685L7.11934 14.0892C7.24637 14.0965 7.37436 14.1002 7.50322 14.1002C11.1483 14.1002 14.1032 11.1453 14.1032 7.50023C14.1032 7.25044 14.0893 7.00389 14.0623 6.76131L14.0255 6.48407C13.991 6.26083 13.9453 6.04129 13.8891 5.82642C13.8213 5.56709 13.7382 5.31398 13.6409 5.06881L13.5279 4.80132L13.4507 4.63542L13.3766 4.48666C13.2178 4.17773 13.0353 3.88295 12.8312 3.60423L12.6782 3.40352L12.4793 3.16432L12.3157 2.98361L12.1961 2.85951L12.0355 2.70246L11.8134 2.50184L11.4925 2.24191L11.2483 2.06498L10.9562 1.87446L10.6346 1.68894L10.3073 1.52378L10.1938 1.47176L9.95488 1.3706L9.67791 1.2669L9.42566 1.1846L9.10075 1.09489L8.83599 1.03486L8.54406 0.98184ZM10.4032 5.30023C10.4032 4.27588 10.2002 3.29829 9.83244 2.40604C11.7623 3.28995 13.1032 5.23862 13.1032 7.50023C13.1032 10.593 10.596 13.1002 7.50322 13.1002C6.63646 13.1002 5.81597 12.9036 5.08355 12.5522C6.5419 12.0941 7.81081 11.2082 8.74322 10.0416C8.87963 10.2284 9.10028 10.3497 9.34928 10.3497C9.76349 10.3497 10.0993 10.0139 10.0993 9.59971C10.0993 9.24256 9.84965 8.94373 9.51535 8.86816C9.57741 8.75165 9.63653 8.63334 9.6926 8.51332C9.88358 8.63163 10.1088 8.69993 10.35 8.69993C11.0403 8.69993 11.6 8.14028 11.6 7.44993C11.6 6.75976 11.0406 6.20024 10.3505 6.19993C10.3853 5.90487 10.4032 5.60464 10.4032 5.30023Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+										</svg>
+									</button>
+								</div>
+								<div class="rt-Flex md:rt-r-display-none rt-r-ai-center rt-r-gap-4 rt-r-pr-4 rt-r-position-absolute rt-r-top-0 rt-r-right-0 rt-r-bottom-0">
+									<div class="Header_HeaderThemeToggleContainer__h9Dja">
+										<button data-accent-color="gray" aria-label="Toggle theme" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-3 rt-variant-ghost rt-IconButton">
+											<svg width="16" height="16" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: var(--theme-toggle-sun-icon-display);">
+												<path d="M7.5 0C7.77614 0 8 0.223858 8 0.5V2.5C8 2.77614 7.77614 3 7.5 3C7.22386 3 7 2.77614 7 2.5V0.5C7 0.223858 7.22386 0 7.5 0ZM2.1967 2.1967C2.39196 2.00144 2.70854 2.00144 2.90381 2.1967L4.31802 3.61091C4.51328 3.80617 4.51328 4.12276 4.31802 4.31802C4.12276 4.51328 3.80617 4.51328 3.61091 4.31802L2.1967 2.90381C2.00144 2.70854 2.00144 2.39196 2.1967 2.1967ZM0.5 7C0.223858 7 0 7.22386 0 7.5C0 7.77614 0.223858 8 0.5 8H2.5C2.77614 8 3 7.77614 3 7.5C3 7.22386 2.77614 7 2.5 7H0.5ZM2.1967 12.8033C2.00144 12.608 2.00144 12.2915 2.1967 12.0962L3.61091 10.682C3.80617 10.4867 4.12276 10.4867 4.31802 10.682C4.51328 10.8772 4.51328 11.1938 4.31802 11.3891L2.90381 12.8033C2.70854 12.9986 2.39196 12.9986 2.1967 12.8033ZM12.5 7C12.2239 7 12 7.22386 12 7.5C12 7.77614 12.2239 8 12.5 8H14.5C14.7761 8 15 7.77614 15 7.5C15 7.22386 14.7761 7 14.5 7H12.5ZM10.682 4.31802C10.4867 4.12276 10.4867 3.80617 10.682 3.61091L12.0962 2.1967C12.2915 2.00144 12.608 2.00144 12.8033 2.1967C12.9986 2.39196 12.9986 2.70854 12.8033 2.90381L11.3891 4.31802C11.1938 4.51328 10.8772 4.51328 10.682 4.31802ZM8 12.5C8 12.2239 7.77614 12 7.5 12C7.22386 12 7 12.2239 7 12.5V14.5C7 14.7761 7.22386 15 7.5 15C7.77614 15 8 14.7761 8 14.5V12.5ZM10.682 10.682C10.8772 10.4867 11.1938 10.4867 11.3891 10.682L12.8033 12.0962C12.9986 12.2915 12.9986 12.608 12.8033 12.8033C12.608 12.9986 12.2915 12.9986 12.0962 12.8033L10.682 11.3891C10.4867 11.1938 10.4867 10.8772 10.682 10.682ZM5.5 7.5C5.5 6.39543 6.39543 5.5 7.5 5.5C8.60457 5.5 9.5 6.39543 9.5 7.5C9.5 8.60457 8.60457 9.5 7.5 9.5C6.39543 9.5 5.5 8.60457 5.5 7.5ZM7.5 4.5C5.84315 4.5 4.5 5.84315 4.5 7.5C4.5 9.15685 5.84315 10.5 7.5 10.5C9.15685 10.5 10.5 9.15685 10.5 7.5C10.5 5.84315 9.15685 4.5 7.5 4.5Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+											</svg>
+											<svg width="16" height="16" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: var(--theme-toggle-moon-icon-display);">
+												<path d="M2.89998 0.499976C2.89998 0.279062 2.72089 0.0999756 2.49998 0.0999756C2.27906 0.0999756 2.09998 0.279062 2.09998 0.499976V1.09998H1.49998C1.27906 1.09998 1.09998 1.27906 1.09998 1.49998C1.09998 1.72089 1.27906 1.89998 1.49998 1.89998H2.09998V2.49998C2.09998 2.72089 2.27906 2.89998 2.49998 2.89998C2.72089 2.89998 2.89998 2.72089 2.89998 2.49998V1.89998H3.49998C3.72089 1.89998 3.89998 1.72089 3.89998 1.49998C3.89998 1.27906 3.72089 1.09998 3.49998 1.09998H2.89998V0.499976ZM5.89998 3.49998C5.89998 3.27906 5.72089 3.09998 5.49998 3.09998C5.27906 3.09998 5.09998 3.27906 5.09998 3.49998V4.09998H4.49998C4.27906 4.09998 4.09998 4.27906 4.09998 4.49998C4.09998 4.72089 4.27906 4.89998 4.49998 4.89998H5.09998V5.49998C5.09998 5.72089 5.27906 5.89998 5.49998 5.89998C5.72089 5.89998 5.89998 5.72089 5.89998 5.49998V4.89998H6.49998C6.72089 4.89998 6.89998 4.72089 6.89998 4.49998C6.89998 4.27906 6.72089 4.09998 6.49998 4.09998H5.89998V3.49998ZM1.89998 6.49998C1.89998 6.27906 1.72089 6.09998 1.49998 6.09998C1.27906 6.09998 1.09998 6.27906 1.09998 6.49998V7.09998H0.499976C0.279062 7.09998 0.0999756 7.27906 0.0999756 7.49998C0.0999756 7.72089 0.279062 7.89998 0.499976 7.89998H1.09998V8.49998C1.09998 8.72089 1.27906 8.89997 1.49998 8.89997C1.72089 8.89997 1.89998 8.72089 1.89998 8.49998V7.89998H2.49998C2.72089 7.89998 2.89998 7.72089 2.89998 7.49998C2.89998 7.27906 2.72089 7.09998 2.49998 7.09998H1.89998V6.49998ZM8.54406 0.98184L8.24618 0.941586C8.03275 0.917676 7.90692 1.1655 8.02936 1.34194C8.17013 1.54479 8.29981 1.75592 8.41754 1.97445C8.91878 2.90485 9.20322 3.96932 9.20322 5.10022C9.20322 8.37201 6.82247 11.0878 3.69887 11.6097C3.45736 11.65 3.20988 11.6772 2.96008 11.6906C2.74563 11.702 2.62729 11.9535 2.77721 12.1072C2.84551 12.1773 2.91535 12.2458 2.98667 12.3128L3.05883 12.3795L3.31883 12.6045L3.50684 12.7532L3.62796 12.8433L3.81491 12.9742L3.99079 13.089C4.11175 13.1651 4.23536 13.2375 4.36157 13.3059L4.62496 13.4412L4.88553 13.5607L5.18837 13.6828L5.43169 13.7686C5.56564 13.8128 5.70149 13.8529 5.83857 13.8885C5.94262 13.9155 6.04767 13.9401 6.15405 13.9622C6.27993 13.9883 6.40713 14.0109 6.53544 14.0298L6.85241 14.0685L7.11934 14.0892C7.24637 14.0965 7.37436 14.1002 7.50322 14.1002C11.1483 14.1002 14.1032 11.1453 14.1032 7.50023C14.1032 7.25044 14.0893 7.00389 14.0623 6.76131L14.0255 6.48407C13.991 6.26083 13.9453 6.04129 13.8891 5.82642C13.8213 5.56709 13.7382 5.31398 13.6409 5.06881L13.5279 4.80132L13.4507 4.63542L13.3766 4.48666C13.2178 4.17773 13.0353 3.88295 12.8312 3.60423L12.6782 3.40352L12.4793 3.16432L12.3157 2.98361L12.1961 2.85951L12.0355 2.70246L11.8134 2.50184L11.4925 2.24191L11.2483 2.06498L10.9562 1.87446L10.6346 1.68894L10.3073 1.52378L10.1938 1.47176L9.95488 1.3706L9.67791 1.2669L9.42566 1.1846L9.10075 1.09489L8.83599 1.03486L8.54406 0.98184ZM10.4032 5.30023C10.4032 4.27588 10.2002 3.29829 9.83244 2.40604C11.7623 3.28995 13.1032 5.23862 13.1032 7.50023C13.1032 10.593 10.596 13.1002 7.50322 13.1002C6.63646 13.1002 5.81597 12.9036 5.08355 12.5522C6.5419 12.0941 7.81081 11.2082 8.74322 10.0416C8.87963 10.2284 9.10028 10.3497 9.34928 10.3497C9.76349 10.3497 10.0993 10.0139 10.0993 9.59971C10.0993 9.24256 9.84965 8.94373 9.51535 8.86816C9.57741 8.75165 9.63653 8.63334 9.6926 8.51332C9.88358 8.63163 10.1088 8.69993 10.35 8.69993C11.0403 8.69993 11.6 8.14028 11.6 7.44993C11.6 6.75976 11.0406 6.20024 10.3505 6.19993C10.3853 5.90487 10.4032 5.60464 10.4032 5.30023Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+											</svg>
+										</button>
+									</div>
+									<button data-accent-color="gray" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-3 rt-variant-ghost rt-IconButton">
+										<svg width="16" height="16" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<section class="rt-Section rt-r-size-2 md:rt-r-size-3 rt-r-px-5 xs:rt-r-px-6 sm:rt-r-px-7 md:rt-r-px-9">
+						<div class="rt-Container rt-r-size-4 rt-r-position-relative">
+							<div class="rt-ContainerInner">
+								<div class="rt-Flex rt-r-fd-column rt-r-ai-center rt-r-mb-7">
+									<a data-accent-color="gray" class="rt-Text -rt-r-ml-2 rt-reset rt-Link rt-r-size-2 rt-underline-auto rt-Flex rt-r-ai-center rt-r-gap-1 rt-r-mb-3" href="/colors">
+										<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M6.85355 3.14645C7.04882 3.34171 7.04882 3.65829 6.85355 3.85355L3.70711 7H12.5C12.7761 7 13 7.22386 13 7.5C13 7.77614 12.7761 8 12.5 8H3.70711L6.85355 11.1464C7.04882 11.3417 7.04882 11.6583 6.85355 11.8536C6.65829 12.0488 6.34171 12.0488 6.14645 11.8536L2.14645 7.85355C1.95118 7.65829 1.95118 7.34171 2.14645 7.14645L6.14645 3.14645C6.34171 2.95118 6.65829 2.95118 6.85355 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+										</svg>Radix Colors</a>
+									<h1 class="rt-Heading rt-r-size-8 rt-r-ta-center">Create a custom palette</h1>
+									<div role="group" dir="ltr" class="rt-SegmentedControlRoot rt-r-size-2 rt-variant-surface rt-r-mt-5" tabindex="0" style="outline: none; background-color: transparent;">
+										<button type="button" data-state="on" role="radio" aria-checked="true" class="rt-reset rt-SegmentedControlItem" tabindex="-1" data-radix-collection-item="">
+											<span class="rt-SegmentedControlItemSeparator"></span>
+											<span class="rt-SegmentedControlItemLabel">
+												<span class="rt-SegmentedControlItemLabelActive">
+													<span class="rt-Flex rt-r-ai-center rt-r-gap-2 -rt-r-ml-1">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C7.77614 0 8 0.223858 8 0.5V2.5C8 2.77614 7.77614 3 7.5 3C7.22386 3 7 2.77614 7 2.5V0.5C7 0.223858 7.22386 0 7.5 0ZM2.1967 2.1967C2.39196 2.00144 2.70854 2.00144 2.90381 2.1967L4.31802 3.61091C4.51328 3.80617 4.51328 4.12276 4.31802 4.31802C4.12276 4.51328 3.80617 4.51328 3.61091 4.31802L2.1967 2.90381C2.00144 2.70854 2.00144 2.39196 2.1967 2.1967ZM0.5 7C0.223858 7 0 7.22386 0 7.5C0 7.77614 0.223858 8 0.5 8H2.5C2.77614 8 3 7.77614 3 7.5C3 7.22386 2.77614 7 2.5 7H0.5ZM2.1967 12.8033C2.00144 12.608 2.00144 12.2915 2.1967 12.0962L3.61091 10.682C3.80617 10.4867 4.12276 10.4867 4.31802 10.682C4.51328 10.8772 4.51328 11.1938 4.31802 11.3891L2.90381 12.8033C2.70854 12.9986 2.39196 12.9986 2.1967 12.8033ZM12.5 7C12.2239 7 12 7.22386 12 7.5C12 7.77614 12.2239 8 12.5 8H14.5C14.7761 8 15 7.77614 15 7.5C15 7.22386 14.7761 7 14.5 7H12.5ZM10.682 4.31802C10.4867 4.12276 10.4867 3.80617 10.682 3.61091L12.0962 2.1967C12.2915 2.00144 12.608 2.00144 12.8033 2.1967C12.9986 2.39196 12.9986 2.70854 12.8033 2.90381L11.3891 4.31802C11.1938 4.51328 10.8772 4.51328 10.682 4.31802ZM8 12.5C8 12.2239 7.77614 12 7.5 12C7.22386 12 7 12.2239 7 12.5V14.5C7 14.7761 7.22386 15 7.5 15C7.77614 15 8 14.7761 8 14.5V12.5ZM10.682 10.682C10.8772 10.4867 11.1938 10.4867 11.3891 10.682L12.8033 12.0962C12.9986 12.2915 12.9986 12.608 12.8033 12.8033C12.608 12.9986 12.2915 12.9986 12.0962 12.8033L10.682 11.3891C10.4867 11.1938 10.4867 10.8772 10.682 10.682ZM5.5 7.5C5.5 6.39543 6.39543 5.5 7.5 5.5C8.60457 5.5 9.5 6.39543 9.5 7.5C9.5 8.60457 8.60457 9.5 7.5 9.5C6.39543 9.5 5.5 8.60457 5.5 7.5ZM7.5 4.5C5.84315 4.5 4.5 5.84315 4.5 7.5C4.5 9.15685 5.84315 10.5 7.5 10.5C9.15685 10.5 10.5 9.15685 10.5 7.5C10.5 5.84315 9.15685 4.5 7.5 4.5Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+														</svg>Light</span>
+												</span>
+												<span class="rt-SegmentedControlItemLabelInactive" aria-hidden="true">
+													<span class="rt-Flex rt-r-ai-center rt-r-gap-2 -rt-r-ml-1">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M7.5 0C7.77614 0 8 0.223858 8 0.5V2.5C8 2.77614 7.77614 3 7.5 3C7.22386 3 7 2.77614 7 2.5V0.5C7 0.223858 7.22386 0 7.5 0ZM2.1967 2.1967C2.39196 2.00144 2.70854 2.00144 2.90381 2.1967L4.31802 3.61091C4.51328 3.80617 4.51328 4.12276 4.31802 4.31802C4.12276 4.51328 3.80617 4.51328 3.61091 4.31802L2.1967 2.90381C2.00144 2.70854 2.00144 2.39196 2.1967 2.1967ZM0.5 7C0.223858 7 0 7.22386 0 7.5C0 7.77614 0.223858 8 0.5 8H2.5C2.77614 8 3 7.77614 3 7.5C3 7.22386 2.77614 7 2.5 7H0.5ZM2.1967 12.8033C2.00144 12.608 2.00144 12.2915 2.1967 12.0962L3.61091 10.682C3.80617 10.4867 4.12276 10.4867 4.31802 10.682C4.51328 10.8772 4.51328 11.1938 4.31802 11.3891L2.90381 12.8033C2.70854 12.9986 2.39196 12.9986 2.1967 12.8033ZM12.5 7C12.2239 7 12 7.22386 12 7.5C12 7.77614 12.2239 8 12.5 8H14.5C14.7761 8 15 7.77614 15 7.5C15 7.22386 14.7761 7 14.5 7H12.5ZM10.682 4.31802C10.4867 4.12276 10.4867 3.80617 10.682 3.61091L12.0962 2.1967C12.2915 2.00144 12.608 2.00144 12.8033 2.1967C12.9986 2.39196 12.9986 2.70854 12.8033 2.90381L11.3891 4.31802C11.1938 4.51328 10.8772 4.51328 10.682 4.31802ZM8 12.5C8 12.2239 7.77614 12 7.5 12C7.22386 12 7 12.2239 7 12.5V14.5C7 14.7761 7.22386 15 7.5 15C7.77614 15 8 14.7761 8 14.5V12.5ZM10.682 10.682C10.8772 10.4867 11.1938 10.4867 11.3891 10.682L12.8033 12.0962C12.9986 12.2915 12.9986 12.608 12.8033 12.8033C12.608 12.9986 12.2915 12.9986 12.0962 12.8033L10.682 11.3891C10.4867 11.1938 10.4867 10.8772 10.682 10.682ZM5.5 7.5C5.5 6.39543 6.39543 5.5 7.5 5.5C8.60457 5.5 9.5 6.39543 9.5 7.5C9.5 8.60457 8.60457 9.5 7.5 9.5C6.39543 9.5 5.5 8.60457 5.5 7.5ZM7.5 4.5C5.84315 4.5 4.5 5.84315 4.5 7.5C4.5 9.15685 5.84315 10.5 7.5 10.5C9.15685 10.5 10.5 9.15685 10.5 7.5C10.5 5.84315 9.15685 4.5 7.5 4.5Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+														</svg>Light</span>
+												</span>
+											</span>
+										</button>
+										<button type="button" data-state="off" role="radio" aria-checked="false" class="rt-reset rt-SegmentedControlItem" tabindex="-1" data-radix-collection-item="">
+											<span class="rt-SegmentedControlItemSeparator"></span>
+											<span class="rt-SegmentedControlItemLabel">
+												<span class="rt-SegmentedControlItemLabelActive">
+													<span class="rt-Flex rt-r-ai-center rt-r-gap-2 -rt-r-ml-1">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M2.89998 0.499976C2.89998 0.279062 2.72089 0.0999756 2.49998 0.0999756C2.27906 0.0999756 2.09998 0.279062 2.09998 0.499976V1.09998H1.49998C1.27906 1.09998 1.09998 1.27906 1.09998 1.49998C1.09998 1.72089 1.27906 1.89998 1.49998 1.89998H2.09998V2.49998C2.09998 2.72089 2.27906 2.89998 2.49998 2.89998C2.72089 2.89998 2.89998 2.72089 2.89998 2.49998V1.89998H3.49998C3.72089 1.89998 3.89998 1.72089 3.89998 1.49998C3.89998 1.27906 3.72089 1.09998 3.49998 1.09998H2.89998V0.499976ZM5.89998 3.49998C5.89998 3.27906 5.72089 3.09998 5.49998 3.09998C5.27906 3.09998 5.09998 3.27906 5.09998 3.49998V4.09998H4.49998C4.27906 4.09998 4.09998 4.27906 4.09998 4.49998C4.09998 4.72089 4.27906 4.89998 4.49998 4.89998H5.09998V5.49998C5.09998 5.72089 5.27906 5.89998 5.49998 5.89998C5.72089 5.89998 5.89998 5.72089 5.89998 5.49998V4.89998H6.49998C6.72089 4.89998 6.89998 4.72089 6.89998 4.49998C6.89998 4.27906 6.72089 4.09998 6.49998 4.09998H5.89998V3.49998ZM1.89998 6.49998C1.89998 6.27906 1.72089 6.09998 1.49998 6.09998C1.27906 6.09998 1.09998 6.27906 1.09998 6.49998V7.09998H0.499976C0.279062 7.09998 0.0999756 7.27906 0.0999756 7.49998C0.0999756 7.72089 0.279062 7.89998 0.499976 7.89998H1.09998V8.49998C1.09998 8.72089 1.27906 8.89997 1.49998 8.89997C1.72089 8.89997 1.89998 8.72089 1.89998 8.49998V7.89998H2.49998C2.72089 7.89998 2.89998 7.72089 2.89998 7.49998C2.89998 7.27906 2.72089 7.09998 2.49998 7.09998H1.89998V6.49998ZM8.54406 0.98184L8.24618 0.941586C8.03275 0.917676 7.90692 1.1655 8.02936 1.34194C8.17013 1.54479 8.29981 1.75592 8.41754 1.97445C8.91878 2.90485 9.20322 3.96932 9.20322 5.10022C9.20322 8.37201 6.82247 11.0878 3.69887 11.6097C3.45736 11.65 3.20988 11.6772 2.96008 11.6906C2.74563 11.702 2.62729 11.9535 2.77721 12.1072C2.84551 12.1773 2.91535 12.2458 2.98667 12.3128L3.05883 12.3795L3.31883 12.6045L3.50684 12.7532L3.62796 12.8433L3.81491 12.9742L3.99079 13.089C4.11175 13.1651 4.23536 13.2375 4.36157 13.3059L4.62496 13.4412L4.88553 13.5607L5.18837 13.6828L5.43169 13.7686C5.56564 13.8128 5.70149 13.8529 5.83857 13.8885C5.94262 13.9155 6.04767 13.9401 6.15405 13.9622C6.27993 13.9883 6.40713 14.0109 6.53544 14.0298L6.85241 14.0685L7.11934 14.0892C7.24637 14.0965 7.37436 14.1002 7.50322 14.1002C11.1483 14.1002 14.1032 11.1453 14.1032 7.50023C14.1032 7.25044 14.0893 7.00389 14.0623 6.76131L14.0255 6.48407C13.991 6.26083 13.9453 6.04129 13.8891 5.82642C13.8213 5.56709 13.7382 5.31398 13.6409 5.06881L13.5279 4.80132L13.4507 4.63542L13.3766 4.48666C13.2178 4.17773 13.0353 3.88295 12.8312 3.60423L12.6782 3.40352L12.4793 3.16432L12.3157 2.98361L12.1961 2.85951L12.0355 2.70246L11.8134 2.50184L11.4925 2.24191L11.2483 2.06498L10.9562 1.87446L10.6346 1.68894L10.3073 1.52378L10.1938 1.47176L9.95488 1.3706L9.67791 1.2669L9.42566 1.1846L9.10075 1.09489L8.83599 1.03486L8.54406 0.98184ZM10.4032 5.30023C10.4032 4.27588 10.2002 3.29829 9.83244 2.40604C11.7623 3.28995 13.1032 5.23862 13.1032 7.50023C13.1032 10.593 10.596 13.1002 7.50322 13.1002C6.63646 13.1002 5.81597 12.9036 5.08355 12.5522C6.5419 12.0941 7.81081 11.2082 8.74322 10.0416C8.87963 10.2284 9.10028 10.3497 9.34928 10.3497C9.76349 10.3497 10.0993 10.0139 10.0993 9.59971C10.0993 9.24256 9.84965 8.94373 9.51535 8.86816C9.57741 8.75165 9.63653 8.63334 9.6926 8.51332C9.88358 8.63163 10.1088 8.69993 10.35 8.69993C11.0403 8.69993 11.6 8.14028 11.6 7.44993C11.6 6.75976 11.0406 6.20024 10.3505 6.19993C10.3853 5.90487 10.4032 5.60464 10.4032 5.30023Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+														</svg>Dark</span>
+												</span>
+												<span class="rt-SegmentedControlItemLabelInactive" aria-hidden="true">
+													<span class="rt-Flex rt-r-ai-center rt-r-gap-2 -rt-r-ml-1">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M2.89998 0.499976C2.89998 0.279062 2.72089 0.0999756 2.49998 0.0999756C2.27906 0.0999756 2.09998 0.279062 2.09998 0.499976V1.09998H1.49998C1.27906 1.09998 1.09998 1.27906 1.09998 1.49998C1.09998 1.72089 1.27906 1.89998 1.49998 1.89998H2.09998V2.49998C2.09998 2.72089 2.27906 2.89998 2.49998 2.89998C2.72089 2.89998 2.89998 2.72089 2.89998 2.49998V1.89998H3.49998C3.72089 1.89998 3.89998 1.72089 3.89998 1.49998C3.89998 1.27906 3.72089 1.09998 3.49998 1.09998H2.89998V0.499976ZM5.89998 3.49998C5.89998 3.27906 5.72089 3.09998 5.49998 3.09998C5.27906 3.09998 5.09998 3.27906 5.09998 3.49998V4.09998H4.49998C4.27906 4.09998 4.09998 4.27906 4.09998 4.49998C4.09998 4.72089 4.27906 4.89998 4.49998 4.89998H5.09998V5.49998C5.09998 5.72089 5.27906 5.89998 5.49998 5.89998C5.72089 5.89998 5.89998 5.72089 5.89998 5.49998V4.89998H6.49998C6.72089 4.89998 6.89998 4.72089 6.89998 4.49998C6.89998 4.27906 6.72089 4.09998 6.49998 4.09998H5.89998V3.49998ZM1.89998 6.49998C1.89998 6.27906 1.72089 6.09998 1.49998 6.09998C1.27906 6.09998 1.09998 6.27906 1.09998 6.49998V7.09998H0.499976C0.279062 7.09998 0.0999756 7.27906 0.0999756 7.49998C0.0999756 7.72089 0.279062 7.89998 0.499976 7.89998H1.09998V8.49998C1.09998 8.72089 1.27906 8.89997 1.49998 8.89997C1.72089 8.89997 1.89998 8.72089 1.89998 8.49998V7.89998H2.49998C2.72089 7.89998 2.89998 7.72089 2.89998 7.49998C2.89998 7.27906 2.72089 7.09998 2.49998 7.09998H1.89998V6.49998ZM8.54406 0.98184L8.24618 0.941586C8.03275 0.917676 7.90692 1.1655 8.02936 1.34194C8.17013 1.54479 8.29981 1.75592 8.41754 1.97445C8.91878 2.90485 9.20322 3.96932 9.20322 5.10022C9.20322 8.37201 6.82247 11.0878 3.69887 11.6097C3.45736 11.65 3.20988 11.6772 2.96008 11.6906C2.74563 11.702 2.62729 11.9535 2.77721 12.1072C2.84551 12.1773 2.91535 12.2458 2.98667 12.3128L3.05883 12.3795L3.31883 12.6045L3.50684 12.7532L3.62796 12.8433L3.81491 12.9742L3.99079 13.089C4.11175 13.1651 4.23536 13.2375 4.36157 13.3059L4.62496 13.4412L4.88553 13.5607L5.18837 13.6828L5.43169 13.7686C5.56564 13.8128 5.70149 13.8529 5.83857 13.8885C5.94262 13.9155 6.04767 13.9401 6.15405 13.9622C6.27993 13.9883 6.40713 14.0109 6.53544 14.0298L6.85241 14.0685L7.11934 14.0892C7.24637 14.0965 7.37436 14.1002 7.50322 14.1002C11.1483 14.1002 14.1032 11.1453 14.1032 7.50023C14.1032 7.25044 14.0893 7.00389 14.0623 6.76131L14.0255 6.48407C13.991 6.26083 13.9453 6.04129 13.8891 5.82642C13.8213 5.56709 13.7382 5.31398 13.6409 5.06881L13.5279 4.80132L13.4507 4.63542L13.3766 4.48666C13.2178 4.17773 13.0353 3.88295 12.8312 3.60423L12.6782 3.40352L12.4793 3.16432L12.3157 2.98361L12.1961 2.85951L12.0355 2.70246L11.8134 2.50184L11.4925 2.24191L11.2483 2.06498L10.9562 1.87446L10.6346 1.68894L10.3073 1.52378L10.1938 1.47176L9.95488 1.3706L9.67791 1.2669L9.42566 1.1846L9.10075 1.09489L8.83599 1.03486L8.54406 0.98184ZM10.4032 5.30023C10.4032 4.27588 10.2002 3.29829 9.83244 2.40604C11.7623 3.28995 13.1032 5.23862 13.1032 7.50023C13.1032 10.593 10.596 13.1002 7.50322 13.1002C6.63646 13.1002 5.81597 12.9036 5.08355 12.5522C6.5419 12.0941 7.81081 11.2082 8.74322 10.0416C8.87963 10.2284 9.10028 10.3497 9.34928 10.3497C9.76349 10.3497 10.0993 10.0139 10.0993 9.59971C10.0993 9.24256 9.84965 8.94373 9.51535 8.86816C9.57741 8.75165 9.63653 8.63334 9.6926 8.51332C9.88358 8.63163 10.1088 8.69993 10.35 8.69993C11.0403 8.69993 11.6 8.14028 11.6 7.44993C11.6 6.75976 11.0406 6.20024 10.3505 6.19993C10.3853 5.90487 10.4032 5.60464 10.4032 5.30023Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+														</svg>Dark</span>
+												</span>
+											</span>
+										</button>
+										<div class="rt-SegmentedControlIndicator"></div>
+									</div>
+								</div>
+								<div class="rt-Box rt-r-mb-9">
+									<div class="rt-Grid rt-r-gtc sm:rt-r-gtc rt-r-ai-end rt-r-jc-center rt-r-gap-4 rt-r-max-w sm:rt-r-max-w rt-r-mx" style="--grid-template-columns-sm: 180px 180px 180px auto; --grid-template-columns: 1fr; --max-width-sm: none; --max-width: 400px; --ml: auto; --mr: auto;">
+										<div class="rt-Flex rt-r-fd-column">
+											<div class="rt-Flex rt-r-mb-1">
+												<label data-accent-color="gray" for="accent" class="rt-Text rt-r-size-1">Accent</label>
+											</div>
+											<div class="ColorField_ColorFieldRoot__FxH0j">
+												<div class="rt-TextFieldRoot rt-r-size-2 rt-variant-surface">
+													<input spellcheck="false" autocapitalize="none" autocomplete="off" autocorrect="off" placeholder="Enter a color" type="text" id="accent" class="rt-reset rt-TextFieldInput" value="3D63DD">
+													<div class="rt-TextFieldSlot">
+														<div class="ColorField_ColorFieldSwatchWrapper__nsEvz">
+															<input class="ColorField_ColorFieldSwatch__bLb4j" tabindex="-1" type="color" value="#3D63DD">
+															<div class="ColorField_ColorFieldSwatchBorder__eow5w"></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="rt-Flex rt-r-fd-column">
+											<div class="rt-Flex rt-r-jc-space-between rt-r-mb-1">
+												<label data-accent-color="gray" for="gray" class="rt-Text rt-r-size-1">Gray</label>
+											</div>
+											<div class="ColorField_ColorFieldRoot__FxH0j">
+												<div class="rt-TextFieldRoot rt-r-size-2 rt-variant-surface">
+													<input spellcheck="false" autocapitalize="none" autocomplete="off" autocorrect="off" placeholder="Enter a color" type="text" id="gray" class="rt-reset rt-TextFieldInput" value="8B8D98">
+													<div class="rt-TextFieldSlot">
+														<div class="ColorField_ColorFieldSwatchWrapper__nsEvz">
+															<input class="ColorField_ColorFieldSwatch__bLb4j" tabindex="-1" type="color" value="#8B8D98">
+															<div class="ColorField_ColorFieldSwatchBorder__eow5w"></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="rt-Flex rt-r-fd-column">
+											<div class="rt-Flex rt-r-mb-1">
+												<label data-accent-color="gray" for="bg" class="rt-Text rt-r-size-1">Background</label>
+											</div>
+											<div class="ColorField_ColorFieldRoot__FxH0j">
+												<div class="rt-TextFieldRoot rt-r-size-2 rt-variant-surface">
+													<input spellcheck="false" autocapitalize="none" autocomplete="off" autocorrect="off" placeholder="Enter a color" type="text" id="bg" class="rt-reset rt-TextFieldInput" value="FFFFFF">
+													<div class="rt-TextFieldSlot">
+														<div class="ColorField_ColorFieldSwatchWrapper__nsEvz">
+															<input class="ColorField_ColorFieldSwatch__bLb4j" tabindex="-1" type="color" value="#FFFFFF">
+															<div class="ColorField_ColorFieldSwatchBorder__eow5w"></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="rt-Flex rt-r-fd-column sm:rt-r-fd-row sm:rt-r-ai-center rt-r-gap-3 rt-r-mt-2 sm:rt-r-mt-0">
+											<button data-accent-color="" type="button" id="radix-:r6:" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button">
+												<span class="rt-Flex rt-r-ai-center rt-r-gap-2">Copy<svg width="9" height="9" viewBox="0 0 9 9" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+														<path d="M0.135232 3.15803C0.324102 2.95657 0.640521 2.94637 0.841971 3.13523L4.5 6.56464L8.158 3.13523C8.3595 2.94637 8.6759 2.95657 8.8648 3.15803C9.0536 3.35949 9.0434 3.67591 8.842 3.86477L4.84197 7.6148C4.64964 7.7951 4.35036 7.7951 4.15803 7.6148L0.158031 3.86477C-0.0434285 3.67591 -0.0536285 3.35949 0.135232 3.15803Z"></path>
+													</svg>
+												</span>
+											</button>
+										</div>
+									</div>
+								</div>
+								<div class="rt-Grid rt-r-gtc-2 sm:rt-r-gtc rt-r-gtr sm:rt-r-gtr rt-r-gaf-column sm:rt-r-gaf-row rt-r-gap md:rt-r-gap-1 rt-r-px sm:rt-r-px-0 -rt-r-mx-5 xs:-rt-r-mx-6 sm:rt-r-mx-0 rt-r-mb-9" style="--grid-template-columns-sm: repeat(12, minmax(0, 1fr)); --grid-template-rows-sm: auto; --grid-template-rows: repeat(12, minmax(0, 1fr)); --gap: 2px; --pr: 2px; --pl: 2px;">
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-fd-column rt-r-gc rt-r-mb-2" style="--grid-column: 1 / 3;">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1 rt-r-ta-center rt-r-mb-3">Backgrounds</span>
+										<div class="rt-Box" style="height: 1px; background-image: linear-gradient(to right, transparent, var(--gray-a8) 30%, var(--gray-a8) 70%, transparent);"></div>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-fd-column rt-r-gc rt-r-mb-2" style="--grid-column: 3 / 6;">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1 rt-r-ta-center rt-r-mb-3">Interactive components</span>
+										<div class="rt-Box" style="height: 1px; background-image: linear-gradient(to right, transparent, var(--gray-a8) 30%, var(--gray-a8) 70%, transparent);"></div>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-fd-column rt-r-gc rt-r-mb-2" style="--grid-column: 6 / 9;">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1 rt-r-ta-center rt-r-mb-3">Borders and separators</span>
+										<div class="rt-Box" style="height: 1px; background-image: linear-gradient(to right, transparent, var(--gray-a8) 30%, var(--gray-a8) 70%, transparent);"></div>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-fd-column rt-r-gc rt-r-mb-2" style="--grid-column: 9 / 11;">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1 rt-r-ta-center rt-r-mb-3">Solid colors</span>
+										<div class="rt-Box" style="height: 1px; background-image: linear-gradient(to right, transparent, var(--gray-a8) 30%, var(--gray-a8) 70%, transparent);"></div>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-fd-column rt-r-gc rt-r-mb-2" style="--grid-column: 11 / 13;">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1 rt-r-ta-center rt-r-mb-3">Accessible text</span>
+										<div class="rt-Box" style="height: 1px; background-image: linear-gradient(to right, transparent, var(--gray-a8) 30%, var(--gray-a8) 70%, transparent);"></div>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-jc-center rt-r-mb-3">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1">1</span>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-jc-center rt-r-mb-3">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1">2</span>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-jc-center rt-r-mb-3">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1">3</span>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-jc-center rt-r-mb-3">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1">4</span>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-jc-center rt-r-mb-3">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1">5</span>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-jc-center rt-r-mb-3">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1">6</span>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-jc-center rt-r-mb-3">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1">7</span>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-jc-center rt-r-mb-3">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1">8</span>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-jc-center rt-r-mb-3">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1">9</span>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-jc-center rt-r-mb-3">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1">10</span>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-jc-center rt-r-mb-3">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1">11</span>
+									</div>
+									<div class="rt-Flex rt-r-display-none sm:rt-r-display-flex rt-r-jc-center rt-r-mb-3">
+										<span data-accent-color="gray" class="rt-Text rt-r-size-1">12</span>
+									</div>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r8:" data-state="closed">
+										<span style="background-color: var(--blue-1);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">blue 1</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:rb:" data-state="closed">
+										<span style="background-color: var(--blue-2);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">blue 2</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:re:" data-state="closed">
+										<span style="background-color: var(--blue-3);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">blue 3</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:rh:" data-state="closed">
+										<span style="background-color: var(--blue-4);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">blue 4</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:rk:" data-state="closed">
+										<span style="background-color: var(--blue-5);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">blue 5</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:rn:" data-state="closed">
+										<span style="background-color: var(--blue-6);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">blue 6</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:rq:" data-state="closed">
+										<span style="background-color: var(--blue-7);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">blue 7</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:rt:" data-state="closed">
+										<span style="background-color: var(--blue-8);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">blue 8</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r10:" data-state="closed">
+										<span style="background-color: var(--blue-9);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">blue 9</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r13:" data-state="closed">
+										<span style="background-color: var(--blue-10);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">blue 10</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r16:" data-state="closed">
+										<span style="background-color: var(--blue-11);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">blue 11</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r19:" data-state="closed">
+										<span style="background-color: var(--blue-12);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">blue 12</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r1c:" data-state="closed">
+										<span style="background-color: var(--gray-1);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">gray 1</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r1f:" data-state="closed">
+										<span style="background-color: var(--gray-2);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">gray 2</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r1i:" data-state="closed">
+										<span style="background-color: var(--gray-3);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">gray 3</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r1l:" data-state="closed">
+										<span style="background-color: var(--gray-4);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">gray 4</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r1o:" data-state="closed">
+										<span style="background-color: var(--gray-5);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">gray 5</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r1r:" data-state="closed">
+										<span style="background-color: var(--gray-6);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">gray 6</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r1u:" data-state="closed">
+										<span style="background-color: var(--gray-7);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">gray 7</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r21:" data-state="closed">
+										<span style="background-color: var(--gray-8);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">gray 8</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r24:" data-state="closed">
+										<span style="background-color: var(--gray-9);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">gray 9</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r27:" data-state="closed">
+										<span style="background-color: var(--gray-10);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">gray 10</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r2a:" data-state="closed">
+										<span style="background-color: var(--gray-11);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">gray 11</span>
+										</span>
+									</button>
+									<button class="rt-reset CustomSwatch_CustomSwatchTrigger__jlBrx" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r2d:" data-state="closed">
+										<span style="background-color: var(--gray-12);">
+											<span style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">gray 12</span>
+										</span>
+									</button>
+								</div>
+								<div data-is-root-theme="false" data-accent-color="blue" data-gray-color="gray" data-has-background="false" data-panel-background="translucent" data-radius="medium" data-scaling="100%" class="radix-themes radix-themes-default-fonts">
+									<div class="rt-Grid rt-r-gtc sm:rt-r-gtc lg:rt-r-gtc rt-r-jc-center rt-r-gap-6" style="--grid-template-columns-lg: 320px 1fr 320px; --grid-template-columns-sm: 320px 320px; --grid-template-columns: 1fr;">
+										<div class="rt-Flex rt-r-fd-column rt-r-gap-5 rt-r-w rt-r-max-w rt-r-mx" style="--width: 100%; --max-width: 400px; --ml: auto; --mr: auto;">
+											<div class="rt-Flex rt-r-gap-2">
+												<div class="rt-Box rt-r-fs-0 rt-r-fg-1">
+													<div class="rt-TextFieldRoot rt-r-size-2 rt-variant-surface">
+														<input spellcheck="false" placeholder="Search" type="text" name="_" class="rt-reset rt-TextFieldInput">
+														<div class="rt-TextFieldSlot">
+															<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M10 6.5C10 8.433 8.433 10 6.5 10C4.567 10 3 8.433 3 6.5C3 4.567 4.567 3 6.5 3C8.433 3 10 4.567 10 6.5ZM9.30884 10.0159C8.53901 10.6318 7.56251 11 6.5 11C4.01472 11 2 8.98528 2 6.5C2 4.01472 4.01472 2 6.5 2C8.98528 2 11 4.01472 11 6.5C11 7.56251 10.6318 8.53901 10.0159 9.30884L12.8536 12.1464C13.0488 12.3417 13.0488 12.6583 12.8536 12.8536C12.6583 13.0488 12.3417 13.0488 12.1464 12.8536L9.30884 10.0159Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+															</svg>
+														</div>
+													</div>
+												</div>
+												<button data-accent-color="" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button">Submit</button>
+											</div>
+											<div data-accent-color="" class="rt-CalloutRoot rt-r-size-2 rt-variant-soft">
+												<div class="rt-CalloutIcon">
+													<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.49991 0.876892C3.84222 0.876892 0.877075 3.84204 0.877075 7.49972C0.877075 11.1574 3.84222 14.1226 7.49991 14.1226C11.1576 14.1226 14.1227 11.1574 14.1227 7.49972C14.1227 3.84204 11.1576 0.876892 7.49991 0.876892ZM1.82707 7.49972C1.82707 4.36671 4.36689 1.82689 7.49991 1.82689C10.6329 1.82689 13.1727 4.36671 13.1727 7.49972C13.1727 10.6327 10.6329 13.1726 7.49991 13.1726C4.36689 13.1726 1.82707 10.6327 1.82707 7.49972ZM8.24992 4.49999C8.24992 4.9142 7.91413 5.24999 7.49992 5.24999C7.08571 5.24999 6.74992 4.9142 6.74992 4.49999C6.74992 4.08577 7.08571 3.74999 7.49992 3.74999C7.91413 3.74999 8.24992 4.08577 8.24992 4.49999ZM6.00003 5.99999H6.50003H7.50003C7.77618 5.99999 8.00003 6.22384 8.00003 6.49999V9.99999H8.50003H9.00003V11H8.50003H7.50003H6.50003H6.00003V9.99999H6.50003H7.00003V6.99999H6.50003H6.00003V5.99999Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+													</svg>
+												</div>
+												<p class="rt-Text rt-r-size-2 rt-CalloutText">Please upgrade to the new version.</p>
+											</div>
+											<div role="group" dir="ltr" class="custom_LayersRoot__5qJnk" tabindex="0" style="outline: none;">
+												<button type="button" data-state="on" role="radio" aria-checked="true" class="rt-reset custom_LayersItem___WCgZ" tabindex="-1" data-radix-collection-item="">
+													<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M12.5 2H2.5C2.22386 2 2 2.22386 2 2.5V12.5C2 12.7761 2.22386 13 2.5 13H12.5C12.7761 13 13 12.7761 13 12.5V2.5C13 2.22386 12.7761 2 12.5 2ZM2.5 1C1.67157 1 1 1.67157 1 2.5V12.5C1 13.3284 1.67157 14 2.5 14H12.5C13.3284 14 14 13.3284 14 12.5V2.5C14 1.67157 13.3284 1 12.5 1H2.5Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+														</svg>
+													</div>
+													<span class="rt-Text rt-r-size-1">Box</span>
+												</button>
+												<button type="button" data-state="off" role="radio" aria-checked="false" class="rt-reset custom_LayersItem___WCgZ" tabindex="-1" data-radix-collection-item="">
+													<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M12.5 2H8V7H13V2.5C13 2.22386 12.7761 2 12.5 2ZM13 8H8V13H12.5C12.7761 13 13 12.7761 13 12.5V8ZM7 7V2H2.5C2.22386 2 2 2.22386 2 2.5V7H7ZM2 8V12.5C2 12.7761 2.22386 13 2.5 13H7V8H2ZM2.5 1C1.67157 1 1 1.67157 1 2.5V12.5C1 13.3284 1.67157 14 2.5 14H12.5C13.3284 14 14 13.3284 14 12.5V2.5C14 1.67157 13.3284 1 12.5 1H2.5Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+														</svg>
+													</div>
+													<span class="rt-Text rt-r-size-1">Grid</span>
+												</button>
+												<button type="button" data-state="off" role="radio" aria-checked="false" class="rt-reset custom_LayersItem___WCgZ" data-indent="1" tabindex="-1" data-radix-collection-item="">
+													<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M2.5 1H12.5C13.3284 1 14 1.67157 14 2.5V12.5C14 13.3284 13.3284 14 12.5 14H2.5C1.67157 14 1 13.3284 1 12.5V2.5C1 1.67157 1.67157 1 2.5 1ZM2.5 2C2.22386 2 2 2.22386 2 2.5V8.3636L3.6818 6.6818C3.76809 6.59551 3.88572 6.54797 4.00774 6.55007C4.12975 6.55216 4.24568 6.60372 4.32895 6.69293L7.87355 10.4901L10.6818 7.6818C10.8575 7.50607 11.1425 7.50607 11.3182 7.6818L13 9.3636V2.5C13 2.22386 12.7761 2 12.5 2H2.5ZM2 12.5V9.6364L3.98887 7.64753L7.5311 11.4421L8.94113 13H2.5C2.22386 13 2 12.7761 2 12.5ZM12.5 13H10.155L8.48336 11.153L11 8.6364L13 10.6364V12.5C13 12.7761 12.7761 13 12.5 13ZM6.64922 5.5C6.64922 5.03013 7.03013 4.64922 7.5 4.64922C7.96987 4.64922 8.35078 5.03013 8.35078 5.5C8.35078 5.96987 7.96987 6.35078 7.5 6.35078C7.03013 6.35078 6.64922 5.96987 6.64922 5.5ZM7.5 3.74922C6.53307 3.74922 5.74922 4.53307 5.74922 5.5C5.74922 6.46693 6.53307 7.25078 7.5 7.25078C8.46693 7.25078 9.25078 6.46693 9.25078 5.5C9.25078 4.53307 8.46693 3.74922 7.5 3.74922Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+														</svg>
+													</div>
+													<span class="rt-Text rt-r-size-1">Image</span>
+												</button>
+												<button type="button" data-state="off" role="radio" aria-checked="false" class="rt-reset custom_LayersItem___WCgZ" data-indent="1" tabindex="-1" data-radix-collection-item="">
+													<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M2.5 1H12.5C13.3284 1 14 1.67157 14 2.5V12.5C14 13.3284 13.3284 14 12.5 14H2.5C1.67157 14 1 13.3284 1 12.5V2.5C1 1.67157 1.67157 1 2.5 1ZM2.5 2C2.22386 2 2 2.22386 2 2.5V8.3636L3.6818 6.6818C3.76809 6.59551 3.88572 6.54797 4.00774 6.55007C4.12975 6.55216 4.24568 6.60372 4.32895 6.69293L7.87355 10.4901L10.6818 7.6818C10.8575 7.50607 11.1425 7.50607 11.3182 7.6818L13 9.3636V2.5C13 2.22386 12.7761 2 12.5 2H2.5ZM2 12.5V9.6364L3.98887 7.64753L7.5311 11.4421L8.94113 13H2.5C2.22386 13 2 12.7761 2 12.5ZM12.5 13H10.155L8.48336 11.153L11 8.6364L13 10.6364V12.5C13 12.7761 12.7761 13 12.5 13ZM6.64922 5.5C6.64922 5.03013 7.03013 4.64922 7.5 4.64922C7.96987 4.64922 8.35078 5.03013 8.35078 5.5C8.35078 5.96987 7.96987 6.35078 7.5 6.35078C7.03013 6.35078 6.64922 5.96987 6.64922 5.5ZM7.5 3.74922C6.53307 3.74922 5.74922 4.53307 5.74922 5.5C5.74922 6.46693 6.53307 7.25078 7.5 7.25078C8.46693 7.25078 9.25078 6.46693 9.25078 5.5C9.25078 4.53307 8.46693 3.74922 7.5 3.74922Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+														</svg>
+													</div>
+													<span class="rt-Text rt-r-size-1">Image</span>
+												</button>
+												<button type="button" data-state="off" role="radio" aria-checked="false" class="rt-reset custom_LayersItem___WCgZ" data-indent="1" tabindex="-1" data-radix-collection-item="">
+													<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M3.94993 2.95002L3.94993 4.49998C3.94993 4.74851 3.74845 4.94998 3.49993 4.94998C3.2514 4.94998 3.04993 4.74851 3.04993 4.49998V2.50004C3.04993 2.45246 3.05731 2.40661 3.07099 2.36357C3.12878 2.18175 3.29897 2.05002 3.49993 2.05002H11.4999C11.6553 2.05002 11.7922 2.12872 11.8731 2.24842C11.9216 2.32024 11.9499 2.40682 11.9499 2.50002L11.9499 2.50004V4.49998C11.9499 4.74851 11.7485 4.94998 11.4999 4.94998C11.2514 4.94998 11.0499 4.74851 11.0499 4.49998V2.95002H8.04993V12.05H9.25428C9.50281 12.05 9.70428 12.2515 9.70428 12.5C9.70428 12.7486 9.50281 12.95 9.25428 12.95H5.75428C5.50575 12.95 5.30428 12.7486 5.30428 12.5C5.30428 12.2515 5.50575 12.05 5.75428 12.05H6.94993V2.95002H3.94993Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+														</svg>
+													</div>
+													<span class="rt-Text rt-r-size-1">Text</span>
+												</button>
+											</div>
+											<div class="rt-Flex rt-r-ai-center rt-r-jc-center sm:rt-r-jc-space-between rt-r-gap-4">
+												<span data-accent-color="" data-radius="full" class="rt-reset rt-Badge rt-r-size-1 rt-variant-soft">Fully-featured</span>
+												<span data-accent-color="" data-radius="full" class="rt-reset rt-Badge rt-r-size-1 rt-variant-surface">Built with Radix</span>
+												<span data-accent-color="" data-radius="full" class="rt-reset rt-Badge rt-r-size-1 rt-variant-outline">Open source</span>
+											</div>
+											<div class="rt-Flex rt-r-ai-center rt-r-jc-center sm:rt-r-jc-space-between rt-r-gap-4 sm:rt-r-gap-0">
+												<button data-accent-color="" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-classic rt-IconButton">
+													<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M6.97942 1.25171L6.9585 1.30199L5.58662 4.60039C5.54342 4.70426 5.44573 4.77523 5.3336 4.78422L1.7727 5.0697L1.71841 5.07405L1.38687 5.10063L1.08608 5.12475C0.820085 5.14607 0.712228 5.47802 0.914889 5.65162L1.14406 5.84793L1.39666 6.06431L1.43802 6.09974L4.15105 8.42374C4.23648 8.49692 4.2738 8.61176 4.24769 8.72118L3.41882 12.196L3.40618 12.249L3.32901 12.5725L3.25899 12.866C3.19708 13.1256 3.47945 13.3308 3.70718 13.1917L3.9647 13.0344L4.24854 12.861L4.29502 12.8326L7.34365 10.9705C7.43965 10.9119 7.5604 10.9119 7.6564 10.9705L10.705 12.8326L10.7515 12.861L11.0354 13.0344L11.2929 13.1917C11.5206 13.3308 11.803 13.1256 11.7411 12.866L11.671 12.5725L11.5939 12.249L11.5812 12.196L10.7524 8.72118C10.7263 8.61176 10.7636 8.49692 10.849 8.42374L13.562 6.09974L13.6034 6.06431L13.856 5.84793L14.0852 5.65162C14.2878 5.47802 14.18 5.14607 13.914 5.12475L13.6132 5.10063L13.2816 5.07405L13.2274 5.0697L9.66645 4.78422C9.55432 4.77523 9.45663 4.70426 9.41343 4.60039L8.04155 1.30199L8.02064 1.25171L7.89291 0.944609L7.77702 0.665992C7.67454 0.419604 7.32551 0.419604 7.22303 0.665992L7.10715 0.944609L6.97942 1.25171ZM7.50003 2.60397L6.50994 4.98442C6.32273 5.43453 5.89944 5.74207 5.41351 5.78103L2.84361 5.98705L4.8016 7.66428C5.17183 7.98142 5.33351 8.47903 5.2204 8.95321L4.62221 11.461L6.8224 10.1171C7.23842 9.86302 7.76164 9.86302 8.17766 10.1171L10.3778 11.461L9.77965 8.95321C9.66654 8.47903 9.82822 7.98142 10.1984 7.66428L12.1564 5.98705L9.58654 5.78103C9.10061 5.74207 8.67732 5.43453 8.49011 4.98442L7.50003 2.60397Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+														</svg>
+													</div>
+												</button>
+												<button data-accent-color="" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-IconButton">
+													<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M3 2.5C3 2.22386 3.22386 2 3.5 2H11.5C11.7761 2 12 2.22386 12 2.5V13.5C12 13.6818 11.9014 13.8492 11.7424 13.9373C11.5834 14.0254 11.3891 14.0203 11.235 13.924L7.5 11.5896L3.765 13.924C3.61087 14.0203 3.41659 14.0254 3.25762 13.9373C3.09864 13.8492 3 13.6818 3 13.5V2.5ZM4 3V12.5979L6.97 10.7416C7.29427 10.539 7.70573 10.539 8.03 10.7416L11 12.5979V3H4Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+														</svg>
+													</div>
+												</button>
+												<button data-accent-color="" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-soft rt-IconButton">
+													<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M0.877197 7.49984C0.877197 3.84216 3.84234 0.877014 7.50003 0.877014C11.1577 0.877014 14.1229 3.84216 14.1229 7.49984C14.1229 11.1575 11.1577 14.1227 7.50003 14.1227C3.84234 14.1227 0.877197 11.1575 0.877197 7.49984ZM7.50003 1.82701C4.36702 1.82701 1.8272 4.36683 1.8272 7.49984C1.8272 10.6328 4.36702 13.1727 7.50003 13.1727C10.633 13.1727 13.1729 10.6328 13.1729 7.49984C13.1729 4.36683 10.633 1.82701 7.50003 1.82701ZM7.12457 9.00001C7.06994 9.12735 6.33165 11.9592 6.33165 11.9592C6.26018 12.226 5.98601 12.3843 5.71928 12.3128C5.45255 12.2413 5.29425 11.9672 5.36573 11.7004C5.36573 11.7004 6.24661 8.87268 6.24661 8.27007V6.80099L4.28763 6.27608C4.0209 6.20461 3.86261 5.93045 3.93408 5.66371C4.00555 5.39698 4.27972 5.23869 4.54645 5.31016C4.54645 5.31016 6.20042 5.87268 6.84579 5.87268H8.15505C8.80042 5.87268 10.4534 5.31042 10.4534 5.31042C10.7202 5.23895 10.9943 5.39724 11.0658 5.66397C11.1373 5.93071 10.979 6.20487 10.7122 6.27635L8.74661 6.80303V8.27007C8.74661 8.87268 9.62663 11.6971 9.62663 11.6971C9.6981 11.9639 9.5398 12.238 9.27307 12.3095C9.00634 12.381 8.73217 12.2227 8.6607 11.956C8.6607 11.956 7.91994 9.12735 7.86866 9.00001C7.81994 8.87268 7.65006 8.87268 7.65006 8.87268H7.34317C7.34317 8.87268 7.16994 8.87268 7.12457 9.00001ZM7.50043 5.12007C8.12175 5.12007 8.62543 4.61639 8.62543 3.99507C8.62543 3.37375 8.12175 2.87007 7.50043 2.87007C6.87911 2.87007 6.37543 3.37375 6.37543 3.99507C6.37543 4.61639 6.87911 5.12007 7.50043 5.12007Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+														</svg>
+													</div>
+												</button>
+												<button data-accent-color="" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-surface rt-IconButton">
+													<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M4.89346 2.35248C3.49195 2.35248 2.35248 3.49359 2.35248 4.90532C2.35248 6.38164 3.20954 7.9168 4.37255 9.33522C5.39396 10.581 6.59464 11.6702 7.50002 12.4778C8.4054 11.6702 9.60608 10.581 10.6275 9.33522C11.7905 7.9168 12.6476 6.38164 12.6476 4.90532C12.6476 3.49359 11.5081 2.35248 10.1066 2.35248C9.27059 2.35248 8.81894 2.64323 8.5397 2.95843C8.27877 3.25295 8.14623 3.58566 8.02501 3.88993C8.00391 3.9429 7.98315 3.99501 7.96211 4.04591C7.88482 4.23294 7.7024 4.35494 7.50002 4.35494C7.29765 4.35494 7.11523 4.23295 7.03793 4.04592C7.01689 3.99501 6.99612 3.94289 6.97502 3.8899C6.8538 3.58564 6.72126 3.25294 6.46034 2.95843C6.18109 2.64323 5.72945 2.35248 4.89346 2.35248ZM1.35248 4.90532C1.35248 2.94498 2.936 1.35248 4.89346 1.35248C6.0084 1.35248 6.73504 1.76049 7.20884 2.2953C7.32062 2.42147 7.41686 2.55382 7.50002 2.68545C7.58318 2.55382 7.67941 2.42147 7.79119 2.2953C8.265 1.76049 8.99164 1.35248 10.1066 1.35248C12.064 1.35248 13.6476 2.94498 13.6476 4.90532C13.6476 6.74041 12.6013 8.50508 11.4008 9.96927C10.2636 11.3562 8.92194 12.5508 8.00601 13.3664C7.94645 13.4194 7.88869 13.4709 7.83291 13.5206C7.64324 13.6899 7.3568 13.6899 7.16713 13.5206C7.11135 13.4709 7.05359 13.4194 6.99403 13.3664C6.0781 12.5508 4.73641 11.3562 3.59926 9.96927C2.39872 8.50508 1.35248 6.74041 1.35248 4.90532Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+														</svg>
+													</div>
+												</button>
+												<button data-accent-color="" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-outline rt-IconButton">
+													<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+														<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M3.5 5.00006C3.22386 5.00006 3 5.22392 3 5.50006L3 11.5001C3 11.7762 3.22386 12.0001 3.5 12.0001L11.5 12.0001C11.7761 12.0001 12 11.7762 12 11.5001L12 5.50006C12 5.22392 11.7761 5.00006 11.5 5.00006L10.25 5.00006C9.97386 5.00006 9.75 4.7762 9.75 4.50006C9.75 4.22392 9.97386 4.00006 10.25 4.00006L11.5 4.00006C12.3284 4.00006 13 4.67163 13 5.50006L13 11.5001C13 12.3285 12.3284 13.0001 11.5 13.0001L3.5 13.0001C2.67157 13.0001 2 12.3285 2 11.5001L2 5.50006C2 4.67163 2.67157 4.00006 3.5 4.00006L4.75 4.00006C5.02614 4.00006 5.25 4.22392 5.25 4.50006C5.25 4.7762 5.02614 5.00006 4.75 5.00006L3.5 5.00006ZM7 1.6364L5.5682 3.0682C5.39246 3.24393 5.10754 3.24393 4.9318 3.0682C4.75607 2.89246 4.75607 2.60754 4.9318 2.4318L7.1818 0.181802C7.26619 0.09741 7.38065 0.049999 7.5 0.049999C7.61935 0.049999 7.73381 0.09741 7.8182 0.181802L10.0682 2.4318C10.2439 2.60754 10.2439 2.89246 10.0682 3.0682C9.89246 3.24393 9.60754 3.24393 9.4318 3.0682L8 1.6364L8 8.5C8 8.77614 7.77614 9 7.5 9C7.22386 9 7 8.77614 7 8.5L7 1.6364Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+														</svg>
+													</div>
+												</button>
+												<button type="button" role="switch" aria-checked="false" data-state="unchecked" value="on" class="rt-reset rt-SwitchRoot rt-r-size-1 rt-variant-surface rt-r-ml-2">
+													<span data-state="unchecked" class="rt-SwitchThumb"></span>
+												</button>
+												<button type="button" role="switch" aria-checked="true" data-state="checked" value="on" class="rt-reset rt-SwitchRoot rt-r-size-1 rt-variant-surface">
+													<span data-state="checked" class="rt-SwitchThumb"></span>
+												</button>
+											</div>
+											<div class="rt-Flex rt-r-fd-column rt-r-gap-4">
+												<a href="#" class="rt-reset rt-BaseCard rt-Card rt-r-size-2 rt-variant-classic">
+													<div class="rt-Flex rt-r-ai-center rt-r-gap-3">
+														<span data-accent-color="" class="rt-reset rt-AvatarRoot rt-r-size-4 rt-variant-soft">
+															<img class="rt-AvatarImage" src="https://images.unsplash.com/photo-1533933269825-da140ad3132f?&amp;w=128&amp;h=128&amp;dpr=2&amp;q=70&amp;crop=focalpoint&amp;fp-x=0.5&amp;fp-y=0.46&amp;fp-z=1.25&amp;fit=crop">
+														</span>
+														<div class="rt-Box">
+															<div class="rt-Text rt-r-size-3 rt-r-weight-medium">Emily Adams</div>
+															<div data-accent-color="gray" class="rt-Text rt-r-size-2">emily.adams@example.com</div>
+														</div>
+													</div>
+												</a>
+												<a href="#" class="rt-reset rt-BaseCard rt-Card rt-r-size-2 rt-variant-surface">
+													<div class="rt-Flex rt-r-ai-center rt-r-gap-3">
+														<span data-accent-color="" class="rt-reset rt-AvatarRoot rt-r-size-4 rt-variant-soft">
+															<img class="rt-AvatarImage" src="https://images.unsplash.com/photo-1533933269825-da140ad3132f?&amp;w=128&amp;h=128&amp;dpr=2&amp;q=70&amp;crop=focalpoint&amp;fp-x=0.5&amp;fp-y=0.46&amp;fp-z=1.25&amp;fit=crop">
+														</span>
+														<div class="rt-Box">
+															<div class="rt-Text rt-r-size-3 rt-r-weight-medium">Emily Adams</div>
+															<div data-accent-color="gray" class="rt-Text rt-r-size-2">emily.adams@example.com</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="rt-Flex rt-r-fd-column rt-r-gap-6 rt-r-w rt-r-max-w rt-r-mx" style="--width: 100%; --max-width: 400px; --ml: auto; --mr: auto;">
+											<div class="rt-Flex rt-r-mx -rt-r-mt-2" style="--ml: auto; --mr: auto;">
+												<div dir="ltr" data-orientation="horizontal" class="rt-TabsRoot">
+													<div role="tablist" aria-orientation="horizontal" class="rt-BaseTabList rt-TabsList rt-r-size-2" tabindex="0" data-orientation="horizontal" style="outline: none;">
+														<button type="button" role="tab" aria-selected="false" aria-controls="radix-:r2l:-content-themes" data-state="inactive" id="radix-:r2l:-trigger-themes" class="rt-reset rt-BaseTabListTrigger rt-TabsTrigger" tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">
+															<span class="rt-BaseTabListTriggerInner rt-TabsTriggerInner">Themes</span>
+															<span class="rt-BaseTabListTriggerInnerHidden rt-TabsTriggerInnerHidden">Themes</span>
+														</button>
+														<button type="button" role="tab" aria-selected="false" aria-controls="radix-:r2l:-content-primitives" data-state="inactive" id="radix-:r2l:-trigger-primitives" class="rt-reset rt-BaseTabListTrigger rt-TabsTrigger" tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">
+															<span class="rt-BaseTabListTriggerInner rt-TabsTriggerInner">Primitives</span>
+															<span class="rt-BaseTabListTriggerInnerHidden rt-TabsTriggerInnerHidden">Primitives</span>
+														</button>
+														<button type="button" role="tab" aria-selected="false" aria-controls="radix-:r2l:-content-icons" data-state="inactive" id="radix-:r2l:-trigger-icons" class="rt-reset rt-BaseTabListTrigger rt-TabsTrigger" tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">
+															<span class="rt-BaseTabListTriggerInner rt-TabsTriggerInner">Icons</span>
+															<span class="rt-BaseTabListTriggerInnerHidden rt-TabsTriggerInnerHidden">Icons</span>
+														</button>
+														<button type="button" role="tab" aria-selected="true" aria-controls="radix-:r2l:-content-colors" data-state="active" id="radix-:r2l:-trigger-colors" class="rt-reset rt-BaseTabListTrigger rt-TabsTrigger" tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">
+															<span class="rt-BaseTabListTriggerInner rt-TabsTriggerInner">Colors</span>
+															<span class="rt-BaseTabListTriggerInnerHidden rt-TabsTriggerInnerHidden">Colors</span>
+														</button>
+													</div>
+												</div>
+											</div>
+											<div class="rt-Flex rt-r-fd-column rt-r-gap-4 rt-r-mx" style="--ml: auto; --mr: auto;">
+												<div class="rt-Flex rt-r-gap-3">
+													<span data-accent-color="" data-radius="full" class="rt-reset rt-AvatarRoot rt-r-size-3 rt-variant-solid">
+														<img class="rt-AvatarImage" src="https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?&amp;w=128&amp;h=128&amp;dpr=2&amp;q=70&amp;crop=focalpoint&amp;fp-x=0.49&amp;fp-y=0.5&amp;fp-z=2.5&amp;fit=crop">
+													</span>
+													<span data-accent-color="" data-radius="full" class="rt-reset rt-AvatarRoot rt-r-size-3 rt-variant-solid">
+														<img class="rt-AvatarImage" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?&amp;w=128&amp;h=128&amp;dpr=2&amp;q=70&amp;crop=faces&amp;fit=crop">
+													</span>
+													<span data-accent-color="" data-radius="full" class="rt-reset rt-AvatarRoot rt-r-size-3 rt-variant-solid">
+														<span class="rt-AvatarFallback rt-one-letter">V</span>
+													</span>
+													<span data-accent-color="" data-radius="full" class="rt-reset rt-AvatarRoot rt-r-size-3 rt-variant-solid">
+														<span class="rt-AvatarFallback rt-two-letters">BG</span>
+													</span>
+													<span data-accent-color="" data-radius="full" class="rt-reset rt-AvatarRoot rt-r-size-3 rt-variant-solid">
+														<span class="rt-AvatarFallback">
+															<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="currentColor" style="width: 60%; height: 60%;">
+																<path d="M41.5 14c4.687 0 8.5 4.038 8.5 9s-3.813 9-8.5 9S33 27.962 33 23 36.813 14 41.5 14zM56.289 43.609C57.254 46.21 55.3 49 52.506 49c-2.759 0-11.035 0-11.035 0 .689-5.371-4.525-10.747-8.541-13.03 2.388-1.171 5.149-1.834 8.07-1.834C48.044 34.136 54.187 37.944 56.289 43.609zM37.289 46.609C38.254 49.21 36.3 52 33.506 52c-5.753 0-17.259 0-23.012 0-2.782 0-4.753-2.779-3.783-5.392 2.102-5.665 8.245-9.472 15.289-9.472S35.187 40.944 37.289 46.609zM21.5 17c4.687 0 8.5 4.038 8.5 9s-3.813 9-8.5 9S13 30.962 13 26 16.813 17 21.5 17z"></path>
+															</svg>
+														</span>
+													</span>
+													<span data-accent-color="" data-radius="full" class="rt-reset rt-AvatarRoot rt-r-size-3 rt-variant-solid rt-high-contrast">
+														<span class="rt-AvatarFallback">
+															<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="currentColor" style="width: 60%; height: 60%;">
+																<path d="M41.5 14c4.687 0 8.5 4.038 8.5 9s-3.813 9-8.5 9S33 27.962 33 23 36.813 14 41.5 14zM56.289 43.609C57.254 46.21 55.3 49 52.506 49c-2.759 0-11.035 0-11.035 0 .689-5.371-4.525-10.747-8.541-13.03 2.388-1.171 5.149-1.834 8.07-1.834C48.044 34.136 54.187 37.944 56.289 43.609zM37.289 46.609C38.254 49.21 36.3 52 33.506 52c-5.753 0-17.259 0-23.012 0-2.782 0-4.753-2.779-3.783-5.392 2.102-5.665 8.245-9.472 15.289-9.472S35.187 40.944 37.289 46.609zM21.5 17c4.687 0 8.5 4.038 8.5 9s-3.813 9-8.5 9S13 30.962 13 26 16.813 17 21.5 17z"></path>
+															</svg>
+														</span>
+													</span>
+												</div>
+												<div class="rt-Flex rt-r-gap-3">
+													<span data-accent-color="" data-radius="full" class="rt-reset rt-AvatarRoot rt-r-size-3 rt-variant-soft">
+														<img class="rt-AvatarImage" src="https://images.unsplash.com/photo-1533933269825-da140ad3132f?&amp;w=128&amp;h=128&amp;dpr=2&amp;q=70&amp;crop=focalpoint&amp;fp-x=0.5&amp;fp-y=0.46&amp;fp-z=1.25&amp;fit=crop">
+													</span>
+													<span data-accent-color="" data-radius="full" class="rt-reset rt-AvatarRoot rt-r-size-3 rt-variant-soft">
+														<img class="rt-AvatarImage" src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?&amp;w=128&amp;h=128&amp;dpr=2&amp;q=70&amp;crop=faces&amp;fit=crop">
+													</span>
+													<span data-accent-color="" data-radius="full" class="rt-reset rt-AvatarRoot rt-r-size-3 rt-variant-soft">
+														<span class="rt-AvatarFallback rt-one-letter">V</span>
+													</span>
+													<span data-accent-color="" data-radius="full" class="rt-reset rt-AvatarRoot rt-r-size-3 rt-variant-soft">
+														<span class="rt-AvatarFallback rt-two-letters">BG</span>
+													</span>
+													<span data-accent-color="" data-radius="full" class="rt-reset rt-AvatarRoot rt-r-size-3 rt-variant-soft">
+														<span class="rt-AvatarFallback">
+															<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="currentColor" style="width: 60%; height: 60%;">
+																<path d="M41.5 14c4.687 0 8.5 4.038 8.5 9s-3.813 9-8.5 9S33 27.962 33 23 36.813 14 41.5 14zM56.289 43.609C57.254 46.21 55.3 49 52.506 49c-2.759 0-11.035 0-11.035 0 .689-5.371-4.525-10.747-8.541-13.03 2.388-1.171 5.149-1.834 8.07-1.834C48.044 34.136 54.187 37.944 56.289 43.609zM37.289 46.609C38.254 49.21 36.3 52 33.506 52c-5.753 0-17.259 0-23.012 0-2.782 0-4.753-2.779-3.783-5.392 2.102-5.665 8.245-9.472 15.289-9.472S35.187 40.944 37.289 46.609zM21.5 17c4.687 0 8.5 4.038 8.5 9s-3.813 9-8.5 9S13 30.962 13 26 16.813 17 21.5 17z"></path>
+															</svg>
+														</span>
+													</span>
+													<span data-accent-color="" data-radius="full" class="rt-reset rt-AvatarRoot rt-r-size-3 rt-variant-soft rt-high-contrast">
+														<span class="rt-AvatarFallback">
+															<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="currentColor" style="width: 60%; height: 60%;">
+																<path d="M41.5 14c4.687 0 8.5 4.038 8.5 9s-3.813 9-8.5 9S33 27.962 33 23 36.813 14 41.5 14zM56.289 43.609C57.254 46.21 55.3 49 52.506 49c-2.759 0-11.035 0-11.035 0 .689-5.371-4.525-10.747-8.541-13.03 2.388-1.171 5.149-1.834 8.07-1.834C48.044 34.136 54.187 37.944 56.289 43.609zM37.289 46.609C38.254 49.21 36.3 52 33.506 52c-5.753 0-17.259 0-23.012 0-2.782 0-4.753-2.779-3.783-5.392 2.102-5.665 8.245-9.472 15.289-9.472S35.187 40.944 37.289 46.609zM21.5 17c4.687 0 8.5 4.038 8.5 9s-3.813 9-8.5 9S13 30.962 13 26 16.813 17 21.5 17z"></path>
+															</svg>
+														</span>
+													</span>
+												</div>
+											</div>
+											<span data-accent-color="gray" class="rt-Separator rt-r-orientation-horizontal rt-r-size-4"></span>
+											<div class="rt-Flex rt-r-fd-column rt-r-gap-4">
+												<span class="rt-Text rt-r-size-2">
+													<blockquote class="rt-Text rt-Blockquote">Susan Kare is an American
+														<a data-accent-color="" target="_blank" href="https://en.wikipedia.org/wiki/Graphic_design" data-state="closed" class="rt-Text rt-reset rt-Link rt-underline-hover rt-HoverCardTrigger">graphic designer</a>
+														and artist, who contributed
+														<a data-accent-color="" target="_blank" href="https://en.wikipedia.org/wiki/User_interface" data-state="closed" class="rt-Text rt-reset rt-Link rt-underline-hover rt-HoverCardTrigger">interface</a>
+														elements and
+														<a data-accent-color="" target="_blank" href="https://en.wikipedia.org/wiki/Typeface" data-state="closed" class="rt-Text rt-reset rt-Link rt-underline-hover rt-HoverCardTrigger">typefaces</a>
+														for the first
+														<a data-accent-color="" target="_blank" href="https://en.wikipedia.org/wiki/Typeface" data-state="closed" class="rt-Text rt-reset rt-Link rt-underline-hover rt-HoverCardTrigger">Apple Macintosh</a>
+														personal computer from 1983 to 1986.</blockquote>
+												</span>
+												<span data-accent-color="gray" class="rt-Text rt-r-size-2">
+													<blockquote class="rt-Text rt-Blockquote">Susan Kare is an American
+														<a data-accent-color="" target="_blank" href="https://en.wikipedia.org/wiki/Graphic_design" data-state="closed" class="rt-Text rt-reset rt-Link rt-underline-hover rt-high-contrast rt-HoverCardTrigger">graphic designer</a>
+														and artist, who contributed
+														<a data-accent-color="" target="_blank" href="https://en.wikipedia.org/wiki/User_interface" data-state="closed" class="rt-Text rt-reset rt-Link rt-underline-hover rt-high-contrast rt-HoverCardTrigger">interface</a>
+														elements and
+														<a data-accent-color="" target="_blank" href="https://en.wikipedia.org/wiki/Typeface" data-state="closed" class="rt-Text rt-reset rt-Link rt-underline-hover rt-high-contrast rt-HoverCardTrigger">typefaces</a>
+														for the first
+														<a data-accent-color="" target="_blank" href="https://en.wikipedia.org/wiki/Typeface" data-state="closed" class="rt-Text rt-reset rt-Link rt-underline-hover rt-high-contrast rt-HoverCardTrigger">Apple Macintosh</a>
+														personal computer from 1983 to 1986.</blockquote>
+												</span>
+											</div>
+											<div class="rt-Box rt-r-p-4" style="border-radius: var(--radius-4); background-color: var(--gray-a2);">
+												<div class="rt-Flex rt-r-fd-column rt-r-gap-2">
+													<label class="rt-Text rt-r-size-2">
+														<div class="rt-Flex rt-r-gap-2">
+															<button type="button" role="checkbox" aria-checked="false" data-state="unchecked" value="on" class="rt-reset rt-BaseCheckboxRoot rt-CheckboxRoot rt-r-size-2 rt-variant-surface"></button>
+															<span class="rt-Text" style="--accent-12: var(--accent-11);">
+																<span>Respond to comment
+																	<a data-accent-color="" href="#" class="rt-Text rt-reset rt-Link rt-underline-hover">#384</a>
+																	from Travis</span>
+															</span>
+														</div>
+													</label>
+													<label class="rt-Text rt-r-size-2">
+														<div class="rt-Flex rt-r-gap-2">
+															<button type="button" role="checkbox" aria-checked="false" data-state="unchecked" value="on" class="rt-reset rt-BaseCheckboxRoot rt-CheckboxRoot rt-r-size-2 rt-variant-surface"></button>
+															<span class="rt-Text" style="--accent-12: var(--accent-11);">
+																<span>Invite
+																	<a data-accent-color="" href="#" class="rt-Text rt-reset rt-Link rt-underline-hover">Acme Co.</a>
+																	team to Slack</span>
+															</span>
+														</div>
+													</label>
+													<label class="rt-Text rt-r-size-2">
+														<div class="rt-Flex rt-r-gap-2">
+															<button type="button" role="checkbox" aria-checked="false" data-state="unchecked" value="on" class="rt-reset rt-BaseCheckboxRoot rt-CheckboxRoot rt-r-size-2 rt-variant-surface"></button>
+															<span class="rt-Text" style="--accent-12: var(--accent-11);">
+																<span>Create a report
+																	<a data-accent-color="" href="#" class="rt-Text rt-reset rt-Link rt-underline-hover">requested</a>
+																	by Danilo</span>
+															</span>
+														</div>
+													</label>
+													<label class="rt-Text rt-r-size-2">
+														<div class="rt-Flex rt-r-gap-2">
+															<button type="button" role="checkbox" aria-checked="true" data-state="checked" value="on" class="rt-reset rt-BaseCheckboxRoot rt-CheckboxRoot rt-r-size-2 rt-variant-surface">
+																<svg width="9" height="9" viewBox="0 0 9 9" fill="currentcolor" xmlns="http://www.w3.org/2000/svg" data-state="checked" class="rt-BaseCheckboxIndicator rt-CheckboxIndicator" style="pointer-events: none;">
+																	<path fill-rule="evenodd" clip-rule="evenodd" d="M8.53547 0.62293C8.88226 0.849446 8.97976 1.3142 8.75325 1.66099L4.5083 8.1599C4.38833 8.34356 4.19397 8.4655 3.9764 8.49358C3.75883 8.52167 3.53987 8.45309 3.3772 8.30591L0.616113 5.80777C0.308959 5.52987 0.285246 5.05559 0.563148 4.74844C0.84105 4.44128 1.31533 4.41757 1.62249 4.69547L3.73256 6.60459L7.49741 0.840706C7.72393 0.493916 8.18868 0.396414 8.53547 0.62293Z"></path>
+																</svg>
+															</button>
+															<span data-accent-color="gray" class="rt-Text" style="text-decoration: line-through; --accent-12: var(--accent-11);">
+																<span>Close Q2 finances</span>
+															</span>
+														</div>
+													</label>
+													<label class="rt-Text rt-r-size-2">
+														<div class="rt-Flex rt-r-gap-2">
+															<button type="button" role="checkbox" aria-checked="true" data-state="checked" value="on" class="rt-reset rt-BaseCheckboxRoot rt-CheckboxRoot rt-r-size-2 rt-variant-surface">
+																<svg width="9" height="9" viewBox="0 0 9 9" fill="currentcolor" xmlns="http://www.w3.org/2000/svg" data-state="checked" class="rt-BaseCheckboxIndicator rt-CheckboxIndicator" style="pointer-events: none;">
+																	<path fill-rule="evenodd" clip-rule="evenodd" d="M8.53547 0.62293C8.88226 0.849446 8.97976 1.3142 8.75325 1.66099L4.5083 8.1599C4.38833 8.34356 4.19397 8.4655 3.9764 8.49358C3.75883 8.52167 3.53987 8.45309 3.3772 8.30591L0.616113 5.80777C0.308959 5.52987 0.285246 5.05559 0.563148 4.74844C0.84105 4.44128 1.31533 4.41757 1.62249 4.69547L3.73256 6.60459L7.49741 0.840706C7.72393 0.493916 8.18868 0.396414 8.53547 0.62293Z"></path>
+																</svg>
+															</button>
+															<span data-accent-color="gray" class="rt-Text" style="text-decoration: line-through; --accent-12: var(--accent-11);">
+																<span>Review invoice
+																	<a data-accent-color="" href="#" class="rt-Text rt-reset rt-Link rt-underline-hover">#3456</a>
+																</span>
+															</span>
+														</div>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="rt-Flex rt-r-fd-column rt-r-gap-5 rt-r-gc lg:rt-r-gc lg:rt-r-gr" style="--grid-column-lg: 2 / 3; --grid-column: 1 / -1; --grid-row-lg: 1;">
+											<div class="rt-Flex rt-r-display-none lg:rt-r-display-flex rt-r-gap-4">
+												<div class="rt-Flex rt-r-ai-center rt-r-gap-3 rt-r-px-2" style="box-shadow: inset 0 0 0 1px var(--gray-a6); border-radius: var(--radius-3);">
+													<button data-accent-color="gray" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-ghost rt-high-contrast rt-IconButton">
+														<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+															<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+															</svg>
+														</div>
+													</button>
+													<span data-accent-color="gray" class="rt-Separator rt-r-orientation-vertical rt-r-size-1"></span>
+													<button data-accent-color="gray" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-ghost rt-high-contrast rt-IconButton">
+														<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+															<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M11 1.5C11 1.22386 10.7761 1 10.5 1C10.2239 1 10 1.22386 10 1.5V4H5V1.5C5 1.22386 4.77614 1 4.5 1C4.22386 1 4 1.22386 4 1.5V4H1.5C1.22386 4 1 4.22386 1 4.5C1 4.77614 1.22386 5 1.5 5H4V10H1.5C1.22386 10 1 10.2239 1 10.5C1 10.7761 1.22386 11 1.5 11H4V13.5C4 13.7761 4.22386 14 4.5 14C4.77614 14 5 13.7761 5 13.5V11H10V13.5C10 13.7761 10.2239 14 10.5 14C10.7761 14 11 13.7761 11 13.5V11H13.5C13.7761 11 14 10.7761 14 10.5C14 10.2239 13.7761 10 13.5 10H11V5H13.5C13.7761 5 14 4.77614 14 4.5C14 4.22386 13.7761 4 13.5 4H11V1.5ZM10 10V5H5V10H10Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+															</svg>
+														</div>
+													</button>
+													<button data-accent-color="gray" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-ghost rt-high-contrast rt-IconButton">
+														<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+															<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M12.5 2H2.5C2.22386 2 2 2.22386 2 2.5V12.5C2 12.7761 2.22386 13 2.5 13H12.5C12.7761 13 13 12.7761 13 12.5V2.5C13 2.22386 12.7761 2 12.5 2ZM2.5 1C1.67157 1 1 1.67157 1 2.5V12.5C1 13.3284 1.67157 14 2.5 14H12.5C13.3284 14 14 13.3284 14 12.5V2.5C14 1.67157 13.3284 1 12.5 1H2.5Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+															</svg>
+														</div>
+													</button>
+													<button data-accent-color="gray" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-ghost rt-high-contrast rt-IconButton">
+														<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+															<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M4.67129 3.14634C4.47603 3.34161 4.47603 3.65819 4.67129 3.85345L7.14616 6.32833C7.34142 6.52359 7.65801 6.52359 7.85327 6.32833L10.3281 3.85345C10.5234 3.65819 10.5234 3.34161 10.3281 3.14634L7.85327 0.671471C7.65801 0.476209 7.34142 0.476209 7.14616 0.671471L4.67129 3.14634ZM7.49971 5.26766L5.73195 3.4999L7.49971 1.73213L9.26748 3.4999L7.49971 5.26766ZM8.67129 7.14634C8.47603 7.34161 8.47603 7.65819 8.67129 7.85345L11.1462 10.3283C11.3414 10.5236 11.658 10.5236 11.8533 10.3283L14.3281 7.85345C14.5234 7.65819 14.5234 7.34161 14.3281 7.14634L11.8533 4.67147C11.658 4.47621 11.3414 4.47621 11.1462 4.67147L8.67129 7.14634ZM11.4997 9.26766L9.73195 7.4999L11.4997 5.73213L13.2675 7.4999L11.4997 9.26766ZM4.67129 11.8535C4.47603 11.6582 4.47603 11.3416 4.67129 11.1463L7.14616 8.67147C7.34142 8.47621 7.65801 8.47621 7.85327 8.67147L10.3281 11.1463C10.5234 11.3416 10.5234 11.6582 10.3281 11.8535L7.85327 14.3283C7.65801 14.5236 7.34142 14.5236 7.14616 14.3283L4.67129 11.8535ZM5.73195 11.4999L7.49971 13.2677L9.26748 11.4999L7.49971 9.73213L5.73195 11.4999ZM0.671288 7.14649C0.476026 7.34175 0.476026 7.65834 0.671288 7.8536L3.14616 10.3285C3.34142 10.5237 3.65801 10.5237 3.85327 10.3285L6.32814 7.8536C6.5234 7.65834 6.5234 7.34175 6.32814 7.14649L3.85327 4.67162C3.65801 4.47636 3.34142 4.47636 3.14616 4.67162L0.671288 7.14649ZM3.49972 9.26781L1.73195 7.50005L3.49972 5.73228L5.26748 7.50005L3.49972 9.26781Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+															</svg>
+														</div>
+													</button>
+													<button data-accent-color="gray" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-ghost rt-high-contrast rt-IconButton">
+														<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+															<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M4.5 2C3.11929 2 2 3.11929 2 4.5C2 5.88072 3.11929 7 4.5 7C5.88072 7 7 5.88072 7 4.5C7 3.11929 5.88072 2 4.5 2ZM3 4.5C3 3.67157 3.67157 3 4.5 3C5.32843 3 6 3.67157 6 4.5C6 5.32843 5.32843 6 4.5 6C3.67157 6 3 5.32843 3 4.5ZM10.5 2C9.11929 2 8 3.11929 8 4.5C8 5.88072 9.11929 7 10.5 7C11.8807 7 13 5.88072 13 4.5C13 3.11929 11.8807 2 10.5 2ZM9 4.5C9 3.67157 9.67157 3 10.5 3C11.3284 3 12 3.67157 12 4.5C12 5.32843 11.3284 6 10.5 6C9.67157 6 9 5.32843 9 4.5ZM2 10.5C2 9.11929 3.11929 8 4.5 8C5.88072 8 7 9.11929 7 10.5C7 11.8807 5.88072 13 4.5 13C3.11929 13 2 11.8807 2 10.5ZM4.5 9C3.67157 9 3 9.67157 3 10.5C3 11.3284 3.67157 12 4.5 12C5.32843 12 6 11.3284 6 10.5C6 9.67157 5.32843 9 4.5 9ZM10.5 8C9.11929 8 8 9.11929 8 10.5C8 11.8807 9.11929 13 10.5 13C11.8807 13 13 11.8807 13 10.5C13 9.11929 11.8807 8 10.5 8ZM9 10.5C9 9.67157 9.67157 9 10.5 9C11.3284 9 12 9.67157 12 10.5C12 11.3284 11.3284 12 10.5 12C9.67157 12 9 11.3284 9 10.5Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+															</svg>
+														</div>
+													</button>
+													<span data-accent-color="gray" class="rt-Separator rt-r-orientation-vertical rt-r-size-1"></span>
+													<button data-accent-color="gray" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-ghost rt-high-contrast rt-IconButton">
+														<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+															<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M3.94993 2.95002L3.94993 4.49998C3.94993 4.74851 3.74845 4.94998 3.49993 4.94998C3.2514 4.94998 3.04993 4.74851 3.04993 4.49998V2.50004C3.04993 2.45246 3.05731 2.40661 3.07099 2.36357C3.12878 2.18175 3.29897 2.05002 3.49993 2.05002H11.4999C11.6553 2.05002 11.7922 2.12872 11.8731 2.24842C11.9216 2.32024 11.9499 2.40682 11.9499 2.50002L11.9499 2.50004V4.49998C11.9499 4.74851 11.7485 4.94998 11.4999 4.94998C11.2514 4.94998 11.0499 4.74851 11.0499 4.49998V2.95002H8.04993V12.05H9.25428C9.50281 12.05 9.70428 12.2515 9.70428 12.5C9.70428 12.7486 9.50281 12.95 9.25428 12.95H5.75428C5.50575 12.95 5.30428 12.7486 5.30428 12.5C5.30428 12.2515 5.50575 12.05 5.75428 12.05H6.94993V2.95002H3.94993Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+															</svg>
+														</div>
+													</button>
+													<button data-accent-color="gray" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-ghost rt-high-contrast rt-IconButton">
+														<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+															<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M2.5 4.5C2.5 3.09886 3.59886 2 5 2H12.499C12.7752 2 13 2.22386 13 2.5C13 2.77614 12.7761 3 12.5 3H8.69244L8.40509 3.85458C8.18869 4.49752 7.89401 5.37197 7.58091 6.29794C7.50259 6.52956 7.42308 6.76453 7.34332 7H8.5C8.77614 7 9 7.22386 9 7.5C9 7.77614 8.77614 8 8.5 8H7.00407C6.56724 9.28543 6.16435 10.4613 5.95799 11.0386C5.63627 11.9386 5.20712 12.4857 4.66741 12.7778C4.16335 13.0507 3.64154 13.0503 3.28378 13.05L3.25 13.05C2.94624 13.05 2.7 12.8037 2.7 12.5C2.7 12.1962 2.94624 11.95 3.25 11.95C3.64182 11.95 3.9035 11.9405 4.14374 11.8105C4.36443 11.691 4.65532 11.4148 4.92217 10.6683C5.10695 10.1514 5.45375 9.14134 5.8422 8H4.5C4.22386 8 4 7.77614 4 7.5C4 7.22386 4.22386 7 4.5 7H6.18187C6.30127 6.64785 6.42132 6.29323 6.53887 5.94559C6.85175 5.02025 7.14627 4.14631 7.36256 3.50368L7.53192 3H5C4.15114 3 3.5 3.65114 3.5 4.5C3.5 4.77614 3.27614 5 3 5C2.72386 5 2.5 4.77614 2.5 4.5Z" fill="currentColor"></path>
+															</svg>
+														</div>
+													</button>
+													<button data-accent-color="gray" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-ghost rt-high-contrast rt-IconButton">
+														<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+															<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M8.69667 0.0403541C8.90859 0.131038 9.03106 0.354857 8.99316 0.582235L8.0902 6.00001H12.5C12.6893 6.00001 12.8625 6.10701 12.9472 6.27641C13.0319 6.4458 13.0136 6.6485 12.8999 6.80001L6.89997 14.8C6.76167 14.9844 6.51521 15.0503 6.30328 14.9597C6.09135 14.869 5.96888 14.6452 6.00678 14.4178L6.90974 9H2.49999C2.31061 9 2.13748 8.893 2.05278 8.72361C1.96809 8.55422 1.98636 8.35151 2.09999 8.2L8.09997 0.200038C8.23828 0.0156255 8.48474 -0.0503301 8.69667 0.0403541ZM3.49999 8.00001H7.49997C7.64695 8.00001 7.78648 8.06467 7.88148 8.17682C7.97648 8.28896 8.01733 8.43723 7.99317 8.5822L7.33027 12.5596L11.5 7.00001H7.49997C7.353 7.00001 7.21347 6.93534 7.11846 6.8232C7.02346 6.71105 6.98261 6.56279 7.00678 6.41781L7.66968 2.44042L3.49999 8.00001Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+															</svg>
+														</div>
+													</button>
+													<span data-accent-color="gray" class="rt-Separator rt-r-orientation-vertical rt-r-size-1"></span>
+													<button data-accent-color="gray" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-ghost rt-high-contrast rt-IconButton">
+														<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+															<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M0.949988 4.48455C0.949988 5.34059 1.64395 6.03455 2.49999 6.03455C3.35603 6.03455 4.04999 5.34059 4.04999 4.48455C4.04999 3.6285 3.35603 2.93455 2.49999 2.93455C1.64395 2.93455 0.949988 3.6285 0.949988 4.48455ZM2.49999 6.93455C1.14689 6.93455 0.0499878 5.83764 0.0499878 4.48455C0.0499878 3.13145 1.14689 2.03455 2.49999 2.03455C3.85309 2.03455 4.94999 3.13145 4.94999 4.48455C4.94999 4.80813 4.88726 5.11707 4.77329 5.39985L5.73655 6.04413C5.72943 6.06656 5.72269 6.08914 5.71635 6.11188L5.56288 6.66186L5.21005 6.89773L4.21554 6.23366C3.77357 6.6672 3.168 6.93455 2.49999 6.93455ZM0.949991 10.5C0.949991 9.64394 1.64395 8.94998 2.49999 8.94998C3.35603 8.94998 4.04999 9.64394 4.04999 10.5C4.04999 11.356 3.35603 12.05 2.49999 12.05C1.64395 12.05 0.949991 11.356 0.949991 10.5ZM2.49999 8.04998C1.14689 8.04998 0.0499908 9.14688 0.0499908 10.5C0.0499908 11.8531 1.14689 12.95 2.49999 12.95C3.85309 12.95 4.94999 11.8531 4.94999 10.5C4.94999 10.1803 4.88877 9.87497 4.77743 9.595L15 2.75737L14.0486 2.85737C12.7077 2.9983 11.4091 3.40895 10.231 4.06461L7.15646 5.77564C6.92307 5.90553 6.75134 6.12339 6.67955 6.38066L6.42653 7.28737L4.22437 8.75957C3.78166 8.32091 3.17246 8.04998 2.49999 8.04998ZM7.14435 9.2149L7.15646 9.22176L10.231 10.9328C11.4091 11.5884 12.7077 11.9991 14.0486 12.14L15 12.24L8.81072 8.1003L7.14435 9.2149Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+															</svg>
+														</div>
+													</button>
+													<button data-accent-color="gray" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-ghost rt-high-contrast rt-IconButton">
+														<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-w rt-r-h" style="--width: 4; --height: 4;">
+															<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path d="M4.60913 0.0634287C4.39082 0.0088505 4.16575 0.12393 4.08218 0.332867L3.1538 2.6538L0.832866 3.58218C0.702884 3.63417 0.604504 3.7437 0.566705 3.87849C0.528906 4.01329 0.555994 4.158 0.639992 4.26999L2.01148 6.09864L1.06343 9.89085C1.00944 10.1068 1.12145 10.3298 1.32691 10.4154L4.20115 11.613L5.62557 13.7496C5.73412 13.9124 5.93545 13.9864 6.12362 13.9327L9.62362 12.9327C9.62988 12.9309 9.63611 12.929 9.64229 12.9269L12.6423 11.9269C12.7923 11.8769 12.905 11.7519 12.9393 11.5976L13.9393 7.09761C13.9776 6.92506 13.9114 6.74605 13.77 6.63999L11.95 5.27499V2.99999C11.95 2.82955 11.8537 2.67373 11.7012 2.5975L8.70124 1.0975C8.67187 1.08282 8.64098 1.07139 8.60913 1.06343L4.60913 0.0634287ZM11.4323 6.01173L12.7748 7.01858L10.2119 9.15429C10.1476 9.20786 10.0995 9.2783 10.0731 9.35769L9.25382 11.8155L7.73849 10.8684C7.52774 10.7367 7.25011 10.8007 7.11839 11.0115C6.98667 11.2222 7.05074 11.4999 7.26149 11.6316L8.40341 12.3453L6.19221 12.9771L4.87441 11.0004C4.82513 10.9265 4.75508 10.8688 4.67307 10.8346L2.03046 9.73352L2.85134 6.44999H4.99999C5.24852 6.44999 5.44999 6.24852 5.44999 5.99999C5.44999 5.75146 5.24852 5.54999 4.99999 5.54999H2.72499L1.7123 4.19974L3.51407 3.47903L6.35769 4.4269C6.53655 4.48652 6.73361 4.42832 6.85138 4.28111L8.62413 2.06518L11.05 3.27811V5.19533L8.83287 6.08218C8.70996 6.13134 8.61494 6.23212 8.57308 6.35769L8.07308 7.85769C7.99449 8.09346 8.12191 8.34831 8.35769 8.4269C8.59346 8.50549 8.84831 8.37807 8.9269 8.14229L9.3609 6.84029L11.4323 6.01173ZM7.71052 1.76648L6.34462 3.47386L4.09505 2.724L4.77192 1.03183L7.71052 1.76648ZM10.2115 11.7885L12.116 11.1537L12.7745 8.19034L10.8864 9.76374L10.2115 11.7885Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+															</svg>
+														</div>
+													</button>
+												</div>
+												<button data-accent-color="gray" type="button" id="radix-:r34:" aria-haspopup="menu" aria-expanded="false" data-state="closed" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-surface rt-high-contrast rt-Button rt-Box rt-r-fg-1">Actions<svg width="9" height="9" viewBox="0 0 9 9" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+														<path d="M0.135232 3.15803C0.324102 2.95657 0.640521 2.94637 0.841971 3.13523L4.5 6.56464L8.158 3.13523C8.3595 2.94637 8.6759 2.95657 8.8648 3.15803C9.0536 3.35949 9.0434 3.67591 8.842 3.86477L4.84197 7.6148C4.64964 7.7951 4.35036 7.7951 4.15803 7.6148L0.158031 3.86477C-0.0434285 3.67591 -0.0536285 3.35949 0.135232 3.15803Z"></path>
+													</svg>
+												</button>
+											</div>
+											<div class="rt-Flex rt-r-fd-column">
+												<div class="rt-Flex rt-r-fd-column rt-r-px-6 sm:rt-r-px-8 rt-r-py-6 sm:rt-r-py-7 rt-r-position-relative -rt-r-mx-5 xs:-rt-r-mx-6 sm:rt-r-mx-0">
+													<div class="rt-Flex rt-r-ai-center rt-r-jc-center rt-r-position-absolute rt-r-inset-0 rt-r-overflow-hidden" style="background: var(--gray-2);">
+														<svg width="2560" height="1920" viewBox="0 0 2560 1920" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.6; pointer-events: none; width: 240%; margin-left: 70%;">
+															<g>
+																<path d="M-119.809 -1055.99L859.027 -684.98C915.435 -663.6 955.626 -624.994 968.519 -579.807L1129.49 -15.6245L1860.47 -241.727C1919.02 -259.836 1985.68 -257.939 2042.09 -236.559L3020.93 134.453C3124.79 173.822 3164.97 266.777 3110.66 342.073L2850.06 703.385C2827.36 734.857 2790.34 759.666 2745.28 773.604L1467.45 1168.86L1748.58 2154.16C1758.67 2189.52 1751.28 2226.32 1727.72 2258.12L1361.75 2752.01L203.258 2312.91C146.85 2291.53 106.659 2252.92 93.7664 2207.73L-67.2076 1643.55L-798.184 1869.65C-856.73 1887.76 -923.398 1885.87 -979.806 1864.48L-2138.3 1425.38L-1787.63 925.687C-1765.05 893.507 -1727.57 868.111 -1681.77 853.942L-405.167 459.07L-686.568 -527.183C-696.491 -561.961 -689.511 -598.157 -666.811 -629.629L-406.21 -990.941C-351.902 -1066.24 -223.676 -1095.36 -119.809 -1055.99Z" fill="url(#paint0_radial_37_453-1)"></path>
+																<path d="M885.9 -99.2158L1864.74 271.796C1921.14 293.177 1961.34 331.783 1974.23 376.97L2135.2 941.152L2866.18 715.049C2924.72 696.94 2991.39 698.837 3047.8 720.218L4026.64 1091.23C4130.5 1130.6 4170.68 1223.55 4116.37 1298.85L3855.77 1660.16C3833.07 1691.63 3796.05 1716.44 3750.99 1730.38L2473.16 2125.63L2754.29 3110.94C2764.38 3146.29 2756.99 3183.09 2733.43 3214.9L2367.46 3708.79L1208.97 3269.68C1152.56 3248.3 1112.37 3209.7 1099.48 3164.51C816.824 2173.87 747.087 1929.46 319.141 429.593C309.218 394.815 316.198 358.619 338.898 327.147L599.499 -34.1647C653.807 -109.461 782.033 -138.585 885.9 -99.2158Z" fill="url(#paint1_radial_37_453-1)"></path>
+																<path d="M1597.13 169.784L2575.97 540.796C2632.38 562.177 2672.57 600.783 2685.46 645.97L2846.44 1210.15L3577.41 984.049C3635.96 965.94 3702.63 967.837 3759.03 989.218L4737.87 1360.23C4841.74 1399.6 4881.91 1492.55 4827.61 1567.85L4567 1929.16C4544.3 1960.63 4507.28 1985.44 4462.22 1999.38L3184.4 2394.63L3465.53 3379.94C3475.61 3415.29 3468.23 3452.09 3444.66 3483.9L3078.69 3977.79L1920.2 3538.68C1863.79 3517.3 1823.6 3478.7 1810.71 3433.51L1649.74 2869.33L918.759 3095.43C860.213 3113.54 793.545 3111.64 737.138 3090.26L-421.356 2651.15L-70.6875 2151.46C-48.1049 2119.28 -10.63 2093.89 35.1782 2079.72L1311.78 1684.85L1030.38 698.593C1020.45 663.815 1027.43 627.619 1050.13 596.147L1310.73 234.835C1365.04 159.539 1493.27 130.415 1597.13 169.784Z" fill="url(#paint2_radial_37_453-1)"></path>
+																<g filter="url(#filter0_f_37_453-1)">
+																	<path d="M2395.71 -658.308L3374.55 -287.296C3430.96 -265.915 3471.15 -227.309 3484.04 -182.122L3645.01 382.06L4375.99 155.958C4434.54 137.848 4501.2 139.745 4557.61 161.126L5536.45 532.138C5640.32 571.507 5680.49 664.461 5626.18 739.757L5365.58 1101.07C5342.88 1132.54 5305.86 1157.35 5260.8 1171.29L3982.97 1566.54L4264.1 2551.84C4274.19 2587.2 4266.81 2624 4243.24 2655.81L3877.27 3149.7L2718.78 2710.59C2662.37 2689.21 2622.18 2650.6 2609.29 2605.42L2448.31 2041.24L1717.34 2267.34C1658.79 2285.45 1592.12 2283.55 1535.72 2262.17L377.222 1823.06L727.891 1323.37C750.473 1291.19 787.948 1265.8 833.756 1251.63L2110.35 856.754L1828.95 -129.498C1819.03 -164.277 1826.01 -200.472 1848.71 -231.944L2109.31 -593.257C2163.62 -668.552 2291.85 -697.677 2395.71 -658.308Z" fill="url(#paint3_radial_37_453-1)"></path>
+																</g>
+																<path d="M3059.26 767.932L3310.25 1618.16C3324.72 1667.15 3315.74 1727.88 3285.79 1783.6L2911.89 2479.3L3514.51 2558.36C3562.77 2564.69 3599.15 2596.78 3613.62 2645.77L3864.61 3496C3891.25 3586.22 3837.41 3706.98 3744.37 3765.74L3297.91 4047.66C3259.03 4072.22 3217.48 4082.97 3180.34 4078.1L2126.89 3939.89L1473.9 5154.88C1450.47 5198.48 1415.9 5235.81 1376.24 5260.35L760.412 5641.34L463.348 4635.06C448.884 4586.06 457.863 4525.33 487.81 4469.61L861.713 3773.92L259.094 3694.86C210.828 3688.53 174.448 3656.44 159.984 3607.44L-137.08 2601.17L474.823 2206.89C514.228 2181.5 556.514 2170.3 594.278 2175.25L1646.71 2313.32L2300.33 1097.17C2323.38 1054.28 2357.22 1017.43 2396.11 992.876L2842.57 710.953C2935.61 652.202 3032.62 677.712 3059.26 767.932Z" fill="url(#paint4_radial_37_453-1)"></path>
+															</g>
+															<defs>
+																<radialGradient id="paint0_radial_37_453-1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-804.109 -2036.8) rotate(64.9401) scale(6436.87 6304.81)">
+																	<stop stop-color="var(--color-background)"></stop>
+																	<stop offset="0.0833333" stop-color="var(--accent-7)"></stop>
+																	<stop offset="0.364583" stop-color="var(--accent-5)"></stop>
+																	<stop offset="0.658041" stop-color="var(--color-background)"></stop>
+																	<stop offset="0.798521" stop-color="var(--accent-9)"></stop>
+																	<stop offset="0.942708" stop-color="var(--color-background)"></stop>
+																	<stop offset="1" stop-color="var(--color-background)"></stop>
+																</radialGradient>
+																<radialGradient id="paint1_radial_37_453-1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(201.6 -1080.02) rotate(64.9401) scale(6436.87 6304.81)">
+																	<stop stop-color="var(--color-background)"></stop>
+																	<stop offset="0.0833333" stop-color="var(--accent-2)"></stop>
+																	<stop offset="0.333803" stop-color="var(--accent-1)"></stop>
+																	<stop offset="0.658041" stop-color="var(--color-background)"></stop>
+																	<stop offset="0.798521" stop-color="var(--accent-9)"></stop>
+																	<stop offset="0.942708" stop-color="var(--color-background)"></stop>
+																	<stop offset="1" stop-color="var(--color-background)"></stop>
+																</radialGradient>
+																<radialGradient id="paint2_radial_37_453-1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(912.834 -811.021) rotate(64.9401) scale(6436.87 6304.81)">
+																	<stop stop-color="var(--color-background)"></stop>
+																	<stop offset="0.140625" stop-color="var(--accent-3)"></stop>
+																	<stop offset="0.333803" stop-color="var(--accent-7)"></stop>
+																	<stop offset="0.658041" stop-color="var(--color-background)"></stop>
+																	<stop offset="0.798521" stop-color="var(--accent-9)"></stop>
+																	<stop offset="0.942708" stop-color="var(--color-background)"></stop>
+																	<stop offset="1" stop-color="var(--color-background)"></stop>
+																</radialGradient>
+																<radialGradient id="paint3_radial_37_453-1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1711.41 -1639.11) rotate(64.9401) scale(6436.87 6304.81)">
+																	<stop stop-color="var(--color-background)"></stop>
+																	<stop offset="0.0833333" stop-color="var(--accent-7)"></stop>
+																	<stop offset="0.333803" stop-color="var(--accent-1)"></stop>
+																	<stop offset="0.658041" stop-color="var(--color-background)"></stop>
+																	<stop offset="0.798521" stop-color="var(--accent-9)"></stop>
+																	<stop offset="0.942708" stop-color="var(--color-background)"></stop>
+																	<stop offset="1" stop-color="var(--color-background)"></stop>
+																</radialGradient>
+																<radialGradient id="paint4_radial_37_453-1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(3479.06 -623.459) rotate(113.028) scale(8332.26 4870.62)">
+																	<stop stop-color="var(--color-background)"></stop>
+																	<stop offset="0.0833333" stop-color="var(--accent-7)"></stop>
+																	<stop offset="0.333803" stop-color="var(--accent-1)"></stop>
+																	<stop offset="0.658041" stop-color="var(--color-background)"></stop>
+																	<stop offset="0.798521" stop-color="var(--accent-9)"></stop>
+																	<stop offset="0.942708" stop-color="var(--color-background)"></stop>
+																	<stop offset="1" stop-color="var(--color-background)"></stop>
+																</radialGradient>
+															</defs>
+														</svg>
+													</div>
+													<div class="rt-Box rt-r-position-relative">
+														<h3 class="rt-Heading rt-r-size-6 rt-r-ta-center rt-r-mb-4">Sign up</h3>
+														<div class="rt-Box rt-r-max-w rt-r-mx" style="--max-width: 400px; --ml: auto; --mr: auto;">
+															<div class="rt-reset rt-BaseCard rt-Card rt-r-size-4 rt-variant-surface">
+																<div class="rt-Flex rt-r-fd-column rt-r-mb-5">
+																	<div class="rt-Flex">
+																		<label for="example-name" class="rt-Text rt-r-size-2 rt-r-weight-medium rt-r-lt-start rt-r-mb-1">Full name</label>
+																	</div>
+																	<div class="rt-TextFieldRoot rt-r-size-2 rt-variant-surface">
+																		<input spellcheck="false" id="example-name" placeholder="Enter your name" class="rt-reset rt-TextFieldInput">
+																	</div>
+																</div>
+																<div class="rt-Flex rt-r-fd-column rt-r-mb-5">
+																	<div class="rt-Flex">
+																		<label for="example-email" class="rt-Text rt-r-size-2 rt-r-weight-medium rt-r-mb-1">Email</label>
+																	</div>
+																	<div class="rt-TextFieldRoot rt-r-size-2 rt-variant-surface">
+																		<input spellcheck="false" id="example-email" placeholder="Enter your email address" class="rt-reset rt-TextFieldInput">
+																	</div>
+																</div>
+																<div class="rt-Flex rt-r-fd-column rt-r-mb-5">
+																	<div class="rt-Flex">
+																		<label for="example-password" class="rt-Text rt-r-size-2 rt-r-weight-medium rt-r-mb-1">Password</label>
+																	</div>
+																	<div class="rt-TextFieldRoot rt-r-size-2 rt-variant-surface">
+																		<input spellcheck="false" id="example-password" placeholder="Enter your password" class="rt-reset rt-TextFieldInput">
+																	</div>
+																</div>
+																<div class="rt-Grid rt-r-gap-4 rt-r-mt-5" style="--cursor-button: pointer;">
+																	<button data-accent-color="" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button">Create account</button>
+																	<div class="rt-Flex rt-r-ai-center rt-r-gap-3">
+																		<span data-accent-color="gray" class="rt-Separator rt-r-orientation-horizontal rt-r-size-4"></span>
+																		<span data-accent-color="gray" class="rt-Text rt-r-size-1">OR</span>
+																		<span data-accent-color="gray" class="rt-Separator rt-r-orientation-horizontal rt-r-size-4"></span>
+																	</div>
+																	<button data-accent-color="gray" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-surface rt-high-contrast rt-Button">
+																		<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M7.49933 0.25C3.49635 0.25 0.25 3.49593 0.25 7.50024C0.25 10.703 2.32715 13.4206 5.2081 14.3797C5.57084 14.446 5.70302 14.2222 5.70302 14.0299C5.70302 13.8576 5.69679 13.4019 5.69323 12.797C3.67661 13.235 3.25112 11.825 3.25112 11.825C2.92132 10.9874 2.44599 10.7644 2.44599 10.7644C1.78773 10.3149 2.49584 10.3238 2.49584 10.3238C3.22353 10.375 3.60629 11.0711 3.60629 11.0711C4.25298 12.1788 5.30335 11.8588 5.71638 11.6732C5.78225 11.205 5.96962 10.8854 6.17658 10.7043C4.56675 10.5209 2.87415 9.89918 2.87415 7.12104C2.87415 6.32925 3.15677 5.68257 3.62053 5.17563C3.54576 4.99226 3.29697 4.25521 3.69174 3.25691C3.69174 3.25691 4.30015 3.06196 5.68522 3.99973C6.26337 3.83906 6.8838 3.75895 7.50022 3.75583C8.1162 3.75895 8.73619 3.83906 9.31523 3.99973C10.6994 3.06196 11.3069 3.25691 11.3069 3.25691C11.7026 4.25521 11.4538 4.99226 11.3795 5.17563C11.8441 5.68257 12.1245 6.32925 12.1245 7.12104C12.1245 9.9063 10.4292 10.5192 8.81452 10.6985C9.07444 10.9224 9.30633 11.3648 9.30633 12.0413C9.30633 13.0102 9.29742 13.7922 9.29742 14.0299C9.29742 14.2239 9.42828 14.4496 9.79591 14.3788C12.6746 13.4179 14.75 10.7025 14.75 7.50024C14.75 3.49593 11.5036 0.25 7.49933 0.25Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+																		</svg>Continue with GitHub</button>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/colors/custom","query":{},"buildId":"jFVnX5SGnpsoUb3OsTWB2","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script>
+		<next-route-announcer>
+			<p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p>
+		</next-route-announcer>
+		<script src="/_next/static/chunks/7079-023a46b424ab9c02.js"></script>
+		<script src="/_next/static/chunks/4464-0f939aa18881ffaa.js"></script>
+		<script src="/_next/static/chunks/3911-9af8f6c80c54e502.js"></script>
+		<script src="/_next/static/chunks/5520-fdd4cd5454a3fadb.js"></script>
+		<script src="/_next/static/chunks/8394-d030521bf6178e38.js"></script>
+		<script src="/_next/static/chunks/5545-02e621e534c85a48.js"></script>
+		<script src="/_next/static/chunks/1813-5e1053ef08a9c150.js"></script>
+		<script src="/_next/static/chunks/7253-653716baf64357f8.js"></script>
+		<script src="/_next/static/chunks/pages/primitives-d1c64cf21465c72b.js"></script>
+		<script src="/_next/static/chunks/2648-7f9c1a9f9130fba5.js"></script>
+		<script src="/_next/static/chunks/pages/icons-0f8827a583ccae82.js"></script>
+		<script src="/_next/static/chunks/pages/colors-e4f030322a7bf102.js"></script>
+		<script src="/_next/static/chunks/5583-3409f9b8866ac1c8.js"></script>
+		<script src="/_next/static/chunks/8760-80e3ca013eb53c66.js"></script>
+		<script src="/_next/static/chunks/1635-d070f6cd1d2d653f.js"></script>
+		<script src="/_next/static/chunks/pages/index-04969e5c2ffd9c81.js"></script>
+	</body>
+</html>

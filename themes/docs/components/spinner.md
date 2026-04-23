@@ -1,0 +1,9 @@
+<html>
+	<head>
+		<meta name="color-scheme" content="light dark">
+	</head>
+	<body>
+		<pre style="word-wrap: break-word; white-space: pre-wrap;"># Spinner  Displays an animated loading indicator.  ```jsx &lt;Spinner /&gt; ```  ## [API Reference](#api-reference)  This component is based on the `span` element and supports [common margin props](/themes/docs/overview/layout#margin-props).  | Prop      | Type                            | Default | | --------- | ------------------------------- | ------- | | `size`    | `Responsive&lt;"1" \| "2" \| "3"&gt;` | `"2"`   | | `loading` | `boolean`                       | `true`  |  ## [Examples](#examples)  ### [Size](#size)  Use the `size` prop to control the size of the spinner.  ```jsx &lt;Flex align="center" gap="4"&gt;   &lt;Spinner size="1" /&gt;    &lt;Spinner size="2" /&gt;    &lt;Spinner size="3" /&gt; &lt;/Flex&gt; ```  ### [With children](#with-children)  Use the `loading` prop to control whether the spinner or its children are displayed. Spinner preserves the dimensions of children when they are hidden and disables interactive elements.  ```jsx &lt;Flex gap="4"&gt;   &lt;Spinner loading={true}&gt;     &lt;Switch defaultChecked /&gt;   &lt;/Spinner&gt;    &lt;Spinner loading={false}&gt;     &lt;Switch defaultChecked /&gt;   &lt;/Spinner&gt; &lt;/Flex&gt; ```  ### [With buttons](#with-buttons)  [Buttons](/themes/docs/components/button) have their own `loading` prop that automatically composes a spinner.  ```jsx &lt;Button loading&gt;Bookmark&lt;/Button&gt; ```  If you have an icon inside the button, you can use the button’s `disabled` state and wrap the icon in a standalone `&lt;Spinner&gt;` to achieve a more sophisticated design.  ```jsx &lt;Button disabled&gt;   &lt;Spinner loading&gt;     &lt;BookmarkIcon /&gt;   &lt;/Spinner&gt;   Bookmark &lt;/Button&gt; ```
+		</pre>
+	</body>
+</html>
