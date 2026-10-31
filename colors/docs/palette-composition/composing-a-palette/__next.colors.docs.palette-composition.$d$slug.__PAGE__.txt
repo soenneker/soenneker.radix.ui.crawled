@@ -1,0 +1,67 @@
+1:"$Sreact.fragment"
+2:I[45132,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js","/_next/static/chunks/0wyu2zzsf7kd5.js","/_next/static/chunks/0e6c4jb5ckuqx.js","/_next/static/chunks/3y3fmysh2u9-x.js","/_next/static/chunks/09oevjrsfesd9.js","/_next/static/chunks/32h4i3jbw7n6-.js","/_next/static/chunks/3tfinbp4ga4qa.js","/_next/static/chunks/31h969n4v2hj-.js","/_next/static/chunks/3jdtt27vsqdhv.js","/_next/static/chunks/2tjyiqfr-dvv2.js","/_next/static/chunks/3bnu8tn1tutt3.js","/_next/static/chunks/3rtg097ua8kwc.js","/_next/static/chunks/3077shfl7bb0t.js"],"MdxContent"]
+10:I[20212,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js","/_next/static/chunks/0wyu2zzsf7kd5.js","/_next/static/chunks/0e6c4jb5ckuqx.js","/_next/static/chunks/3y3fmysh2u9-x.js","/_next/static/chunks/09oevjrsfesd9.js","/_next/static/chunks/32h4i3jbw7n6-.js","/_next/static/chunks/3tfinbp4ga4qa.js","/_next/static/chunks/31h969n4v2hj-.js","/_next/static/chunks/3jdtt27vsqdhv.js","/_next/static/chunks/2tjyiqfr-dvv2.js","/_next/static/chunks/3bnu8tn1tutt3.js","/_next/static/chunks/3rtg097ua8kwc.js","/_next/static/chunks/3077shfl7bb0t.js"],"QuickNav"]
+11:I[1145,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+:HL["/_next/static/chunks/2lh8zg7jzz4mb.css","style"]
+3:T1b86,var Component=(()=>{var f=Object.create;var c=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var w=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,C=Object.prototype.hasOwnProperty;var k=(o,e)=>()=>(e||o((e={exports:{}}).exports,e),e.exports),v=(o,e)=>{for(var r in e)c(o,r,{get:e[r],enumerable:!0})},u=(o,e,r,l)=>{if(e&&typeof e=="object"||typeof e=="function")for(let i of w(e))!C.call(o,i)&&i!==r&&c(o,i,{get:()=>e[i],enumerable:!(l=b(e,i))||l.enumerable});return o};var j=(o,e,r)=>(r=o!=null?f(x(o)):{},u(e||!o||!o.__esModule?c(r,"default",{value:o,enumerable:!0}):r,o)),R=o=>u(c({},"__esModule",{value:!0}),o);var m=k((D,p)=>{p.exports=_jsx_runtime});var _={};v(_,{default:()=>y,frontmatter:()=>T});var n=j(m()),T={metaTitle:"Composing a color palette",metaDescription:"A guide to composing a color palette with Radix Colors."};function g(o){let e={code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",ul:"ul",...o.components},{Box:r,ColorGrayPairs:l,ColorGrayPairsComplementary:i,ColorGrays:s,Description:d,Note:h,Text:t}=e;return r||a("Box",!0),l||a("ColorGrayPairs",!0),i||a("ColorGrayPairsComplementary",!0),s||a("ColorGrays",!0),d||a("Description",!0),h||a("Note",!0),t||a("Text",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h1,{id:"composing-a-color-palette",children:"Composing a color palette"}),`
+`,(0,n.jsx)(d,{children:(0,n.jsx)(e.p,{children:"A guide to composing a color palette with Radix Colors."})}),`
+`,(0,n.jsx)(e.h2,{id:"choosing-a-brand-scale",children:"Choosing a brand scale"}),`
+`,(0,n.jsx)(e.p,{children:"Radix provides a number of scales you could use for your brand or accent color."}),`
+`,(0,n.jsx)(i,{}),`
+`,(0,n.jsx)(e.h3,{id:"custom-brand-colors",children:"Custom brand colors"}),`
+`,(0,n.jsx)(e.p,{children:"Radix Colors are not intended to be customised. They\u2019re designed to be accessible, well-balanced, and harmonious. Any customisation would likely break these features."}),`
+`,(0,n.jsx)(e.p,{children:"If you need custom brand colors, we recommend adding custom scales alongside Radix scales."}),`
+`,(0,n.jsx)(e.p,{children:"For example, you could use Radix Colors for your gray scale and your semantic scales, then add custom brand/accent colors."}),`
+`,(0,n.jsx)(e.h2,{id:"choosing-a-gray-scale",children:"Choosing a gray scale"}),`
+`,(0,n.jsx)(e.p,{children:"Radix Colors provides a pure gray and a few tinted gray scales."}),`
+`,(0,n.jsx)(s,{}),`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:"gray"})," is pure gray"]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:"mauve"})," is based on a purple hue"]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:"slate"})," is based on a blue hue"]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:"sage"})," is based on a green hue"]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:"olive"})," is based on a lime hue"]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:"sand"})," is based on a yellow hue"]}),`
+`]}),`
+`,(0,n.jsx)(e.h3,{id:"neutral-pairing",children:"Neutral pairing"}),`
+`,(0,n.jsxs)(e.p,{children:["If you want a neutral vibe, or you want to keep things simple, ",(0,n.jsx)(e.code,{children:"gray"})," will work well with any hue or palette."]}),`
+`,(0,n.jsx)(e.h3,{id:"natural-pairing",children:"Natural pairing"}),`
+`,(0,n.jsx)(e.p,{children:"Alternatively, choose the gray scale which is saturated with the hue closest to your accent hue. The difference is subtle, but this will create a more colorful and harmonius vibe."}),`
+`,(0,n.jsx)(l,{}),`
+`,(0,n.jsx)(h,{children:(0,n.jsx)(e.p,{children:`Note: If your project uses a lot of colorful UI components like Badge, be
+careful when using saturated grays for your app background, especially in dark
+mode. Colorful UI components may clash with your saturated gray background
+color.`})}),`
+`,(0,n.jsx)(e.h2,{id:"choosing-semantic-scales",children:"Choosing semantic scales"}),`
+`,(0,n.jsx)(e.p,{children:"For most projects, you will need colors to communicate semantic meaning. Here are some common pairings that work well in Western culture."}),`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:"Error"}),": ",(0,n.jsx)(e.code,{children:"red"}),", ",(0,n.jsx)(e.code,{children:"ruby"}),", ",(0,n.jsx)(e.code,{children:"tomato"}),", ",(0,n.jsx)(e.code,{children:"crimson"})]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:"Success"}),": ",(0,n.jsx)(e.code,{children:"green"}),", ",(0,n.jsx)(e.code,{children:"teal"}),", ",(0,n.jsx)(e.code,{children:"jade"}),", ",(0,n.jsx)(e.code,{children:"grass"}),", ",(0,n.jsx)(e.code,{children:"mint"})]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:"Warning"}),": ",(0,n.jsx)(e.code,{children:"yellow"}),", ",(0,n.jsx)(e.code,{children:"amber"}),", ",(0,n.jsx)(e.code,{children:"orange"})]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:"Info"}),": ",(0,n.jsx)(e.code,{children:"blue"}),", ",(0,n.jsx)(e.code,{children:"indigo"}),", ",(0,n.jsx)(e.code,{children:"sky"}),", ",(0,n.jsx)(e.code,{children:"cyan"})]}),`
+`]}),`
+`,(0,n.jsx)(e.p,{children:"In many cases, you might eventually need most of the scales, for one reason or another. Your app may support multiplayer mode, where you assign a color to each user. Your app may have a labelling feature, where your users assign a color to a task. Your app may use badges to communicate \u201Cpending\u201D or \u201Crejected\u201D states."}),`
+`,(0,n.jsx)(e.p,{children:"Radix Colors are well-balanced, and designed to work in harmony. So for product communication, most color pairings will work."}),`
+`,(0,n.jsx)(e.h2,{id:"choosing-text-scales",children:"Choosing text scales"}),`
+`,(0,n.jsx)(e.p,{children:"Steps 11 and 12 are designed for low-contrast text and high-contrast text respectively. Depending on the vibe you want, you can use your accent scale or your gray scale."}),`
+`,(0,n.jsx)(e.p,{children:"Using your accent scale will result in a more colorful vibe."}),`
+`,(0,n.jsx)(r,{my:"5",children:(0,n.jsx)(t,{as:"p",size:"7",align:"center",weight:"bold",style:{color:"var(--blue-12)"},children:"This text is Blue 12"})}),`
+`,(0,n.jsx)(e.p,{children:"Using your gray scale will result in a more functional vibe."}),`
+`,(0,n.jsx)(r,{my:"5",children:(0,n.jsx)(t,{as:"p",size:"7",align:"center",weight:"bold",style:{color:"var(--slate-12)"},children:"This text is Slate 12"})}),`
+`,(0,n.jsx)(e.p,{children:"The difference may seem subtle, but it can make a huge difference with a whole page of text."}),`
+`,(0,n.jsx)(e.p,{children:"You may want to experiment with using your accent scale for text in your marketing sites, and your gray scale for text in your apps."})]})}function y(o={}){let{wrapper:e}=o.components||{};return e?(0,n.jsx)(e,{...o,children:(0,n.jsx)(g,{...o})}):g(o)}function a(o,e){throw new Error("Expected "+(e?"component":"object")+" `"+o+"` to be defined: you likely forgot to import, pass, or provide it.")}return R(_);})();
+;return Component;0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"code":"$3","frontmatter":{"metaTitle":"Composing a color palette","metaDescription":"A guide to composing a color palette with Radix Colors.","slug":"composing-a-palette"},"scope":"colors-palette"}],"$L4"],["$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"],"$Lf"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"jC6k949nH9gw9rTVveHLH"}
+4:["$","$L10","composing-a-palette",{}]
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2lh8zg7jzz4mb.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/09oevjrsfesd9.js","async":true}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/32h4i3jbw7n6-.js","async":true}]
+8:["$","script","script-2",{"src":"/_next/static/chunks/3tfinbp4ga4qa.js","async":true}]
+9:["$","script","script-3",{"src":"/_next/static/chunks/31h969n4v2hj-.js","async":true}]
+a:["$","script","script-4",{"src":"/_next/static/chunks/3jdtt27vsqdhv.js","async":true}]
+b:["$","script","script-5",{"src":"/_next/static/chunks/2tjyiqfr-dvv2.js","async":true}]
+c:["$","script","script-6",{"src":"/_next/static/chunks/3bnu8tn1tutt3.js","async":true}]
+d:["$","script","script-7",{"src":"/_next/static/chunks/3rtg097ua8kwc.js","async":true}]
+e:["$","script","script-8",{"src":"/_next/static/chunks/3077shfl7bb0t.js","async":true}]
+f:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+13:null

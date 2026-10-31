@@ -1,0 +1,93 @@
+1:"$Sreact.fragment"
+2:I[45132,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js","/_next/static/chunks/0wyu2zzsf7kd5.js","/_next/static/chunks/0e6c4jb5ckuqx.js","/_next/static/chunks/3y3fmysh2u9-x.js","/_next/static/chunks/09oevjrsfesd9.js","/_next/static/chunks/32h4i3jbw7n6-.js","/_next/static/chunks/3tfinbp4ga4qa.js","/_next/static/chunks/31h969n4v2hj-.js","/_next/static/chunks/3jdtt27vsqdhv.js","/_next/static/chunks/2tjyiqfr-dvv2.js","/_next/static/chunks/3bnu8tn1tutt3.js","/_next/static/chunks/3rtg097ua8kwc.js","/_next/static/chunks/3077shfl7bb0t.js"],"MdxContent"]
+10:I[20212,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js","/_next/static/chunks/0wyu2zzsf7kd5.js","/_next/static/chunks/0e6c4jb5ckuqx.js","/_next/static/chunks/3y3fmysh2u9-x.js","/_next/static/chunks/09oevjrsfesd9.js","/_next/static/chunks/32h4i3jbw7n6-.js","/_next/static/chunks/3tfinbp4ga4qa.js","/_next/static/chunks/31h969n4v2hj-.js","/_next/static/chunks/3jdtt27vsqdhv.js","/_next/static/chunks/2tjyiqfr-dvv2.js","/_next/static/chunks/3bnu8tn1tutt3.js","/_next/static/chunks/3rtg097ua8kwc.js","/_next/static/chunks/3077shfl7bb0t.js"],"QuickNav"]
+11:I[1145,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+:HL["/_next/static/chunks/2lh8zg7jzz4mb.css","style"]
+3:T291d,var Component=(()=>{var D=Object.create;var m=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var s=Object.getPrototypeOf,t=Object.prototype.hasOwnProperty;var u=(r,l)=>()=>(l||r((l={exports:{}}).exports,l),l.exports),g=(r,l)=>{for(var e in l)m(r,e,{get:l[e],enumerable:!0})},b=(r,l,e,n)=>{if(l&&typeof l=="object"||typeof l=="function")for(let i of p(l))!t.call(r,i)&&i!==e&&m(r,i,{get:()=>l[i],enumerable:!(n=c(l,i))||n.enumerable});return r};var y=(r,l,e)=>(e=r!=null?D(s(r)):{},b(l||!r||!r.__esModule?m(e,"default",{value:r,enumerable:!0}):e,r)),v=r=>b(m({},"__esModule",{value:!0}),r);var o=u((C,d)=>{d.exports=_jsx_runtime});var w={};g(w,{default:()=>A,frontmatter:()=>S});var a=y(o()),S={metaTitle:"Scales",metaDescription:"See all accessible color scales that Radix Colors provides."};function k(r){let l={h1:"h1",h4:"h4",hr:"hr",p:"p",...r.components},{ColorScale:e,ColorScaleGroup:n,Description:i}=l;return e||h("ColorScale",!0),n||h("ColorScaleGroup",!0),i||h("Description",!0),(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(l.h1,{id:"scales",children:"Scales"}),`
+`,(0,a.jsx)(i,{children:"An overview of all Radix Colors scales."}),`
+`,(0,a.jsx)(l.h4,{id:"gray",children:"Gray"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Gray",name:"gray"}),(0,a.jsx)(e,{label:"Gray Alpha",name:"grayA"}),(0,a.jsx)(e,{label:"Gray Dark",name:"grayDark"}),(0,a.jsx)(e,{label:"Gray Dark Alpha",name:"grayDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"mauve",children:"Mauve"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Mauve",name:"mauve"}),(0,a.jsx)(e,{label:"Mauve Alpha",name:"mauveA"}),(0,a.jsx)(e,{label:"Mauve Dark",name:"mauveDark"}),(0,a.jsx)(e,{label:"Mauve Dark Alpha",name:"mauveDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"slate",children:"Slate"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Slate",name:"slate"}),(0,a.jsx)(e,{label:"Slate Alpha",name:"slateA"}),(0,a.jsx)(e,{label:"Slate Dark",name:"slateDark"}),(0,a.jsx)(e,{label:"Slate Dark Alpha",name:"slateDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"sage",children:"Sage"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Sage",name:"sage"}),(0,a.jsx)(e,{label:"Sage Alpha",name:"sageA"}),(0,a.jsx)(e,{label:"Sage Dark",name:"sageDark"}),(0,a.jsx)(e,{label:"Sage Dark Alpha",name:"sageDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"olive",children:"Olive"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Olive",name:"olive"}),(0,a.jsx)(e,{label:"Olive Alpha",name:"oliveA"}),(0,a.jsx)(e,{label:"Olive Dark",name:"oliveDark"}),(0,a.jsx)(e,{label:"Olive Dark Alpha",name:"oliveDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"sand",children:"Sand"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Sand",name:"sand"}),(0,a.jsx)(e,{label:"Sand Alpha",name:"sandA"}),(0,a.jsx)(e,{label:"Sand Dark",name:"sandDark"}),(0,a.jsx)(e,{label:"Sand Dark Alpha",name:"sandDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"gold",children:"Gold"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Gold",name:"gold"}),(0,a.jsx)(e,{label:"Gold Alpha",name:"goldA"}),(0,a.jsx)(e,{label:"Gold Dark",name:"goldDark"}),(0,a.jsx)(e,{label:"Gold Dark Alpha",name:"goldDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"bronze",children:"Bronze"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Bronze",name:"bronze"}),(0,a.jsx)(e,{label:"Bronze Alpha",name:"bronzeA"}),(0,a.jsx)(e,{label:"Bronze Dark",name:"bronzeDark"}),(0,a.jsx)(e,{label:"Bronze Dark Alpha",name:"bronzeDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"brown",children:"Brown"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Brown",name:"brown"}),(0,a.jsx)(e,{label:"Brown Alpha",name:"brownA"}),(0,a.jsx)(e,{label:"Brown Dark",name:"brownDark"}),(0,a.jsx)(e,{label:"Brown Dark Alpha",name:"brownDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"yellow",children:"Yellow"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Yellow",name:"yellow"}),(0,a.jsx)(e,{label:"Yellow Alpha",name:"yellowA"}),(0,a.jsx)(e,{label:"Yellow Dark",name:"yellowDark"}),(0,a.jsx)(e,{label:"Yellow Dark Alpha",name:"yellowDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"amber",children:"Amber"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Amber",name:"amber"}),(0,a.jsx)(e,{label:"Amber Alpha",name:"amberA"}),(0,a.jsx)(e,{label:"Amber Dark",name:"amberDark"}),(0,a.jsx)(e,{label:"Amber Dark Alpha",name:"amberDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"orange",children:"Orange"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Orange",name:"orange"}),(0,a.jsx)(e,{label:"Orange Alpha",name:"orangeA"}),(0,a.jsx)(e,{label:"Orange Dark",name:"orangeDark"}),(0,a.jsx)(e,{label:"Orange Dark Alpha",name:"orangeDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"tomato",children:"Tomato"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Tomato",name:"tomato"}),(0,a.jsx)(e,{label:"Tomato Alpha",name:"tomatoA"}),(0,a.jsx)(e,{label:"Tomato Dark",name:"tomatoDark"}),(0,a.jsx)(e,{label:"Tomato Dark Alpha",name:"tomatoDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"red",children:"Red"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Red",name:"red"}),(0,a.jsx)(e,{label:"Red Alpha",name:"redA"}),(0,a.jsx)(e,{label:"Red Dark",name:"redDark"}),(0,a.jsx)(e,{label:"Red Dark Alpha",name:"redDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"ruby",children:"Ruby"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Ruby",name:"ruby"}),(0,a.jsx)(e,{label:"Ruby Alpha",name:"rubyA"}),(0,a.jsx)(e,{label:"Ruby Dark",name:"rubyDark"}),(0,a.jsx)(e,{label:"Ruby Dark Alpha",name:"rubyDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"crimson",children:"Crimson"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Crimson",name:"crimson"}),(0,a.jsx)(e,{label:"Crimson Alpha",name:"crimsonA"}),(0,a.jsx)(e,{label:"Crimson Dark",name:"crimsonDark"}),(0,a.jsx)(e,{label:"Crimson Dark Alpha",name:"crimsonDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"pink",children:"Pink"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Pink",name:"pink"}),(0,a.jsx)(e,{label:"Pink Alpha",name:"pinkA"}),(0,a.jsx)(e,{label:"Pink Dark",name:"pinkDark"}),(0,a.jsx)(e,{label:"Pink Dark Alpha",name:"pinkDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"plum",children:"Plum"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Plum",name:"plum"}),(0,a.jsx)(e,{label:"Plum Alpha",name:"plumA"}),(0,a.jsx)(e,{label:"Plum Dark",name:"plumDark"}),(0,a.jsx)(e,{label:"Plum Dark Alpha",name:"plumDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"purple",children:"Purple"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Purple",name:"purple"}),(0,a.jsx)(e,{label:"Purple Alpha",name:"purpleA"}),(0,a.jsx)(e,{label:"Purple Dark",name:"purpleDark"}),(0,a.jsx)(e,{label:"Purple Dark Alpha",name:"purpleDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"violet",children:"Violet"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Violet",name:"violet"}),(0,a.jsx)(e,{label:"Violet Alpha",name:"violetA"}),(0,a.jsx)(e,{label:"Violet Dark",name:"violetDark"}),(0,a.jsx)(e,{label:"Violet Dark Alpha",name:"violetDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"iris",children:"Iris"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Iris",name:"iris"}),(0,a.jsx)(e,{label:"Iris Alpha",name:"irisA"}),(0,a.jsx)(e,{label:"Iris Dark",name:"irisDark"}),(0,a.jsx)(e,{label:"Iris Dark Alpha",name:"irisDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"indigo",children:"Indigo"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Indigo",name:"indigo"}),(0,a.jsx)(e,{label:"Indigo Alpha",name:"indigoA"}),(0,a.jsx)(e,{label:"Indigo Dark",name:"indigoDark"}),(0,a.jsx)(e,{label:"Indigo Dark Alpha",name:"indigoDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"blue",children:"Blue"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Blue",name:"blue"}),(0,a.jsx)(e,{label:"Blue Alpha",name:"blueA"}),(0,a.jsx)(e,{label:"Blue Dark",name:"blueDark"}),(0,a.jsx)(e,{label:"Blue Dark Alpha",name:"blueDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"cyan",children:"Cyan"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Cyan",name:"cyan"}),(0,a.jsx)(e,{label:"Cyan Alpha",name:"cyanA"}),(0,a.jsx)(e,{label:"Cyan Dark",name:"cyanDark"}),(0,a.jsx)(e,{label:"Cyan Dark Alpha",name:"cyanDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"teal",children:"Teal"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Teal",name:"teal"}),(0,a.jsx)(e,{label:"Teal Alpha",name:"tealA"}),(0,a.jsx)(e,{label:"Teal Dark",name:"tealDark"}),(0,a.jsx)(e,{label:"Teal Dark Alpha",name:"tealDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"jade",children:"Jade"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Jade",name:"jade"}),(0,a.jsx)(e,{label:"Jade Alpha",name:"jadeA"}),(0,a.jsx)(e,{label:"Jade Dark",name:"jadeDark"}),(0,a.jsx)(e,{label:"Jade Dark Alpha",name:"jadeDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"green",children:"Green"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Green",name:"green"}),(0,a.jsx)(e,{label:"Green Alpha",name:"greenA"}),(0,a.jsx)(e,{label:"Green Dark",name:"greenDark"}),(0,a.jsx)(e,{label:"Green Dark Alpha",name:"greenDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"grass",children:"Grass"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Grass",name:"grass"}),(0,a.jsx)(e,{label:"Grass Alpha",name:"grassA"}),(0,a.jsx)(e,{label:"Grass Dark",name:"grassDark"}),(0,a.jsx)(e,{label:"Grass Dark Alpha",name:"grassDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"lime",children:"Lime"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Lime",name:"lime"}),(0,a.jsx)(e,{label:"Lime Alpha",name:"limeA"}),(0,a.jsx)(e,{label:"Lime Dark",name:"limeDark"}),(0,a.jsx)(e,{label:"Lime Dark Alpha",name:"limeDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"mint",children:"Mint"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Mint",name:"mint"}),(0,a.jsx)(e,{label:"Mint Alpha",name:"mintA"}),(0,a.jsx)(e,{label:"Mint Dark",name:"mintDark"}),(0,a.jsx)(e,{label:"Mint Dark Alpha",name:"mintDarkA"})]}),`
+`,(0,a.jsx)(l.h4,{id:"sky",children:"Sky"}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Sky",name:"sky"}),(0,a.jsx)(e,{label:"Sky Alpha",name:"skyA"}),(0,a.jsx)(e,{label:"Sky Dark",name:"skyDark"}),(0,a.jsx)(e,{label:"Sky Dark Alpha",name:"skyDarkA"})]}),`
+`,(0,a.jsx)("br",{}),`
+`,(0,a.jsx)(l.hr,{}),`
+`,(0,a.jsx)(l.h4,{id:"overlays",children:"Overlays"}),`
+`,(0,a.jsx)(l.p,{children:`These scales are designed for overlays and don\u2019t change across light and dark
+theme.`}),`
+`,(0,a.jsx)("br",{}),`
+`,(0,a.jsxs)(n,{children:[(0,a.jsx)(e,{label:"Black Alpha",name:"blackA"}),(0,a.jsx)(e,{label:"White Alpha",name:"whiteA"})]}),`
+`,(0,a.jsx)("br",{}),`
+`,(0,a.jsx)("br",{})]})}function A(r={}){let{wrapper:l}=r.components||{};return l?(0,a.jsx)(l,{...r,children:(0,a.jsx)(k,{...r})}):k(r)}function h(r,l){throw new Error("Expected "+(l?"component":"object")+" `"+r+"` to be defined: you likely forgot to import, pass, or provide it.")}return v(w);})();
+;return Component;0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"code":"$3","frontmatter":{"metaTitle":"Scales","metaDescription":"See all accessible color scales that Radix Colors provides.","slug":"scales"},"scope":"colors-palette"}],"$L4"],["$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"],"$Lf"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"jC6k949nH9gw9rTVveHLH"}
+4:["$","$L10","scales",{}]
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2lh8zg7jzz4mb.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/09oevjrsfesd9.js","async":true}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/32h4i3jbw7n6-.js","async":true}]
+8:["$","script","script-2",{"src":"/_next/static/chunks/3tfinbp4ga4qa.js","async":true}]
+9:["$","script","script-3",{"src":"/_next/static/chunks/31h969n4v2hj-.js","async":true}]
+a:["$","script","script-4",{"src":"/_next/static/chunks/3jdtt27vsqdhv.js","async":true}]
+b:["$","script","script-5",{"src":"/_next/static/chunks/2tjyiqfr-dvv2.js","async":true}]
+c:["$","script","script-6",{"src":"/_next/static/chunks/3bnu8tn1tutt3.js","async":true}]
+d:["$","script","script-7",{"src":"/_next/static/chunks/3rtg097ua8kwc.js","async":true}]
+e:["$","script","script-8",{"src":"/_next/static/chunks/3077shfl7bb0t.js","async":true}]
+f:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+13:null

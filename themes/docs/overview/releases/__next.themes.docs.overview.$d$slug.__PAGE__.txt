@@ -1,0 +1,965 @@
+1:"$Sreact.fragment"
+2:I[45132,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js","/_next/static/chunks/37a771fdfjtm8.js","/_next/static/chunks/0e6c4jb5ckuqx.js","/_next/static/chunks/3y3fmysh2u9-x.js","/_next/static/chunks/09oevjrsfesd9.js","/_next/static/chunks/32h4i3jbw7n6-.js","/_next/static/chunks/3tfinbp4ga4qa.js","/_next/static/chunks/31h969n4v2hj-.js","/_next/static/chunks/3jdtt27vsqdhv.js","/_next/static/chunks/2tjyiqfr-dvv2.js","/_next/static/chunks/3bnu8tn1tutt3.js","/_next/static/chunks/3rtg097ua8kwc.js","/_next/static/chunks/3077shfl7bb0t.js"],"MdxContent"]
+10:I[20212,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js","/_next/static/chunks/37a771fdfjtm8.js","/_next/static/chunks/0e6c4jb5ckuqx.js","/_next/static/chunks/3y3fmysh2u9-x.js","/_next/static/chunks/09oevjrsfesd9.js","/_next/static/chunks/32h4i3jbw7n6-.js","/_next/static/chunks/3tfinbp4ga4qa.js","/_next/static/chunks/31h969n4v2hj-.js","/_next/static/chunks/3jdtt27vsqdhv.js","/_next/static/chunks/2tjyiqfr-dvv2.js","/_next/static/chunks/3bnu8tn1tutt3.js","/_next/static/chunks/3rtg097ua8kwc.js","/_next/static/chunks/3077shfl7bb0t.js"],"QuickNav"]
+11:I[1145,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+:HL["/_next/static/chunks/2lh8zg7jzz4mb.css","style"]
+3:T146d9,var Component=(()=>{var p=Object.create;var c=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var w=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(i,n)=>()=>(n||i((n={exports:{}}).exports,n),n.exports),y=(i,n)=>{for(var r in n)c(i,r,{get:n[r],enumerable:!0})},h=(i,n,r,d)=>{if(n&&typeof n=="object"||typeof n=="function")for(let l of m(n))!f.call(i,l)&&l!==r&&c(i,l,{get:()=>n[l],enumerable:!(d=g(n,l))||d.enumerable});return i};var k=(i,n,r)=>(r=i!=null?p(w(i)):{},h(n||!i||!i.__esModule?c(r,"default",{value:i,enumerable:!0}):r,i)),v=i=>h(c({},"__esModule",{value:!0}),i);var a=b((R,t)=>{t.exports=_jsx_runtime});var C={};y(C,{default:()=>u,frontmatter:()=>x});var e=k(a()),x={metaTitle:"Releases",metaDescription:"Radix Themes releases and their changelogs."};function s(i){let n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",h4:"h4",hr:"hr",li:"li",p:"p",strong:"strong",ul:"ul",...i.components},{Box:r,Description:d,Note:l}=n;return r||o("Box",!0),d||o("Description",!0),l||o("Note",!0),(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.h1,{id:"releases",children:"Releases"}),`
+`,(0,e.jsx)(d,{children:"Radix Themes releases and their changelogs."}),`
+`,(0,e.jsx)(n.h2,{id:"313",children:"3.1.3"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Support indeterminate indicator for the uncontrolled ",(0,e.jsx)(n.code,{children:"Checkbox"})," component"]}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"312",children:"3.1.2"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"areas"})," prop to the ",(0,e.jsx)(n.code,{children:"Grid"})," component and ",(0,e.jsx)(n.code,{children:"gridArea"})," prop to all layout components (",(0,e.jsx)(n.code,{children:"Box"}),", ",(0,e.jsx)(n.code,{children:"Container"}),", ",(0,e.jsx)(n.code,{children:"Flex"}),", ",(0,e.jsx)(n.code,{children:"Grid"}),", ",(0,e.jsx)(n.code,{children:"Section"}),")"]}),`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"overflow-wrap: anywhere"})," style to the ",(0,e.jsx)(n.code,{children:"DataList"})," component so that long values\u2014such as IDs\u2014can break over to next line"]}),`
+`,(0,e.jsxs)(n.li,{children:["Support indeterminate indicator for the indeterminate ",(0,e.jsx)(n.code,{children:"Checkbox"})," component"]}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"311",children:"3.1.1"}),`
+`,(0,e.jsx)(l,{children:"June 21, 2024"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Upgrade ",(0,e.jsx)(n.a,{href:"/primitives/docs/overview/releases#june-21-2024",children:"Radix Primitives"})]}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"310",children:"3.1.0"}),`
+`,(0,e.jsx)(l,{children:"June 20, 2024"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Support React 19"}),`
+`,(0,e.jsxs)(n.li,{children:["Upgrade all ",(0,e.jsx)(n.a,{href:"/primitives/docs/overview/releases#june-19-2024",children:"Radix Primitives"})]}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"305",children:"3.0.5"}),`
+`,(0,e.jsx)(l,{children:"May 16, 2024"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"align"}),", ",(0,e.jsx)(n.code,{children:"height"}),", ",(0,e.jsx)(n.code,{children:"minHeight"}),", and ",(0,e.jsx)(n.code,{children:"maxHeight"})," props to ",(0,e.jsx)(n.code,{children:"AlertDialog.Content"})," and ",(0,e.jsx)(n.code,{children:"Dialog.Content"})]}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"304",children:"3.0.4"}),`
+`,(0,e.jsx)(l,{children:"May 15, 2024"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Fix an issue when the Radix Themes package couldn\u2019t be bundled with webpack because of a circular dependency within"}),`
+`,(0,e.jsxs)(n.li,{children:["Support the ",(0,e.jsx)(n.code,{children:"max"})," prop on the Progress component"]}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"303",children:"3.0.3"}),`
+`,(0,e.jsx)(l,{children:"May 1, 2024"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Fix an issue when the theme ",(0,e.jsx)(n.code,{children:"grayColor"})," setting would have no effect in combination with explicit ",(0,e.jsx)(n.code,{children:'appearance="light"'})," or ",(0,e.jsx)(n.code,{children:'appearance="dark"'})," values"]}),`
+`,(0,e.jsxs)(n.li,{children:["Fix a regression when ",(0,e.jsx)(n.code,{children:"Link"})," would use an automatic high-contrast color when an explicit ",(0,e.jsx)(n.code,{children:"color"})," value was used."]}),`
+`,(0,e.jsxs)(n.li,{children:["Fix a regression when ",(0,e.jsx)(n.code,{children:"Link"})," would not use the correct text selection and focus color when nested in gray text."]}),`
+`,(0,e.jsxs)(n.li,{children:["Tweak ",(0,e.jsx)(n.code,{children:"Link"})," tap highlight style"]}),`
+`,(0,e.jsxs)(n.li,{children:["Tweak ",(0,e.jsx)(n.code,{children:"CheckboxGroup.Item"})," and ",(0,e.jsx)(n.code,{children:"RadioGroup.Item"})," so that a layout with overflowing text truncation would be possible to achieve"]}),`
+`,(0,e.jsxs)(n.li,{children:["Remove an unnecessary ",(0,e.jsx)(n.code,{children:"data-accent-color"})," attribute from components where it had no practical effect to be there."]}),`
+`,(0,e.jsxs)(n.li,{children:["Rework the internals of the ",(0,e.jsx)(n.code,{children:"color"})," prop definition."]}),`
+`,(0,e.jsxs)(n.li,{children:["Rework the autofilled and disabled colors for ",(0,e.jsx)(n.code,{children:"TextField"})," and ",(0,e.jsx)(n.code,{children:"TextArea"})]}),`
+`,(0,e.jsxs)(n.li,{children:["Add an internal ",(0,e.jsx)(n.code,{children:"--spinner-animation-duration"})," CSS variable for the ",(0,e.jsx)(n.code,{children:"Spinner"})," component"]}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"302",children:"3.0.2"}),`
+`,(0,e.jsx)(l,{children:"April 3, 2024"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Remove unnecessary browser prefixes from the CSS, reducing the bundle size by 17 KB"}),`
+`,(0,e.jsxs)(n.li,{children:["Fix a regression when ",(0,e.jsx)(n.code,{children:"Link"})," would not use an automatic high-contrast color when nested within colored text."]}),`
+`,(0,e.jsxs)(n.li,{children:["Fix a regression when ",(0,e.jsx)(n.code,{children:"Link"})," wouldn't display hover styles when rendered as a ",(0,e.jsx)(n.code,{children:"button"})]}),`
+`,(0,e.jsxs)(n.li,{children:["Fix a regression when ",(0,e.jsx)(n.code,{children:"TextArea"})," would not preserve sequences of white space in Firefox"]}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"301",children:"3.0.1"}),`
+`,(0,e.jsx)(l,{children:"March 26, 2024"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Fix a syntax error in the reset stylesheet"}),`
+`,(0,e.jsxs)(n.li,{children:["Fix Checkbox ",(0,e.jsx)(n.code,{children:'size="1"'})," indicator checkmark alignment in Safari"]}),`
+`,(0,e.jsx)(n.li,{children:"Fix Checkbox and Radio disabled cursor styles not working in Safari"}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"300",children:"3.0.0"}),`
+`,(0,e.jsx)(l,{children:"March 23, 2024"}),`
+`,(0,e.jsx)(r,{mt:"3",mb:"6",children:(0,e.jsxs)(n.p,{children:[`Radix Themes 3.0 comes with a new layout engine, 11 new components, and full
+ESM support. `,(0,e.jsx)(n.a,{href:"/blog/themes-3",children:"Read the announcement"}),"."]})}),`
+`,(0,e.jsx)(n.h3,{id:"upgrade-guide",children:"Upgrade guide"}),`
+`,(0,e.jsx)(n.p,{children:"This release introduces a number of breaking changes. Please follow the steps below to upgrade."}),`
+`,(0,e.jsx)(n.h4,{id:"general",children:"General"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Multi-part components now don\u2019t export named parts anymore. Use dot notation instead, which was revised to work with React Server Components. For example:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"DialogRoot"})," \u2192 ",(0,e.jsx)(n.code,{children:"Dialog.Root"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"DialogTrigger"})," \u2192 ",(0,e.jsx)(n.code,{children:"Dialog.Trigger"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"DialogContent"})," \u2192 ",(0,e.jsx)(n.code,{children:"Dialog.Content"})]}),`
+`,(0,e.jsxs)(n.li,{children:["\u2026and so on for all multi-part components:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"AlertDialog"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Callout"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"ContextMenu"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Dialog"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"DropdownMenu"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"HoverCard"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Popover"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"RadioGroup"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Select"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Table"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Tabs"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"TextField"})}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Package internals such as prop definitions and helpers are no longer available from the root ",(0,e.jsx)(n.code,{children:"@radix-ui/themes"})," import entry point.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Import them from ",(0,e.jsx)(n.code,{children:"@radix-ui/themes/props"})," and ",(0,e.jsx)(n.code,{children:"@radix-ui/themes/helpers"})," instead."]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsx)(n.h4,{id:"props",children:"Props"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["The ",(0,e.jsx)(n.code,{children:"width"})," and ",(0,e.jsx)(n.code,{children:"height"})," props on layout components don't map to space scale anymore. Find and replace your ",(0,e.jsx)(n.code,{children:"width"})," and ",(0,e.jsx)(n.code,{children:"height"})," prop usage with the corresponding ",(0,e.jsx)(n.a,{href:"https://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/space.css",children:"space scale"})," steps:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:'width="1"'})," \u2192 ",(0,e.jsx)(n.code,{children:'width="4px"'})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:'width="2"'})," \u2192 ",(0,e.jsx)(n.code,{children:'width="8px"'})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:'width="3"'})," \u2192 ",(0,e.jsx)(n.code,{children:'width="12px"'})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:'width="4"'})," \u2192 ",(0,e.jsx)(n.code,{children:'width="16px"'})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:'width="5"'})," \u2192 ",(0,e.jsx)(n.code,{children:'width="24px"'})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:'width="6"'})," \u2192 ",(0,e.jsx)(n.code,{children:'width="32px"'})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:'width="7"'})," \u2192 ",(0,e.jsx)(n.code,{children:'width="40px"'})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:'width="8"'})," \u2192 ",(0,e.jsx)(n.code,{children:'width="48px"'})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:'width="9"'})," \u2192 ",(0,e.jsx)(n.code,{children:'width="64px"'})]}),`
+`,(0,e.jsxs)(n.li,{children:["\u2026and so on for ",(0,e.jsx)(n.code,{children:"height"})]}),`
+`,(0,e.jsx)(n.li,{children:"Make sure to update responsive object syntax as well"}),`
+`,(0,e.jsxs)(n.li,{children:["You can also use ",(0,e.jsx)(n.code,{children:"var(--space-1)"})," to ",(0,e.jsx)(n.code,{children:"var(--space-9)"})," instead of hardcoded values."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["The ",(0,e.jsx)(n.code,{children:"shrink"})," and ",(0,e.jsx)(n.code,{children:"grow"})," props on layout components were renamed",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"shrink"})," \u2192 ",(0,e.jsx)(n.code,{children:"flexShrink"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"grow"})," \u2192 ",(0,e.jsx)(n.code,{children:"flexGrow"})]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsx)(n.h4,{id:"colors",children:"Colors"}),`
+`,(0,e.jsx)(n.p,{children:"If you were using the following tokens for your custom components, make sure to replace the corresponding references."}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--color-surface-accent"})," \u2192 ",(0,e.jsx)(n.code,{children:"--accent-surface"})]}),`
+`,(0,e.jsxs)(n.li,{children:["Contrast colors were renamed:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--accent-9-contrast"})," \u2192 ",(0,e.jsx)(n.code,{children:"--accent-contrast"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--red-9-contrast"})," \u2192 ",(0,e.jsx)(n.code,{children:"--red-contrast"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--pink-9-contrast"})," \u2192 ",(0,e.jsx)(n.code,{children:"--pink-contrast"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--blue-9-contrast"})," \u2192 ",(0,e.jsx)(n.code,{children:"--blue-contrast"})]}),`
+`,(0,e.jsx)(n.li,{children:"\u2026and so on for all scales"}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Added a new focus color scale. Rename the following tokens:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--color-autofill-root"})," \u2192 ",(0,e.jsx)(n.code,{children:"--focus-a3"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--color-focus-root"})," \u2192 ",(0,e.jsx)(n.code,{children:"--focus-8"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--color-selection-root"})," \u2192 ",(0,e.jsx)(n.code,{children:"--focus-a5"})]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--gray-2-translucent"})," and the corresponding tinted gray colors were removed.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Use ",(0,e.jsx)(n.code,{children:"--color-panel-translucent"})," in combination with a backdrop blur filter instead."]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsx)(n.h4,{id:"components",children:"Components"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"AlertDialog"}),", ",(0,e.jsx)(n.code,{children:"Dialog"})," now have ",(0,e.jsx)(n.code,{children:'maxWidth="600px"'})," by default on the Content part.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["This is slightly larger than the previous ",(0,e.jsx)(n.code,{children:"580px"})," value. If you use dialogs that need a different width, override ",(0,e.jsx)(n.code,{children:"maxWidth"})," with your own value."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Badge"})," has a new ",(0,e.jsx)(n.code,{children:'size="3"'}),", ",(0,e.jsx)(n.code,{children:'size="2"'})," is now much smaller, and ",(0,e.jsx)(n.code,{children:'size="1"'})," dimensions were tweaked",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Replace your ",(0,e.jsx)(n.code,{children:'size="2"'})," usage with ",(0,e.jsx)(n.code,{children:'size="3"'})]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Card"})," internal HTML structure and styles were reworked and now renders a single HTML node. Make sure that your code works as expected if you were relying on any of the implementation quirks to override styles or behaviour.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["If you need to override the Card\u2019s background color on variants other than ",(0,e.jsx)(n.code,{children:"ghost"}),", use ",(0,e.jsx)(n.code,{children:"--card-background-color"})," variable instead of assigning ",(0,e.jsx)(n.code,{children:"background-color"})," directly, or set your background color on an ",(0,e.jsx)(n.code,{children:'<Inset p="current">'})," element nested as the first child of the Card."]}),`
+`,(0,e.jsxs)(n.li,{children:["Check your Card instances that uses ",(0,e.jsx)(n.code,{children:"asChild"})," or is ",(0,e.jsx)(n.code,{children:"asChild"}),"\u2019ed onto by a parent component. (The common case with link or button card without any extra styles will work as expected)."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"HoverCard"})," and ",(0,e.jsx)(n.code,{children:"Popover"})," now have ",(0,e.jsx)(n.code,{children:'maxWidth="480px"'})," by default on the Content part.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["If you use popovers and hover cards that need a wider width, override ",(0,e.jsx)(n.code,{children:"maxWidth"})," with your own value."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"RadioGroup"})," internal HTML structure and styles were reworked and is now designed to display an optional text label when passing ",(0,e.jsx)(n.code,{children:"children"})," to the ",(0,e.jsx)(n.code,{children:"Item"})," part. The ",(0,e.jsx)(n.code,{children:"Root"})," part now also provides flex column styles and spacing.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["If you need lower-level control, you can use the ",(0,e.jsx)(n.code,{children:"Radio"})," component instead"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Section"})," has a new ",(0,e.jsx)(n.code,{children:'size="3"'}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Update all your Sections that used ",(0,e.jsx)(n.code,{children:'size="3"'})," to ",(0,e.jsx)(n.code,{children:'size="4"'})]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Tabs"})," underlying letter/word spacing CSS variables were renamed to support both ",(0,e.jsx)(n.code,{children:"Tabs"})," and ",(0,e.jsx)(n.code,{children:"TabNav"})," components. If you were using them, rename them to the new values:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--tabs-trigger-active-letter-spacing"})," \u2192 ",(0,e.jsx)(n.code,{children:"--tab-active-letter-spacing"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--tabs-trigger-active-word-spacing"})," \u2192 ",(0,e.jsx)(n.code,{children:"--tab-active-word-spacing"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--tabs-trigger-inactive-letter-spacing"})," \u2192 ",(0,e.jsx)(n.code,{children:"--tab-inactive-letter-spacing"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--tabs-trigger-inactive-word-spacing"})," \u2192 ",(0,e.jsx)(n.code,{children:"--tab-inactive-word-spacing"})]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"TextField"})," now only has 2 parts: ",(0,e.jsx)(n.code,{children:"Root"})," and ",(0,e.jsx)(n.code,{children:"Slot"}),", dropping the ",(0,e.jsx)(n.code,{children:"Input"})," part and simplifying how props are forwarded.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["All ",(0,e.jsx)(n.code,{children:"TextField.Input"})," parts used ",(0,e.jsx)(n.strong,{children:"without"})," ",(0,e.jsx)(n.code,{children:"TextField.Root"})," should be renamed to ",(0,e.jsx)(n.code,{children:"TextField.Root"})]}),`
+`,(0,e.jsxs)(n.li,{children:["All ",(0,e.jsx)(n.code,{children:"TextField.Input"})," parts used ",(0,e.jsx)(n.strong,{children:"within"})," ",(0,e.jsx)(n.code,{children:"TextField.Root"})," should be removed and their props should be put directly on the ",(0,e.jsx)(n.code,{children:"TextField.Root"})," part"]}),`
+`,(0,e.jsxs)(n.li,{children:["All ",(0,e.jsx)(n.code,{children:"TextField.Slot"})," parts placed to the right of ",(0,e.jsx)(n.code,{children:"TextField.Input"})," will need ",(0,e.jsx)(n.code,{children:'side="right"'})," prop. However, no adjustment is needed when two slots were used within one ",(0,e.jsx)(n.code,{children:"TextField"}),", e.g. one slot on the left and another one on the right. In that case, the slots will be automatically placed on different sides."]}),`
+`,(0,e.jsx)(n.li,{children:"Make sure that your code works as expected if you were relying on any of the implementation quirks to override styles or behaviour."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Theme"})," does not set body background color automatically anymore. The background color is now provided by the root ",(0,e.jsx)(n.code,{children:"Theme"})," by default. The CSS variable ",(0,e.jsx)(n.code,{children:"--color-page-background"})," is no longer available.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["In most cases, it can be safely replaced with ",(0,e.jsx)(n.code,{children:"--color-background"})," available on the ",(0,e.jsx)(n.code,{children:".radix-themes"})," element."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Tooltip"})," now has ",(0,e.jsx)(n.code,{children:'maxWidth="360px"'})," by default on the Content part.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["If you use tooltips that need to be wider, override ",(0,e.jsx)(n.code,{children:"maxWidth"})," with your own value."]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsx)(n.hr,{}),`
+`,(0,e.jsx)(n.h3,{id:"full-changelog",children:"Full changelog"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["General",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Package structure",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Improve ESM compatibility"}),`
+`,(0,e.jsx)(n.li,{children:"Improve tree-shaking of individual component parts"}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Drop named exports for multi-part components",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Note: Our new approach allows dot notation to work reliably in server components too"}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Remove component prop definitions and internal helpers from the root ",(0,e.jsx)(n.code,{children:"@radix-ui/themes"})," import entry point and export them from ",(0,e.jsx)(n.code,{children:"@radix-ui/themes/props"})," and ",(0,e.jsx)(n.code,{children:"@radix-ui/themes/helpers"})," to make it possible to build your own component library on top of Radix Themes using the same techniques."]}),`
+`,(0,e.jsx)(n.li,{children:"Add a wildcard entry point to the package to allow direct access to the package internals as an escape hatch if you have a complex tooling setup that can\u2019t support modern module resolution rules"}),`
+`,(0,e.jsxs)(n.li,{children:["Add extra CSS file exports for advanced use-cases:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Export individual ",(0,e.jsx)(n.code,{children:"tokens.css"}),", ",(0,e.jsx)(n.code,{children:"components.css"}),", and ",(0,e.jsx)(n.code,{children:"utilities.css"})," files in case you need fine-grained control of the CSS precedence. For example, this allows to import Radix Themes ",(0,e.jsx)(n.code,{children:"utilities.css"})," after your own CSS, and everything else before that."]}),`
+`,(0,e.jsxs)(n.li,{children:["Additionally to the above, you can customise which colors to import. Instead of importing ",(0,e.jsx)(n.code,{children:"tokens.css"}),", you can also import ",(0,e.jsx)(n.code,{children:"tokens/base.css"})," and ",(0,e.jsx)(n.code,{children:"tokens/colors/*.css"}),", where ",(0,e.jsx)(n.code,{children:"*"})," corresponds to the names of the accent and gray colors you need in your project."]}),`
+`,(0,e.jsxs)(n.li,{children:["Export ",(0,e.jsx)(n.code,{children:"layout.css"})," that only includes styles for the layout components (Box, Flex, Grid, Container, Section). Individual exports ",(0,e.jsx)(n.code,{children:"layout/tokens.css"}),", ",(0,e.jsx)(n.code,{children:"layout/components.css"}),", and ",(0,e.jsx)(n.code,{children:"layout/utilities.css"})," are also available to support the above use-case."]}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Props",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add the following props to all layout components:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"minWidth"}),", ",(0,e.jsx)(n.code,{children:"maxWidth"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"minHeight"}),", ",(0,e.jsx)(n.code,{children:"maxHeight"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"flexBasis"}),", ",(0,e.jsx)(n.code,{children:"flexShrink"}),", ",(0,e.jsx)(n.code,{children:"flexGrow"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"gridColumn"}),", ",(0,e.jsx)(n.code,{children:"gridColumnStart"}),", ",(0,e.jsx)(n.code,{children:"gridColumnEnd"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"gridRow"}),", ",(0,e.jsx)(n.code,{children:"gridRowStart"}),", ",(0,e.jsx)(n.code,{children:"gridRowEnd"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"overflow"}),", ",(0,e.jsx)(n.code,{children:"overflowX"}),", ",(0,e.jsx)(n.code,{children:"overflowY"})]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Rework all layout props to allow arbitrary CSS values, including when used with the responsive object syntax. Props that support arbitrary values include:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"width"}),", ",(0,e.jsx)(n.code,{children:"minWidth"}),", ",(0,e.jsx)(n.code,{children:"maxWidth"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"height"}),", ",(0,e.jsx)(n.code,{children:"minHeight"}),", ",(0,e.jsx)(n.code,{children:"maxHeight"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"m"}),", ",(0,e.jsx)(n.code,{children:"mx"}),", ",(0,e.jsx)(n.code,{children:"my"}),", ",(0,e.jsx)(n.code,{children:"mt"}),", ",(0,e.jsx)(n.code,{children:"mr"}),", ",(0,e.jsx)(n.code,{children:"mb"}),", ",(0,e.jsx)(n.code,{children:"ml"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"p"}),", ",(0,e.jsx)(n.code,{children:"px"}),", ",(0,e.jsx)(n.code,{children:"py"}),", ",(0,e.jsx)(n.code,{children:"pt"}),", ",(0,e.jsx)(n.code,{children:"pr"}),", ",(0,e.jsx)(n.code,{children:"pb"}),", ",(0,e.jsx)(n.code,{children:"pl"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"inset"}),", ",(0,e.jsx)(n.code,{children:"top"}),", ",(0,e.jsx)(n.code,{children:"right"}),", ",(0,e.jsx)(n.code,{children:"bottom"}),", ",(0,e.jsx)(n.code,{children:"left"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"gap"}),", ",(0,e.jsx)(n.code,{children:"gapX"}),", ",(0,e.jsx)(n.code,{children:"gapY"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"flexBasis"}),", ",(0,e.jsx)(n.code,{children:"flexShrink"}),", ",(0,e.jsx)(n.code,{children:"flexGrow"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"gridColumn"}),", ",(0,e.jsx)(n.code,{children:"gridColumnStart"}),", ",(0,e.jsx)(n.code,{children:"gridColumnEnd"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"gridRow"}),", ",(0,e.jsx)(n.code,{children:"gridRowStart"}),", ",(0,e.jsx)(n.code,{children:"gridRowEnd"})]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," The ",(0,e.jsx)(n.code,{children:"width"})," and ",(0,e.jsx)(n.code,{children:"height"})," props don't map to space scale anymore. This is because in the vast majority of cases, width and height were not set to space scale, and with that, space scale as an IDE autocomplete suggestion felt odd/misleading."]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Rename ",(0,e.jsx)(n.code,{children:"shrink"})," and ",(0,e.jsx)(n.code,{children:"grow"})," props to ",(0,e.jsx)(n.code,{children:"flexShrink"})," and ",(0,e.jsx)(n.code,{children:"flexGrow"})]}),`
+`,(0,e.jsxs)(n.li,{children:["Update the type signature of the layout props so that code editor suggestions use just space scale values when possible. CSS keywords and other values such as ",(0,e.jsx)(n.code,{children:'"auto"'})," or ",(0,e.jsx)(n.code,{children:'"100vw"'})," are still available as manual string values."]}),`
+`,(0,e.jsx)(n.li,{children:"Document all layout props with JSDoc"}),`
+`,(0,e.jsxs)(n.li,{children:["Fix an issue with responsive props when using a breakpoints object without the ",(0,e.jsx)(n.code,{children:"initial"})," key would not apply the default prop value"]}),`
+`,(0,e.jsxs)(n.li,{children:["Remove the native ",(0,e.jsx)(n.code,{children:"color"}),", ",(0,e.jsx)(n.code,{children:"defaultValue"}),", and ",(0,e.jsx)(n.code,{children:"defaultChecked"})," attributes from components that inherit them from the native HTML elements to avoid confusion with their custom implementations"]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Rework the availability of ",(0,e.jsx)(n.code,{children:"asChild"})," prop on all components and parts"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Colors",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Make sure ",(0,e.jsx)(n.code,{children:"highContrast"})," text colors work consistently when nested within other components that accept an accent color"]}),`
+`,(0,e.jsxs)(n.li,{children:["Tweak the background color of all ",(0,e.jsx)(n.code,{children:'variant="soft"'})," menu items"]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Rename ",(0,e.jsx)(n.code,{children:"--color-surface-accent"})," to ",(0,e.jsx)(n.code,{children:"--accent-surface"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Rename ",(0,e.jsx)(n.code,{children:"--accent-9-contrast"}),", ",(0,e.jsx)(n.code,{children:"--red-9-contrast"}),", ",(0,e.jsx)(n.code,{children:"--pink-9-contrast"}),", ",(0,e.jsx)(n.code,{children:"--blue-9-contrast"}),", etc. to ",(0,e.jsx)(n.code,{children:"--accent-contrast"}),", ",(0,e.jsx)(n.code,{children:"--red-contrast"}),", ",(0,e.jsx)(n.code,{children:"--pink-contrast"}),", ",(0,e.jsx)(n.code,{children:"--blue-contrast"})," and so on."]}),`
+`,(0,e.jsxs)(n.li,{children:["Remove ",(0,e.jsx)(n.code,{children:"--gray-2-translucent"})," and the corresponding tinted gray colors"]}),`
+`,(0,e.jsxs)(n.li,{children:["Tweak ",(0,e.jsx)(n.code,{children:"--color-surface"})," and ",(0,e.jsx)(n.code,{children:"--color-panel-translucent"})," values"]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Replace ",(0,e.jsx)(n.code,{children:"--color-focus-root"}),", ",(0,e.jsx)(n.code,{children:"--color-selection-root"}),", ",(0,e.jsx)(n.code,{children:"--color-autofill-root"})," with a focus color scale, e.g. ",(0,e.jsx)(n.code,{children:"--focus-1"})," \u2013 ",(0,e.jsx)(n.code,{children:"--focus-12"}),", and ",(0,e.jsx)(n.code,{children:"--focus-a1"})," \u2013 ",(0,e.jsx)(n.code,{children:"--focus-a12"}),"."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Other",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Speed up most of the animations"}),`
+`,(0,e.jsxs)(n.li,{children:["Ensure all elements that have padding or border styles use ",(0,e.jsx)(n.code,{children:"box-sizing: border-box"})]}),`
+`,(0,e.jsx)(n.li,{children:"Ensure that disabled cursor styles are applied correctly"}),`
+`,(0,e.jsx)(n.li,{children:"Add a blur backdrop filter effect to the translucent panels"}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["11 new components",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"DataList"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Component for displaying text data as key-value pairs. Parts:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Root"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Item"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Label"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Value"})}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"CheckboxGroup"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Group of checkboxes with an optional text label and roving focus. Parts:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Root"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Item"})}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"CheckboxCards"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Interactive card components to pick one or more value from the list. Parts:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Root"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Item"})}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Progress"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Progress bar component that indicates completion of a task."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Radio"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Standalone element for building your own layouts with radio inputs."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"RadioCards"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Interactive card components to pick one of the values from the list. Parts:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Root"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Item"})}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Reset"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Component that resets the styles for any native HTML element."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"SegmentedControl"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Component for selecting a single option out of many and for controlling tab-like interfaces"}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Skeleton"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Component that may wrap any UI element and turn it into a loading skeleton. Can also render self or a React Fragment conditionally using a ",(0,e.jsx)(n.code,{children:"loading"})," prop."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Spinner"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Loading spinner component. Like ",(0,e.jsx)(n.code,{children:"Skeleton"}),", it also may wrap any UI element and display itself using a conditional ",(0,e.jsx)(n.code,{children:"loading"})," prop."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"TabNav"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Equivalent for ",(0,e.jsx)(n.code,{children:"Tabs"}),", but used for page navigation. Renders regular links and supports roving focus. Parts:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Root"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"Link"})}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"AlertDialog"}),", ",(0,e.jsx)(n.code,{children:"Dialog"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"position: relative"})," to support absolutely positioned children."]}),`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"width"}),", ",(0,e.jsx)(n.code,{children:"minWidth"}),", ",(0,e.jsx)(n.code,{children:"maxWidth"})," props to the Content part."]}),`
+`,(0,e.jsxs)(n.li,{children:["Set ",(0,e.jsx)(n.code,{children:'maxWidth="600px"'})," by default on the Content part."]}),`
+`,(0,e.jsx)(n.li,{children:"Rework the scroll container so that it displays scrollbars on the viewport rather than confined to the dialog Content part. Make sure that your code works as expected if you were relying on any of the implementation quirks to override styles or behaviour."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Badge"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Remove ",(0,e.jsx)(n.code,{children:"user-select: none"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Add ",(0,e.jsx)(n.code,{children:'size="3"'}),", make ",(0,e.jsx)(n.code,{children:'size="2"'})," much smaller, tweak ",(0,e.jsx)(n.code,{children:'size="1"'})," dimensions"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Blockquote"}),", ",(0,e.jsx)(n.code,{children:"Code"}),", ",(0,e.jsx)(n.code,{children:"Em"}),", ",(0,e.jsx)(n.code,{children:"Heading"}),", ",(0,e.jsx)(n.code,{children:"Quote"}),", ",(0,e.jsx)(n.code,{children:"Link"}),", ",(0,e.jsx)(n.code,{children:"Strong"}),", ",(0,e.jsx)(n.code,{children:"Text"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add new ",(0,e.jsx)(n.code,{children:"wrap"})," and ",(0,e.jsx)(n.code,{children:"truncate"})," props that control whether the text wraps and whether it is truncated with ellipsis"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Card"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Rework the internal HTML structure and styles. This component now renders a single HTML node. Make sure that your code works as expected if you were relying on any of the implementation quirks to override styles or behaviour."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Code"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:'variant="ghost"'})," color now works similarly to Text, inheriting the color unless set explicitly using the ",(0,e.jsx)(n.code,{children:"color"})," prop"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Container"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"align"})," prop to control whether the container content is aligned to the left, center, or right"]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Change the ",(0,e.jsx)(n.code,{children:'display="block"'})," value to ",(0,e.jsx)(n.code,{children:'display="initial"'})," (the former value was broken)"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"ContextMenu"}),", ",(0,e.jsx)(n.code,{children:"DropdownMenu"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"color"})," prop to ",(0,e.jsx)(n.code,{children:"CheckboxItem"})," and ",(0,e.jsx)(n.code,{children:"RadioItem"})," parts"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Checkbox"}),", ",(0,e.jsx)(n.code,{children:"RadioGroup"}),", ",(0,e.jsx)(n.code,{children:"Switch"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Rework the internal HTML structure and styles. These components now render fewer HTML nodes and forward all props to the topmost node. Make sure that your code works as expected if you were relying on any of the implementation quirks to override styles or behaviour."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"DropdownMenu"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Use a brighter text color for the highlighted item when the Content part uses ",(0,e.jsx)(n.code,{children:'variant="soft"'})]}),`
+`,(0,e.jsxs)(n.li,{children:["Add an optional ",(0,e.jsx)(n.code,{children:"TriggerIcon"})," part that renders an arrow down indicator"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Box"}),", ",(0,e.jsx)(n.code,{children:"Flex"}),", ",(0,e.jsx)(n.code,{children:"Grid"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add support for ",(0,e.jsx)(n.code,{children:"as"})," prop to render as ",(0,e.jsx)(n.code,{children:"span"})," or ",(0,e.jsx)(n.code,{children:"div"})]}),`
+`,(0,e.jsxs)(n.li,{children:["For Box, ",(0,e.jsx)(n.code,{children:"display: block"})," style is now enforced regardless of the tag"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Button"}),", ",(0,e.jsx)(n.code,{children:"IconButton"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add new ",(0,e.jsx)(n.code,{children:"loading"})," prop"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Flex"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"gapX"})," and ",(0,e.jsx)(n.code,{children:"gapY"})," props"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"HoverCard"}),", ",(0,e.jsx)(n.code,{children:"Popover"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"position: relative"})," to support absolutely positioned children."]}),`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"width"}),", ",(0,e.jsx)(n.code,{children:"minWidth"}),", ",(0,e.jsx)(n.code,{children:"maxWidth"}),", ",(0,e.jsx)(n.code,{children:"height"}),", ",(0,e.jsx)(n.code,{children:"minHeight"}),", ",(0,e.jsx)(n.code,{children:"maxHeight"})," props to the Content part."]}),`
+`,(0,e.jsxs)(n.li,{children:["Set ",(0,e.jsx)(n.code,{children:'maxWidth="480px"'})," by default on the Content part."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"RadioGroup"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["[",(0,e.jsx)(n.strong,{children:"Breaking"}),"] Rework the internal HTML structure and styles. This component is now designed to display an optional text label when passing ",(0,e.jsx)(n.code,{children:"children"})," to the ",(0,e.jsx)(n.code,{children:"Item"})," part, and the ",(0,e.jsx)(n.code,{children:"Root"})," part now provides flex column styles and spacing."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Section"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Change the ",(0,e.jsx)(n.code,{children:'display="block"'})," value to ",(0,e.jsx)(n.code,{children:'display="initial"'})," (the former value was broken)"]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Use a new value for ",(0,e.jsx)(n.code,{children:'size="3"'}),", use the previous value for ",(0,e.jsx)(n.code,{children:'size="4"'})]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Select"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Make sure that Trigger font weight is not inherited, e.g. from a wrapping ",(0,e.jsx)(n.code,{children:"<label>"})," element"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Separator"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Allow responsive values for the ",(0,e.jsx)(n.code,{children:"orientation"})," prop"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"ScrollArea"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Fix an issue when Scroll Area would be unable to stretch to 100% height when informed by the parent\u2019s auto height"}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Slider"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Change the size of the bounding box to match the size of the Slider track"}),`
+`,(0,e.jsxs)(n.li,{children:["Replace ",(0,e.jsx)(n.code,{children:"flex-shrink: 0"})," with ",(0,e.jsx)(n.code,{children:"flex-grow: 1"})," and ",(0,e.jsx)(n.code,{children:"width: stretch"})," / ",(0,e.jsx)(n.code,{children:"height: stretch"})," to allow the slider element to flex and shrink in layouts more intuitively."]}),`
+`,(0,e.jsx)(n.li,{children:"Fix an overzealous focus outline in Safari"}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Table"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add new ",(0,e.jsx)(n.code,{children:"layout"})," prop to control the ",(0,e.jsx)(n.code,{children:"table-layout"})," style property"]}),`
+`,(0,e.jsxs)(n.li,{children:["Align ",(0,e.jsx)(n.code,{children:"width"})," prop type signature and implementation on the ",(0,e.jsx)(n.code,{children:"TableCell"})," part with the reworked ",(0,e.jsx)(n.code,{children:"width"})," prop on the layout components"]}),`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"minWidth"})," and ",(0,e.jsx)(n.code,{children:"maxWidth"})," props to the ",(0,e.jsx)(n.code,{children:"TableCell"})," part"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Tabs"}),":",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"color"})," and ",(0,e.jsx)(n.code,{children:"highContrast"})," props to ",(0,e.jsx)(n.code,{children:"TabsList"})]}),`
+`,(0,e.jsxs)(n.li,{children:["Add margin props ",(0,e.jsx)(n.code,{children:"TabsList"})," and ",(0,e.jsx)(n.code,{children:"TabsContent"})]}),`
+`,(0,e.jsxs)(n.li,{children:["Renamed the letter/word spacing CSS variables in ",(0,e.jsx)(n.code,{children:".radix-themes"})," so that it supports both ",(0,e.jsx)(n.code,{children:"Tabs"})," and ",(0,e.jsx)(n.code,{children:"TabNav"})," components.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--tabs-trigger-active-letter-spacing"})," \u2192 ",(0,e.jsx)(n.code,{children:"--tab-active-letter-spacing"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--tabs-trigger-active-word-spacing"})," \u2192 ",(0,e.jsx)(n.code,{children:"--tab-active-word-spacing"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--tabs-trigger-inactive-letter-spacing"})," \u2192 ",(0,e.jsx)(n.code,{children:"--tab-inactive-letter-spacing"})]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"--tabs-trigger-inactive-word-spacing"})," \u2192 ",(0,e.jsx)(n.code,{children:"--tab-inactive-word-spacing"})]}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"TextArea"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"radius"})," prop"]}),`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"resize"})," prop"]}),`
+`,(0,e.jsx)(n.li,{children:"Fix an issue when Grammarly extension would break the component styles"}),`
+`,(0,e.jsxs)(n.li,{children:["Make sure that the font weight is not inherited, e.g. from a wrapping ",(0,e.jsx)(n.code,{children:"<label>"})," element"]}),`
+`,(0,e.jsx)(n.li,{children:"Rework the internal HTML structure and styles. Make sure that your code works as expected if you were relying on any of the implementation quirks to override styles or behaviour."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"TextField"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Remove the ",(0,e.jsx)(n.code,{children:"Input"})," part to simplify how props are forwarded and rework internal HTML structure and styles."]}),`
+`,(0,e.jsxs)(n.li,{children:["Fix an issue with some input ",(0,e.jsx)(n.code,{children:"type"}),"s not supporting ",(0,e.jsx)(n.code,{children:"getSelectionRange"})]}),`
+`,(0,e.jsx)(n.li,{children:"Fix an issue when Grammarly extension would break the component styles"}),`
+`,(0,e.jsxs)(n.li,{children:["Make sure that the font weight is not inherited, e.g. from a wrapping ",(0,e.jsx)(n.code,{children:"<label>"})," element"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"ThemePanel"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:'Change the hotkey to toggle the Theme Panel to "T" keypress and dark mode to "D" keypress (without modifiers).'}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Theme"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Set ",(0,e.jsx)(n.code,{children:"min-height: 100vh"})," on the root ",(0,e.jsx)(n.code,{children:"Theme"})," component"]}),`
+`,(0,e.jsxs)(n.li,{children:["Fix an issue when in certain situations, ",(0,e.jsx)(n.code,{children:"hasBackground"})," prop value would have no effect"]}),`
+`,(0,e.jsxs)(n.li,{children:["Refine the logic for when ",(0,e.jsx)(n.code,{children:"Theme"})," has a background color by default. ",(0,e.jsx)(n.code,{children:"Theme"})," without an explicit ",(0,e.jsx)(n.code,{children:"hasBackground"})," prop will display a background color:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["When it is the root ",(0,e.jsx)(n.code,{children:"Theme"})," component"]}),`
+`,(0,e.jsxs)(n.li,{children:["When it has an explicit appearance value, e.g. ",(0,e.jsx)(n.code,{children:'<Theme apperance="light">'})," or ",(0,e.jsx)(n.code,{children:'<Theme apperance="dark">'})]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Body background color is no longer set automatically. The background color is now provided by the root ",(0,e.jsx)(n.code,{children:"Theme"})," by default.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," The CSS variable ",(0,e.jsx)(n.code,{children:"--color-page-background"})," is no longer available."]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"suppressHydrationWarning"})," on ",(0,e.jsx)(n.code,{children:"html"})," is no longer needed (unless required by other libraries, like ",(0,e.jsx)(n.code,{children:"next-themes"}),")"]}),`
+`]}),`
+`]}),`
+`,(0,e.jsx)(n.li,{children:"Document all Theme props with JSDoc"}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Tooltip"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"width"}),", ",(0,e.jsx)(n.code,{children:"minWidth"}),", ",(0,e.jsx)(n.code,{children:"maxWidth"})," props."]}),`
+`,(0,e.jsxs)(n.li,{children:["Set ",(0,e.jsx)(n.code,{children:'maxWidth="360px"'})," by default on the tooltip content"]}),`
+`,(0,e.jsx)(n.li,{children:"Change the default delay duration to 200ms"}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"202",children:"2.0.2"}),`
+`,(0,e.jsx)(l,{children:"December 5, 2023"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Fix an issue when Chrome would sometimes crash while using CSS inspector on a Radix Themes stylesheet."}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"201",children:"2.0.1"}),`
+`,(0,e.jsx)(l,{children:"November 14, 2023"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Card"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Fix an issue when ",(0,e.jsx)(n.code,{children:'variant="surface"'})," border color may disappear in browsers that don't support ",(0,e.jsx)(n.code,{children:"color-mix"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Tweak ",(0,e.jsx)(n.code,{children:'variant="surface"'})," border color."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Code"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["When ",(0,e.jsx)(n.code,{children:'variant="ghost"'})," is used within a ",(0,e.jsx)(n.code,{children:"Link"}),", make sure that ",(0,e.jsx)(n.code,{children:'underline="hover"'})," on the ",(0,e.jsx)(n.code,{children:"Link"})," is respected."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"TextField"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Improve vertical text alignment with common fonts."}),`
+`,(0,e.jsx)(n.li,{children:"Don\u2019t apply the autofill accent color when the input is disabled."}),`
+`,(0,e.jsx)(n.li,{children:"Make sure the autofill accent color always pairs with the focus outline color."}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"200",children:"2.0.0"}),`
+`,(0,e.jsx)(l,{children:"October 2, 2023"}),`
+`,(0,e.jsx)(r,{mt:"3",children:(0,e.jsx)(n.p,{children:(0,e.jsx)(n.a,{href:"https://radix-website-git-themes-200-workos.vercel.app/themes/docs",children:`View docs for this
+version`})})}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["General",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Combine selectors in the CSS build, improving the developer experience when inspecting elements in the browser."}),`
+`,(0,e.jsx)(n.li,{children:"Remove comments from the CSS build."}),`
+`,(0,e.jsxs)(n.li,{children:["Cap CSS selector specificity at ",(0,e.jsx)(n.code,{children:"0,1,0"})," for styling HTML elements and at ",(0,e.jsx)(n.code,{children:"0,1,1"})," for styling pseudo-elements, improving compatibility with Tailwind.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," If you were relying on any specificity quirks of Radix Themes, make sure that your style overrides still work as expected."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Rework dark mode colors, refine light mode colors (via Radix Colors 3.0.0).",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Fix oversaturated transparent grays."}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," If you were using the color tokens for your custom styles, make sure that your designs look as expected."]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," If you were overriding certain colors, make sure that your overrides are harmonized with the new color scales."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Rework transparent black and white color scales.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," If you were using transparent black and white color scales for your custom styles (",(0,e.jsx)(n.code,{children:"--black-a1"}),", ",(0,e.jsx)(n.code,{children:"--white-a1"}),", etc.), make sure to check the new values and update the steps used so that your designs look as expected:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--black-a1"})," to ",(0,e.jsx)(n.code,{children:"rgba(0, 0, 0, 0.01)"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--black-a2"})," to ",(0,e.jsx)(n.code,{children:"rgba(0, 0, 0, 0.024)"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--black-a3"})," to ",(0,e.jsx)(n.code,{children:"--black-a1"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--black-a4"})," to ",(0,e.jsx)(n.code,{children:"--black-a2"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--black-a5"})," to ",(0,e.jsx)(n.code,{children:"--black-a2"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--black-a6"})," to ",(0,e.jsx)(n.code,{children:"--black-a3"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--black-a7"})," to ",(0,e.jsx)(n.code,{children:"--black-a3"})," or ",(0,e.jsx)(n.code,{children:"--black-a4"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--black-a8"})," to ",(0,e.jsx)(n.code,{children:"--black-a5"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--black-a9"})," to ",(0,e.jsx)(n.code,{children:"--black-a6"})," or ",(0,e.jsx)(n.code,{children:"--black-a7"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--black-a10"})," to ",(0,e.jsx)(n.code,{children:"--black-a7"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--black-a11"})," to ",(0,e.jsx)(n.code,{children:"--black-a8"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--black-a12"})," to ",(0,e.jsx)(n.code,{children:"--black-a11"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--white-a1"})," to ",(0,e.jsx)(n.code,{children:"transparent"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--white-a2"})," to ",(0,e.jsx)(n.code,{children:"rgba(255, 255, 255, 0.01)"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--white-a3"})," to ",(0,e.jsx)(n.code,{children:"--white-a1"})," or ",(0,e.jsx)(n.code,{children:"--white-a2"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--white-a4"})," to ",(0,e.jsx)(n.code,{children:"--white-a2"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--white-a5"})," to ",(0,e.jsx)(n.code,{children:"--white-a3"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--white-a6"})," to ",(0,e.jsx)(n.code,{children:"--white-a3"})," or ",(0,e.jsx)(n.code,{children:"--white-a4"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--white-a7"})," to ",(0,e.jsx)(n.code,{children:"--white-a4"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--white-a8"})," to ",(0,e.jsx)(n.code,{children:"--white-a5"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--white-a9"})," to ",(0,e.jsx)(n.code,{children:"--white-a6"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--white-a10"})," to ",(0,e.jsx)(n.code,{children:"--white-a7"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--white-a11"})," to ",(0,e.jsx)(n.code,{children:"--white-a9"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Change ",(0,e.jsx)(n.code,{children:"--white-a12"})," to ",(0,e.jsx)(n.code,{children:"--white-a11"})," or ",(0,e.jsx)(n.code,{children:"--white-a12"}),"."]}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsx)(n.li,{children:"Refine the shadow scale."}),`
+`,(0,e.jsxs)(n.li,{children:["Maintain theme accent color for focus rings on most ",(0,e.jsx)(n.code,{children:'color="gray"'})," component, similarly to the text selection color."]}),`
+`,(0,e.jsx)(n.li,{children:"Change some internal component-specific CSS variables to follow a naming pattern."}),`
+`,(0,e.jsxs)(n.li,{children:["Make sure that forced light/dark appearance on the ",(0,e.jsx)(n.code,{children:"Theme"})," component also sets the corresponding browser colors, like the correct input autofill background color."]}),`
+`,(0,e.jsxs)(n.li,{children:["Rename all ",(0,e.jsx)(n.code,{children:"@keyframes"})," animations with ",(0,e.jsx)(n.code,{children:"rt-"})," prefix and into kebab case."]}),`
+`,(0,e.jsxs)(n.li,{children:["Use ",(0,e.jsx)(n.code,{children:"outline"})," rather than ",(0,e.jsx)(n.code,{children:"box-shadow"})," for most focus styles, which avoids a slight anti-aliasing issue in Chrome on focused elements."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"AlertDialog"}),", ",(0,e.jsx)(n.code,{children:"Dialog"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Add padding around dialog content to prevent it from touching the viewport edges."}),`
+`,(0,e.jsx)(n.li,{children:"Make sure that the dialog content doesn\u2019t overflow viewport on iOS."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Avatar"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Don\u2019t enforce fallback icon size.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," If you were using ",(0,e.jsx)(n.code,{children:"svg"})," assets as a fallback, make sure to set an appropriate size manually."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Add CSS variables to control the cursor style on interactive elements:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--cursor-button: default;"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--cursor-checkbox: default;"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--cursor-disabled: not-allowed;"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--cursor-link: pointer;"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--cursor-menu-item: default;"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--cursor-radio: default;"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--cursor-slider-thumb: default;"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--cursor-slider-thumb-active: default;"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--cursor-switch: default;"})}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Replace ",(0,e.jsx)(n.code,{children:".rt-reset-button"})," and ",(0,e.jsx)(n.code,{children:".rt-reset-a"})," classes with a single ",(0,e.jsx)(n.code,{children:".rt-reset"})," class.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["The new ",(0,e.jsx)(n.code,{children:".rt-reset"})," class can be use to reset ",(0,e.jsx)(n.code,{children:"a"}),", ",(0,e.jsx)(n.code,{children:"button"}),", ",(0,e.jsx)(n.code,{children:"h1"}),", ",(0,e.jsx)(n.code,{children:"h2"}),", ",(0,e.jsx)(n.code,{children:"h3"}),", ",(0,e.jsx)(n.code,{children:"h4"}),", ",(0,e.jsx)(n.code,{children:"h5"}),", ",(0,e.jsx)(n.code,{children:"h6"}),", ",(0,e.jsx)(n.code,{children:"ol"}),", ",(0,e.jsx)(n.code,{children:"ul"}),", ",(0,e.jsx)(n.code,{children:"p"}),", and ",(0,e.jsx)(n.code,{children:"pre"})," tags when building custom components."]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," If you were using these classes for your custom components, update the class name used."]}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Blockquote"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Remove ",(0,e.jsx)(n.code,{children:"trim"})," prop."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Button"}),", ",(0,e.jsx)(n.code,{children:"IconButton"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Refine and normalise the look and feel of the disabled states."}),`
+`,(0,e.jsxs)(n.li,{children:["Apply disabled styles to other elements when using ",(0,e.jsx)(n.code,{children:"disabled"})," together with ",(0,e.jsx)(n.code,{children:"asChild"})]}),`
+`,(0,e.jsxs)(n.li,{children:["Improve ",(0,e.jsx)(n.code,{children:'variant="classic"'})," look and feel across different accent colors in light and dark mode."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Callout"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Tweak how the layout works to allow nesting multiple ",(0,e.jsx)(n.code,{children:"Callout.Text"})," elements within ",(0,e.jsx)(n.code,{children:"Callout.Root"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," If you were relying on how ",(0,e.jsx)(n.code,{children:"Callout.Root"})," happened to provide flex properties, change your layout to use a ",(0,e.jsx)(n.code,{children:"Flex"})," component explicitly."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Fix an issue when the callout would inherit text color unless an explicit ",(0,e.jsx)(n.code,{children:"color"})," prop was passed.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," If you preferred the previous look, pass ",(0,e.jsx)(n.code,{children:"highContrast"})," prop to your callouts to make the text darker."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Use a gray background for a gray ",(0,e.jsx)(n.code,{children:'variant="surface"'}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Use a darker outline color ",(0,e.jsx)(n.code,{children:'variant="outline"'}),"."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Checkbox"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Improve layout so that wrapping a checkbox in ",(0,e.jsx)(n.code,{children:"Text"})," component automatically aligns the checkbox with the first line of the text.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," Make sure that your layouts with checkboxes look as expected. If not, wrap your checkboxes in ",(0,e.jsx)(n.code,{children:'<Text as="label" size="...">'}),", using your preferred text size."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Rework sizes \u2013 add a smaller ",(0,e.jsx)(n.code,{children:'size="1"'}),", change the default size to ",(0,e.jsx)(n.code,{children:'size="2"'}),", add a more refined ",(0,e.jsx)(n.code,{children:'size="3"'}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," If you were using ",(0,e.jsx)(n.code,{children:'size="1"'})," or ",(0,e.jsx)(n.code,{children:'size="2"'})," checkboxes via an explicit ",(0,e.jsx)(n.code,{children:"size"})," prop, rename them to ",(0,e.jsx)(n.code,{children:'size="2"'})," and ",(0,e.jsx)(n.code,{children:'size="3"'})," respectively."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Refine the look and feel of ",(0,e.jsx)(n.code,{children:'variant="classic"'}),"."]}),`
+`,(0,e.jsx)(n.li,{children:"Refine and normalise the look and feel of the disabled states."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Card"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Update the ",(0,e.jsx)(n.code,{children:'variant="classic"'})," shadow so that it doesn\u2019t extend outside of the element."]}),`
+`,(0,e.jsxs)(n.li,{children:["Refine hover and pressed styles for ",(0,e.jsx)(n.code,{children:'variant="classic"'}),"."]}),`
+`,(0,e.jsx)(n.li,{children:"Add missing pressed styles."}),`
+`,(0,e.jsx)(n.li,{children:"Refine how the inner shadows are applied so that they blend with the background outside of the component."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Code"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add interactive styles when ",(0,e.jsx)(n.code,{children:"Code"})," is within ",(0,e.jsx)(n.code,{children:"Link"}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Fix an issue when ",(0,e.jsx)(n.code,{children:'variant="ghost"'})," font size would be inconsistent depending on whether the size was based on a parent ",(0,e.jsx)(n.code,{children:"Text"})," element or came from the code\u2019s own ",(0,e.jsx)(n.code,{children:"size"})," prop."]}),`
+`,(0,e.jsxs)(n.li,{children:["Scale the outline thickness relative to the font size for ",(0,e.jsx)(n.code,{children:'variant="outline"'})," and ",(0,e.jsx)(n.code,{children:'variant="surface"'}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Improve ",(0,e.jsx)(n.code,{children:"::selection"})," background color for ",(0,e.jsx)(n.code,{children:'variant="solid"'}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:["Add CSS variables to ",(0,e.jsx)(n.code,{children:".radix-themes"})," for customising the padding of ",(0,e.jsx)(n.code,{children:"Code"})," variants in case the default values don\u2019t work well with the vertical metrics of custom code font.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--code-padding-top"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--code-padding-bottom"})}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"DropdownMenu"}),", ",(0,e.jsx)(n.code,{children:"ContextMenu"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Reduce border radius when theme setting is ",(0,e.jsx)(n.code,{children:'radius="full"'}),"."]}),`
+`,(0,e.jsx)(n.li,{children:"Refine horizontal paddings."}),`
+`,(0,e.jsx)(n.li,{children:"Refine label look and feel."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Grid"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Fix a bug when nesting ",(0,e.jsx)(n.code,{children:"Grid"})," components could cause the descendant ",(0,e.jsx)(n.code,{children:"Grid"}),"\u2019s to inherit some parent styles unintentionally."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Inset"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:"clip"})," prop to control whether content is clipped to the padding or to the border of the parent element."]}),`
+`,(0,e.jsxs)(n.li,{children:["Automatically adjust table cell padding for when ",(0,e.jsx)(n.code,{children:"Table"})," is inside ",(0,e.jsx)(n.code,{children:"Inset"})]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Kbd"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Tweak vertical alignment."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Link"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Desaturate the underline color."}),`
+`,(0,e.jsxs)(n.li,{children:["Make links automatically high-contrast within colored ",(0,e.jsx)(n.code,{children:"Heading"})," elements (similarly to the automatic high-contrast within ",(0,e.jsx)(n.code,{children:"Text"}),")."]}),`
+`,(0,e.jsxs)(n.li,{children:["Scale the underline thickness relative to the font size for ",(0,e.jsx)(n.code,{children:'variant="outline"'})," and ",(0,e.jsx)(n.code,{children:'variant="surface"'}),"."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"RadioGroup"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Improve layout so that wrapping a radiobutton in ",(0,e.jsx)(n.code,{children:"Text"})," component automatically aligns the radiobutton with the first line of the text.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," Make sure that your layouts with radio buttons look as expected. If not, wrap your radio buttons in ",(0,e.jsx)(n.code,{children:'<Text as="label" size="...">'}),", using your preferred text size."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Rework sizes \u2013 add a smaller ",(0,e.jsx)(n.code,{children:'size="1"'}),", change the default size to ",(0,e.jsx)(n.code,{children:'size="2"'}),", add a more refined ",(0,e.jsx)(n.code,{children:'size="3"'}),".",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," If you were using ",(0,e.jsx)(n.code,{children:'size="1"'})," or ",(0,e.jsx)(n.code,{children:'size="2"'})," radio buttons via an explicit ",(0,e.jsx)(n.code,{children:"size"})," prop, rename them to ",(0,e.jsx)(n.code,{children:'size="2"'})," and ",(0,e.jsx)(n.code,{children:'size="3"'})," respectively."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Refine the look and feel of ",(0,e.jsx)(n.code,{children:'variant="classic"'}),"."]}),`
+`,(0,e.jsx)(n.li,{children:"Refine and normalise the look and feel of the disabled states."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Select"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Fix invisible scrollbar in long item lists."}),`
+`,(0,e.jsxs)(n.li,{children:["Improve ",(0,e.jsx)(n.code,{children:'variant="classic"'})," look and feel across light and dark mode."]}),`
+`,(0,e.jsxs)(n.li,{children:["Align ",(0,e.jsx)(n.code,{children:"SelectContent"})," to the left of the trigger when using ",(0,e.jsx)(n.code,{children:'position="popper"'}),"."]}),`
+`,(0,e.jsx)(n.li,{children:"Refine horizontal paddings."}),`
+`,(0,e.jsx)(n.li,{children:"Refine label look and feel."}),`
+`,(0,e.jsxs)(n.li,{children:["Rework ",(0,e.jsx)(n.code,{children:'size="3"'}),"."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"ScrollArea"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Upgrade the primitive version, fixing an upstream type issue."}),`
+`,(0,e.jsxs)(n.li,{children:["Rename scrollbar margin variables to include the scrollbar orientation and declare them on ",(0,e.jsx)(n.code,{children:".radix-themes"})," to facilitate easier scrollbar position adjustments.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," If you were using the variables ",(0,e.jsx)(n.code,{children:"--scrollarea-scrollbar-margin-top"}),", ",(0,e.jsx)(n.code,{children:"--scrollarea-scrollbar-margin-left"}),", etc. make sure that they follow the new names and are set at the appropriate level. There's no need to target ",(0,e.jsx)(n.code,{children:".rt-ScrollAreaScrollbar"})," element to set the variables anymore, as they can be set just on the component that needs the override. New variables:",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--scrollarea-scrollbar-horizontal-margin-top"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--scrollarea-scrollbar-horizontal-margin-bottom"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--scrollarea-scrollbar-horizontal-margin-left"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--scrollarea-scrollbar-horizontal-margin-right"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--scrollarea-scrollbar-vertical-margin-top"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--scrollarea-scrollbar-vertical-margin-bottom"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--scrollarea-scrollbar-vertical-margin-left"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--scrollarea-scrollbar-vertical-margin-right"})}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Slider"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Refine the shadows and colors used in the components."}),`
+`,(0,e.jsx)(n.li,{children:"Refine and normalise the look and feel of the disabled states."}),`
+`,(0,e.jsx)(n.li,{children:"Fix an issue where high contrast sliders would have an incorrect disabled style."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Switch"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Improve layout so that wrapping a switch in ",(0,e.jsx)(n.code,{children:"Switch"})," component automatically aligns the switch with the first line of the text.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," Make sure that your layouts with switches look as expected. If not, wrap your switches in ",(0,e.jsx)(n.code,{children:'<Text as="label" size="...">'}),", using your preferred text size."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Rework sizes, making ",(0,e.jsx)(n.code,{children:'size="2"'})," and ",(0,e.jsx)(n.code,{children:'size="3"'})," smaller.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," Use ",(0,e.jsx)(n.code,{children:'size="3"'})," instead of ",(0,e.jsx)(n.code,{children:'size="2"'})," to match the previous look."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsx)(n.li,{children:"Refine the shadows and colors used in the components."}),`
+`,(0,e.jsx)(n.li,{children:"Refine and normalise the look and feel of the disabled states."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Table"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Refine how the outer border is applied so that it blends with the background outside of the component."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Tabs"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add CSS variables to ",(0,e.jsx)(n.code,{children:".radix-themes"})," for customising the letter spacing and word spacing of active and inactive tabs so that you can minimise the apparent shift in weight in case the default values don\u2019t work for your custom font.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--tabs-trigger-active-letter-spacing"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--tabs-trigger-active-word-spacing"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--tabs-trigger-inactive-letter-spacing"})}),`
+`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.code,{children:"--tabs-trigger-inactive-word-spacing"})}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Text"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Add ",(0,e.jsx)(n.code,{children:'as="label"'})," option to the ",(0,e.jsx)(n.code,{children:"as"})," prop."]}),`
+`,(0,e.jsxs)(n.li,{children:["Improve how prop types are resolved when ",(0,e.jsx)(n.code,{children:"as"})," prop isn\u2019t specified."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"TextArea"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Rework the internal implementation, now using multiple HTML nodes for styling purposes.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Adjust the layout styles so that ",(0,e.jsx)(n.code,{children:"TextArea"})," behaves like a true ",(0,e.jsx)(n.code,{children:"display: block"})," element, filling the available space horizontally."]}),`
+`,(0,e.jsxs)(n.li,{children:["The ",(0,e.jsx)(n.code,{children:"style"})," and ",(0,e.jsx)(n.code,{children:"className"})," are now forwarded to the wrapping ",(0,e.jsx)(n.code,{children:"div"})," element. The ",(0,e.jsx)(n.code,{children:"ref"})," and other props are still forwarded to the ",(0,e.jsx)(n.code,{children:"textarea"})," itself."]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," If you were overriding ",(0,e.jsx)(n.code,{children:"TextArea"})," styles via ",(0,e.jsx)(n.code,{children:"style"}),", ",(0,e.jsx)(n.code,{children:"className"}),", or custom CSS that targets the related HTML nodes, make sure that your custom styles work as expected."]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," If you were relying on the intrinsic width of ",(0,e.jsx)(n.code,{children:"TextArea"})," set by the browser, make sure that your layout looks as expected."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:["Refine padding values for a more balanced look.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Use matching scroll margins for a nicer typing experience when the ",(0,e.jsx)(n.code,{children:"TextArea"})," overflows."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsx)(n.li,{children:"Refine how the inner shadows are applied so that they blend with the background outside of the component."}),`
+`,(0,e.jsx)(n.li,{children:"Refine and normalise the look and feel of disabled and read-only states."}),`
+`,(0,e.jsx)(n.li,{children:"Fix a Safari bug when the text value would appear tinted in the disabled input."}),`
+`,(0,e.jsx)(n.li,{children:"Improve autofill styles."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"TextField"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Reset ",(0,e.jsx)(n.code,{children:"z-index"})," of the container to avoid potential stacking issues."]}),`
+`,(0,e.jsxs)(n.li,{children:["Refine padding values for a more balanced look.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Use ",(0,e.jsx)(n.code,{children:"text-indent"})," instead of ",(0,e.jsx)(n.code,{children:"padding-left"})," so that long values aren't truncated on the left when the cursor is at the end of the input."]}),`
+`]}),`
+`]}),`
+`,(0,e.jsx)(n.li,{children:"Refine how the inner shadows are applied so that they blend with the background outside of the component."}),`
+`,(0,e.jsx)(n.li,{children:"Refine and normalise the look and feel of disabled and read-only states."}),`
+`,(0,e.jsx)(n.li,{children:"Fix a Safari bug when the text value would appear tinted in the disabled input."}),`
+`,(0,e.jsx)(n.li,{children:"Remove ellipsis truncation, as this prevented long values from being shown when scrolling on the input horizontally in Chrome."}),`
+`,(0,e.jsx)(n.li,{children:"Improve autofill styles."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"ThemePanel"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Disable transitions when changing the appearance."}),`
+`,(0,e.jsx)(n.li,{children:"Improve contrast in the border radius preview."}),`
+`]}),`
+`]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.code,{children:"Tooltip"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Reduce border radius when theme setting is ",(0,e.jsx)(n.code,{children:'radius="full"'}),"."]}),`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Breaking]"})," Remove ",(0,e.jsx)(n.code,{children:"multiline"})," prop.",`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:"[Upgrade guide]"})," If you were using ",(0,e.jsx)(n.code,{children:"multiline"})," prop, pass ",(0,e.jsx)(n.code,{children:"style={{ maxWidth: 250 }}"})," to the relevant Tooltip elements."]}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"112",children:"1.1.2"}),`
+`,(0,e.jsx)(l,{children:"August 22, 2023"}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Export ",(0,e.jsx)(n.code,{children:"ThemeProps"})," and ",(0,e.jsx)(n.code,{children:"ThemePanelProps"})]}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"111",children:"1.1.1"}),`
+`,(0,e.jsx)(l,{children:"August 22, 2023"}),`
+`,(0,e.jsx)(r,{mt:"3",children:(0,e.jsx)(n.p,{children:(0,e.jsx)(n.a,{href:"https://radix-website-a4l61k3zl-workos.vercel.app/themes/docs",children:`View docs for this
+version`})})}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Export prop types for all components, resolving type errors with certain setups."}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"110",children:"1.1.0"}),`
+`,(0,e.jsx)(l,{children:"August 21, 2023"}),`
+`,(0,e.jsx)(r,{mt:"3",children:(0,e.jsx)(n.p,{children:(0,e.jsx)(n.a,{href:"https://radix-website-57todhtig-workos.vercel.app/themes/docs",children:`View docs for this
+version`})})}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsxs)(n.li,{children:["Three new color scales: ",(0,e.jsx)(n.code,{children:"ruby"}),", ",(0,e.jsx)(n.code,{children:"iris"}),", and ",(0,e.jsx)(n.code,{children:"jade"})]}),`
+`,(0,e.jsx)(n.li,{children:"Set explicit versions of the Radix Primitives dependencies to allow stable builds."}),`
+`,(0,e.jsxs)(n.li,{children:["Use an explicit ",(0,e.jsx)(n.code,{children:"React.FC"})," type for ",(0,e.jsx)(n.code,{children:"ContextMenuSub"}),", ",(0,e.jsx)(n.code,{children:"DialogRoot"}),", ",(0,e.jsx)(n.code,{children:"HoverCardRoot"}),", and ",(0,e.jsx)(n.code,{children:"PopoverRoot"}),", resolving a type error with certain setups."]}),`
+`]}),`
+`,(0,e.jsx)(n.h2,{id:"100",children:"1.0.0"}),`
+`,(0,e.jsx)(l,{children:"August 8, 2023"}),`
+`,(0,e.jsx)(r,{mt:"3",children:(0,e.jsx)(n.p,{children:(0,e.jsx)(n.a,{href:"https://radix-website-2lp56stzf-workos.vercel.app/themes/docs",children:`View docs for this
+version`})})}),`
+`,(0,e.jsxs)(n.ul,{children:[`
+`,(0,e.jsx)(n.li,{children:"Initial release! \u{1F389}"}),`
+`]})]})}function u(i={}){let{wrapper:n}=i.components||{};return n?(0,e.jsx)(n,{...i,children:(0,e.jsx)(s,{...i})}):s(i)}function o(i,n){throw new Error("Expected "+(n?"component":"object")+" `"+i+"` to be defined: you likely forgot to import, pass, or provide it.")}return v(C);})();
+;return Component;0:{"rsc":["$","$1","c",{"children":[[["$","div",null,{"data-search-lvl0":true,"style":{"display":"none"},"children":"Overview"}],["$","$L2",null,{"code":"$3","frontmatter":{"metaTitle":"Releases","metaDescription":"Radix Themes releases and their changelogs.","slug":"releases"},"scope":"themes"}],"$L4"],["$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"],"$Lf"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"jC6k949nH9gw9rTVveHLH"}
+4:["$","$L10","releases",{}]
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2lh8zg7jzz4mb.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/09oevjrsfesd9.js","async":true}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/32h4i3jbw7n6-.js","async":true}]
+8:["$","script","script-2",{"src":"/_next/static/chunks/3tfinbp4ga4qa.js","async":true}]
+9:["$","script","script-3",{"src":"/_next/static/chunks/31h969n4v2hj-.js","async":true}]
+a:["$","script","script-4",{"src":"/_next/static/chunks/3jdtt27vsqdhv.js","async":true}]
+b:["$","script","script-5",{"src":"/_next/static/chunks/2tjyiqfr-dvv2.js","async":true}]
+c:["$","script","script-6",{"src":"/_next/static/chunks/3bnu8tn1tutt3.js","async":true}]
+d:["$","script","script-7",{"src":"/_next/static/chunks/3rtg097ua8kwc.js","async":true}]
+e:["$","script","script-8",{"src":"/_next/static/chunks/3077shfl7bb0t.js","async":true}]
+f:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+13:null

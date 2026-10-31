@@ -1,0 +1,403 @@
+1:"$Sreact.fragment"
+2:I[45132,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js","/_next/static/chunks/0wyu2zzsf7kd5.js","/_next/static/chunks/0e6c4jb5ckuqx.js","/_next/static/chunks/3y3fmysh2u9-x.js","/_next/static/chunks/09oevjrsfesd9.js","/_next/static/chunks/32h4i3jbw7n6-.js","/_next/static/chunks/3tfinbp4ga4qa.js","/_next/static/chunks/31h969n4v2hj-.js","/_next/static/chunks/3jdtt27vsqdhv.js","/_next/static/chunks/2tjyiqfr-dvv2.js","/_next/static/chunks/3bnu8tn1tutt3.js","/_next/static/chunks/3rtg097ua8kwc.js","/_next/static/chunks/3077shfl7bb0t.js"],"MdxContent"]
+10:I[20212,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js","/_next/static/chunks/0wyu2zzsf7kd5.js","/_next/static/chunks/0e6c4jb5ckuqx.js","/_next/static/chunks/3y3fmysh2u9-x.js","/_next/static/chunks/09oevjrsfesd9.js","/_next/static/chunks/32h4i3jbw7n6-.js","/_next/static/chunks/3tfinbp4ga4qa.js","/_next/static/chunks/31h969n4v2hj-.js","/_next/static/chunks/3jdtt27vsqdhv.js","/_next/static/chunks/2tjyiqfr-dvv2.js","/_next/static/chunks/3bnu8tn1tutt3.js","/_next/static/chunks/3rtg097ua8kwc.js","/_next/static/chunks/3077shfl7bb0t.js"],"QuickNav"]
+11:I[1145,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+:HL["/_next/static/chunks/2lh8zg7jzz4mb.css","style"]
+3:T46d1,var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var y=(t,r)=>()=>(r||t((r={exports:{}}).exports,r),r.exports),C=(t,r)=>{for(var n in r)s(t,n,{get:r[n],enumerable:!0})},i=(t,r,n,o)=>{if(r&&typeof r=="object"||typeof r=="function")for(let l of m(r))!v.call(t,l)&&l!==n&&s(t,l,{get:()=>r[l],enumerable:!(o=g(r,l))||o.enumerable});return t};var f=(t,r,n)=>(n=t!=null?p(b(t)):{},i(r||!t||!t.__esModule?s(n,"default",{value:t,enumerable:!0}):n,t)),w=t=>i(s({},"__esModule",{value:!0}),t);var d=y((S,c)=>{c.exports=_jsx_runtime});var x={};C(x,{default:()=>h,frontmatter:()=>k});var e=f(d()),k={metaTitle:"Aliasing",metaDescription:"How to use Radix Colors."};function u(t){let r={code:"code",h1:"h1",h2:"h2",li:"li",p:"p",ul:"ul",...t.components},{CodeBlock:n,Description:o,Tabs:l}=r;return n||a("CodeBlock",!1),n.Code||a("CodeBlock.Code",!0),n.Content||a("CodeBlock.Content",!0),n.CopyButton||a("CodeBlock.CopyButton",!0),n.Header||a("CodeBlock.Header",!0),n.Pre||a("CodeBlock.Pre",!0),n.Root||a("CodeBlock.Root",!0),o||a("Description",!0),l||a("Tabs",!1),l.Content||a("Tabs.Content",!0),l.List||a("Tabs.List",!0),l.Root||a("Tabs.Root",!0),l.Trigger||a("Tabs.Trigger",!0),(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(r.h1,{id:"aliasing",children:"Aliasing"}),`
+`,(0,e.jsx)(o,{children:(0,e.jsx)(r.p,{children:"A guide to providing semantic aliases for colors."})}),`
+`,(0,e.jsx)(r.h2,{id:"semantic-aliases",children:"Semantic aliases"}),`
+`,(0,e.jsxs)(r.p,{children:["Referencing color scales by their actual scale name can work well, like ",(0,e.jsx)(r.code,{children:"blue"})," and ",(0,e.jsx)(r.code,{children:"red"}),". But often, creating semantic aliases like ",(0,e.jsx)(r.code,{children:"accent"}),", ",(0,e.jsx)(r.code,{children:"primary"}),", ",(0,e.jsx)(r.code,{children:"neutral"}),", or ",(0,e.jsx)(r.code,{children:"brand"})," can be helpful, especially when it comes to theming."]}),`
+`,(0,e.jsx)(l.Root,{asChild:!0,defaultValue:"css",children:(0,e.jsxs)(n.Root,{my:"5",children:[(0,e.jsx)(n.Header,{children:(0,e.jsxs)(l.List,{children:[(0,e.jsx)(l.Trigger,{value:"css",children:"CSS"}),(0,e.jsx)(l.Trigger,{value:"css-in-js",children:"CSS-in-JS"})]})}),(0,e.jsx)(l.Content,{asChild:!0,value:"css",children:(0,e.jsxs)(n.Content,{children:[(0,e.jsx)(n.Pre,{children:(0,e.jsx)(n.Code,{language:"css",children:`/*
+* Note: Importing from the CDN in production is not recommended.
+* It's intended for prototyping only.
+*/
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/blue.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/green.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/yellow.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/red.css";
+
+:root {
+--accent-1: var(--blue-1);
+--accent-2: var(--blue-2);
+--accent-3: var(--blue-3);
+--accent-4: var(--blue-4);
+--accent-5: var(--blue-5);
+--accent-6: var(--blue-6);
+--accent-7: var(--blue-7);
+--accent-8: var(--blue-8);
+--accent-9: var(--blue-9);
+--accent-10: var(--blue-10);
+--accent-11: var(--blue-11);
+--accent-12: var(--blue-12);
+
+--success-1: var(--green-1);
+--success-2: var(--green-2);
+/* repeat for all steps */
+
+--warning-1: var(--yellow-1);
+--warning-2: var(--yellow-2);
+/* repeat for all steps */
+
+--danger-1: var(--red-1);
+--danger-2: var(--red-2);
+/* repeat for all steps */
+}
+`})}),(0,e.jsx)(n.CopyButton,{})]})}),(0,e.jsx)(l.Content,{asChild:!0,value:"css-in-js",children:(0,e.jsxs)(n.Content,{children:[(0,e.jsx)(n.Pre,{children:(0,e.jsx)(n.Code,{language:"js",children:`import {
+blue,
+green,
+yellow,
+red
+} from "@radix-ui/colors";
+
+const theme = {
+...blue,
+...green,
+...yellow,
+...red,
+
+accent1: blue.blue1,
+accent2: blue.blue2,
+accent3: blue.blue3,
+accent4: blue.blue4,
+accent5: blue.blue5,
+accent6: blue.blue6,
+accent7: blue.blue7,
+accent8: blue.blue8,
+accent9: blue.blue9,
+accent10: blue.blue10,
+accent11: blue.blue11,
+accent12: blue.blue12,
+
+success1: green.green1,
+success2: green.green2,
+// repeat for all steps
+
+warning1: yellow.yellow1,
+warning2: yellow.yellow2,
+// repeat for all steps
+
+danger1: red.red1,
+danger2: red.red2,
+// repeat for all steps
+};
+`})}),(0,e.jsx)(n.CopyButton,{})]})})]})}),`
+`,(0,e.jsx)(r.p,{children:"With this approach, you will likely run into issues where you need to use the same scale for multiple semantics. Common examples include:"}),`
+`,(0,e.jsxs)(r.ul,{children:[`
+`,(0,e.jsxs)(r.li,{children:["If you map ",(0,e.jsx)(r.code,{children:"yellow"}),' to "warning", you might also need ',(0,e.jsx)(r.code,{children:"yellow"}),' to communicate "pending".']}),`
+`,(0,e.jsxs)(r.li,{children:["If you map ",(0,e.jsx)(r.code,{children:"red"}),' to "danger", you might also need ',(0,e.jsx)(r.code,{children:"red"}),' to communicate "error" or "rejected".']}),`
+`,(0,e.jsxs)(r.li,{children:["If you map ",(0,e.jsx)(r.code,{children:"green"}),' to "success", you might also need ',(0,e.jsx)(r.code,{children:"green"}),' to communicate "valid".']}),`
+`,(0,e.jsxs)(r.li,{children:["If you map ",(0,e.jsx)(r.code,{children:"blue"}),' to "accent", you might also need ',(0,e.jsx)(r.code,{children:"blue"}),' to communicate "info".']}),`
+`]}),`
+`,(0,e.jsx)(r.p,{children:"In this scenario, you can choose to define multiple semantic aliases which map to the same scale."}),`
+`,(0,e.jsx)(l.Root,{asChild:!0,defaultValue:"css",children:(0,e.jsxs)(n.Root,{my:"5",children:[(0,e.jsx)(n.Header,{children:(0,e.jsxs)(l.List,{children:[(0,e.jsx)(l.Trigger,{value:"css",children:"CSS"}),(0,e.jsx)(l.Trigger,{value:"css-in-js",children:"CSS-in-JS"})]})}),(0,e.jsx)(l.Content,{asChild:!0,value:"css",children:(0,e.jsxs)(n.Content,{children:[(0,e.jsx)(n.Pre,{children:(0,e.jsx)(n.Code,{language:"css",children:`/*
+* Note: Importing from the CDN in production is not recommended.
+* It's intended for prototyping only.
+*/
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/blue.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/green.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/yellow.css";
+
+:root {
+--accent-1: var(--blue-1);
+--accent-2: var(--blue-2);
+--info-1: var(--blue-1);
+--info-2: var(--blue-2);
+
+--success-1: var(--green-1);
+--success-2: var(--green-2);
+--valid-1: var(--green-1);
+--valid-2: var(--green-2);
+
+--warning-1: var(--yellow-1);
+--warning-2: var(--yellow-2);
+--pending-1: var(--yellow-1);
+--pending-2: var(--yellow-2);
+}
+`})}),(0,e.jsx)(n.CopyButton,{})]})}),(0,e.jsx)(l.Content,{asChild:!0,value:"css-in-js",children:(0,e.jsxs)(n.Content,{children:[(0,e.jsx)(n.Pre,{children:(0,e.jsx)(n.Code,{language:"js",children:`import {
+blue,
+green,
+yellow
+} from "@radix-ui/colors";
+
+const theme = {
+...blue,
+...green,
+...yellow,
+
+accent1: blue.blue1,
+accent2: blue.blue2,
+info1: blue.blue1,
+info2: blue.blue2,
+
+success1: green.green1,
+success2: green.green2,
+valid1: green.green1,
+valid2: green.green2,
+
+warning1: yellow.yellow1,
+warning2: yellow.yellow2,
+pending1: yellow.yellow1,
+pending2: yellow.yellow2,
+};
+`})}),(0,e.jsx)(n.CopyButton,{})]})})]})}),`
+`,(0,e.jsx)(r.p,{children:"Or you can simply recommend that your teammates defer to the original scale name for situations where there is no appropriate semantic alias."}),`
+`,(0,e.jsx)(r.h2,{id:"use-case-aliases",children:"Use case aliases"}),`
+`,(0,e.jsx)(r.p,{children:"Each step in Radix Colors scales is designed for a specific use case. To help your team know which step to use, you can provide aliases based on the designed use cases."}),`
+`,(0,e.jsx)(l.Root,{asChild:!0,defaultValue:"css",children:(0,e.jsxs)(n.Root,{my:"5",children:[(0,e.jsx)(n.Header,{children:(0,e.jsxs)(l.List,{children:[(0,e.jsx)(l.Trigger,{value:"css",children:"CSS"}),(0,e.jsx)(l.Trigger,{value:"css-in-js",children:"CSS-in-JS"})]})}),(0,e.jsx)(l.Content,{asChild:!0,value:"css",children:(0,e.jsxs)(n.Content,{children:[(0,e.jsx)(n.Pre,{children:(0,e.jsx)(n.Code,{language:"css",children:`/*
+* Note: Importing from the CDN in production is not recommended.
+* It's intended for prototyping only.
+*/
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/blue.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/green.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/yellow.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/red.css";
+
+:root {
+--accent-base: var(--blue-1);
+--accent-bg-subtle: var(--blue-2);
+--accent-bg: var(--blue-3);
+--accent-bg-hover: var(--blue-4);
+--accent-bg-active: var(--blue-5);
+--accent-line: var(--blue-6);
+--accent-border: var(--blue-7);
+--accent-border-hover: var(--blue-8);
+--accent-solid: var(--blue-9);
+--accent-solid-hover: var(--blue-10);
+--accent-text: var(--blue-11);
+--accent-text-contrast: var(--blue-12);
+
+--success-base: var(--green-1);
+--success-bg-subtle: var(--green-2);
+/* repeat for all steps */
+
+--warning-base: var(--yellow-1);
+--warning-bg-subtle: var(--yellow-2);
+/* repeat for all steps */
+
+--danger-base: var(--red-1);
+--danger-bg-subtle: var(--red-2);
+/* repeat for all steps */
+}
+`})}),(0,e.jsx)(n.CopyButton,{})]})}),(0,e.jsx)(l.Content,{asChild:!0,value:"css-in-js",children:(0,e.jsxs)(n.Content,{children:[(0,e.jsx)(n.Pre,{children:(0,e.jsx)(n.Code,{language:"js",children:`import {
+blue,
+green,
+yellow,
+red
+} from "@radix-ui/colors";
+
+const theme = {
+...blue,
+...green,
+...yellow,
+...red,
+
+accentBase: blue.blue1,
+accentBgSubtle: blue.blue2,
+accentBg: blue.blue3,
+accentBgHover: blue.blue4,
+accentBgActive: blue.blue5,
+accentLine: blue.blue6,
+accentBorder: blue.blue7,
+accentBorderHover: blue.blue8,
+accentSolid: blue.blue9,
+accentSolidHover: blue2.blue10,
+accentText: blue.blue11,
+accentTextContrast: blue.blue12,
+
+successBase: green.green1,
+successBgSubtle: green.green2,
+// repeat for all steps
+
+warningBase: yellow.yellow1,
+warningBgSubtle: yellow.yellow2,
+// repeat for all steps
+
+dangerBase: red.red1,
+dangerBgSubtle: red.red2,
+// repeat for all steps
+};
+`})}),(0,e.jsx)(n.CopyButton,{})]})})]})}),`
+`,(0,e.jsx)(r.p,{children:"Again, with this approach, you will likely run into issues where you need to use the same step for multiple use cases. Common examples include:"}),`
+`,(0,e.jsxs)(r.ul,{children:[`
+`,(0,e.jsx)(r.li,{children:"Step 9 is designed for solid backgrounds, but it also may work for input placeholder text."}),`
+`,(0,e.jsx)(r.li,{children:"Step 8 is designed for hovered component borders, but it also works well for focus rings."}),`
+`]}),`
+`,(0,e.jsx)(r.p,{children:"In these cases, you can choose to define multiple aliases which map to the same step."}),`
+`,(0,e.jsx)(l.Root,{asChild:!0,defaultValue:"css",children:(0,e.jsxs)(n.Root,{my:"5",children:[(0,e.jsx)(n.Header,{children:(0,e.jsxs)(l.List,{children:[(0,e.jsx)(l.Trigger,{value:"css",children:"CSS"}),(0,e.jsx)(l.Trigger,{value:"css-in-js",children:"CSS-in-JS"})]})}),(0,e.jsx)(l.Content,{asChild:!0,value:"css",children:(0,e.jsxs)(n.Content,{children:[(0,e.jsx)(n.Pre,{children:(0,e.jsx)(n.Code,{language:"css",children:`/*
+* Note: Importing from the CDN in production is not recommended.
+* It's intended for prototyping only.
+*/
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/gray.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/blue.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/green.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/yellow.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/red.css";
+
+:root {
+--gray-solid: var(--gray-9);
+--gray-placeholder-text: var(--gray-9);
+
+--accent-border-hover: var(--blue-8);
+--accent-focus-ring: var(--blue-8);
+}
+`})}),(0,e.jsx)(n.CopyButton,{})]})}),(0,e.jsx)(l.Content,{asChild:!0,value:"css-in-js",children:(0,e.jsxs)(n.Content,{children:[(0,e.jsx)(n.Pre,{children:(0,e.jsx)(n.Code,{language:"js",children:`import {
+gray,
+blue,
+green,
+yellow,
+red
+} from "@radix-ui/colors";
+
+const theme = {
+...gray,
+...blue,
+...green,
+...yellow,
+...red,
+
+graySolid: gray.gray9,
+grayPlaceholderText: gray.gray9,
+
+accentBorderHover: blue.blue8,
+accentFocusRing: blue.blue8,
+};`})}),(0,e.jsx)(n.CopyButton,{})]})})]})}),`
+`,(0,e.jsx)(r.p,{children:"Or you can simply recommend that your teammates defer to the original step number for situations where use cases don't have an alias."}),`
+`,(0,e.jsx)(r.h2,{id:"mutable-aliases",children:"Mutable aliases"}),`
+`,(0,e.jsx)(r.p,{children:"When designing for both light and dark modes, you sometimes need to map a variable to one color in light mode, and another color in dark mode. Common examples include:"}),`
+`,(0,e.jsxs)(r.ul,{children:[`
+`,(0,e.jsx)(r.li,{children:"Components that have a white background in light mode and a subtle gray background in dark mode. For example, Card, Popover, DropdownMenu, HoverCard, Dialog etc."}),`
+`,(0,e.jsx)(r.li,{children:"Components that have a transparent black background in light mode and a transparent white background in dark mode. For example, Tooltip."}),`
+`,(0,e.jsx)(r.li,{children:"Shadows that are saturated, transparent gray in light mode, and pure black in dark mode."}),`
+`,(0,e.jsx)(r.li,{children:"An overlay that is light transparent black in light mode, and a darker transparent black in dark mode."}),`
+`]}),`
+`,(0,e.jsx)(l.Root,{asChild:!0,defaultValue:"css",children:(0,e.jsxs)(n.Root,{my:"5",children:[(0,e.jsx)(n.Header,{children:(0,e.jsxs)(l.List,{children:[(0,e.jsx)(l.Trigger,{value:"css",children:"CSS"}),(0,e.jsx)(l.Trigger,{value:"css-in-js",children:"CSS-in-JS"})]})}),(0,e.jsx)(l.Content,{asChild:!0,value:"css",children:(0,e.jsxs)(n.Content,{children:[(0,e.jsx)(n.Pre,{children:(0,e.jsx)(n.Code,{language:"css",children:`/*
+* Note: Importing from the CDN in production is not recommended.
+* It's intended for prototyping only.
+*/
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/slate.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/slate-alpha.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/white-alpha.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/black-alpha.css";
+
+:root {
+--panel: white;
+--panel-contrast: var(--black-a9);
+--shadow: var(--slate-a3);
+--overlay: var(--black-a8);
+}
+
+.dark {
+/* Remap your colors for dark mode */
+--panel: var(--slate-2);
+--panel-contrast: var(--white-a9);
+--shadow: black;
+--overlay: var(--black-a11);
+}`})}),(0,e.jsx)(n.CopyButton,{})]})}),(0,e.jsx)(l.Content,{asChild:!0,value:"css-in-js",children:(0,e.jsxs)(n.Content,{children:[(0,e.jsx)(n.Pre,{children:(0,e.jsx)(n.Code,{language:"js",children:`import styled, { ThemeProvider } from "styled-components";
+import {
+slate,
+slateA,
+whiteA,
+blackA
+} from "@radix-ui/colors";
+
+const theme = {
+...slate,
+...slateA,
+...whiteA,
+...blackA,
+
+panel: "white",
+panelContrast: black.blackA11,
+shadow: slate.slateA3,
+overlay: slate.blackA8,
+};
+
+const darkTheme = {
+...slateDark,
+...slateDarkA,
+...whiteA,
+...blackA,
+
+// Remap your colors for dark mode
+panel: slate.slate2,
+panelContrast: whiteA.whiteA9,
+shadow: "black",
+overlay: blackA.blackA11,
+}
+
+<ThemeProvider theme={darkTheme}>
+// your app
+</ThemeProvider>`})}),(0,e.jsx)(n.CopyButton,{})]})})]})}),`
+`,(0,e.jsx)(r.p,{children:'Avoid using specific variable names like "CardBg", or "Tooltip", because you will likely need to use each variable for multiple use cases.'}),`
+`,(0,e.jsx)(r.h2,{id:"renaming-scales",children:"Renaming scales"}),`
+`,(0,e.jsx)(r.p,{children:"If you wish, you can rename scales. Reasons might include:"}),`
+`,(0,e.jsxs)(r.ul,{children:[`
+`,(0,e.jsxs)(r.li,{children:["Rename a saturated gray to ",(0,e.jsx)(r.code,{children:"gray"})," to keep things simple."]}),`
+`,(0,e.jsxs)(r.li,{children:["Rename ",(0,e.jsx)(r.code,{children:"sky"})," or ",(0,e.jsx)(r.code,{children:"grass"})," to ",(0,e.jsx)(r.code,{children:"blue"})," or ",(0,e.jsx)(r.code,{children:"green"})," to keep the naming intuitive."]}),`
+`,(0,e.jsxs)(r.li,{children:["Rename a scale to match your brand, like how Discord use ",(0,e.jsx)(r.code,{children:"blurple"}),"."]}),`
+`]}),`
+`,(0,e.jsx)(l.Root,{asChild:!0,defaultValue:"css",children:(0,e.jsxs)(n.Root,{my:"5",children:[(0,e.jsx)(n.Header,{children:(0,e.jsxs)(l.List,{children:[(0,e.jsx)(l.Trigger,{value:"css",children:"CSS"}),(0,e.jsx)(l.Trigger,{value:"css-in-js",children:"CSS-in-JS"})]})}),(0,e.jsx)(l.Content,{asChild:!0,value:"css",children:(0,e.jsxs)(n.Content,{children:[(0,e.jsx)(n.Pre,{children:(0,e.jsx)(n.Code,{language:"css",children:`/*
+* Note: Importing from the CDN in production is not recommended.
+* It's intended for prototyping only.
+*/
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/slate.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/sky.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/grass.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/violet.css";
+@import "https://cdn.jsdelivr.net/npm/@radix-ui/colors@latest/crimson.css";
+
+:root {
+--gray-1: var(--slate-1);
+--gray-2: var(--slate-2);
+
+--blue-1: var(--sky-1);
+--blue-2: var(--sky-2);
+
+--green-1: var(--grass-1);
+--green-2: var(--grass-2);
+
+--blurple-1: var(--violet-1);
+--blurple-2: var(--violet-2);
+
+--caribbean-sunset-1: var(--crimson-1);
+--caribbean-sunset-2: var(--crimson-2);
+}
+`})}),(0,e.jsx)(n.CopyButton,{})]})}),(0,e.jsx)(l.Content,{asChild:!0,value:"css-in-js",children:(0,e.jsxs)(n.Content,{children:[(0,e.jsx)(n.Pre,{children:(0,e.jsx)(n.Code,{language:"js",children:`import {
+slate,
+sky,
+grass,
+violet,
+crimson
+} from "@radix-ui/colors";
+
+const theme = {
+gray1: slate.slate1,
+gray2: slate.slate2,
+
+blue1: sky.sky1,
+blue2: sky.sky2,
+
+green1: grass.grass1,
+green2: grass.grass2,
+
+blurple1: violet.violet1,
+blurple2: violet.violet2,
+
+caribbeanSunset1: crimson.crimson1,
+caribbeanSunset2: crimson.crimson2,
+};`})}),(0,e.jsx)(n.CopyButton,{})]})})]})})]})}function h(t={}){let{wrapper:r}=t.components||{};return r?(0,e.jsx)(r,{...t,children:(0,e.jsx)(u,{...t})}):u(t)}function a(t,r){throw new Error("Expected "+(r?"component":"object")+" `"+t+"` to be defined: you likely forgot to import, pass, or provide it.")}return w(x);})();
+;return Component;0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"code":"$3","frontmatter":{"metaTitle":"Aliasing","metaDescription":"How to use Radix Colors.","slug":"aliasing"},"scope":"colors-overview"}],"$L4"],["$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"],"$Lf"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"jC6k949nH9gw9rTVveHLH"}
+4:["$","$L10","aliasing",{}]
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2lh8zg7jzz4mb.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/09oevjrsfesd9.js","async":true}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/32h4i3jbw7n6-.js","async":true}]
+8:["$","script","script-2",{"src":"/_next/static/chunks/3tfinbp4ga4qa.js","async":true}]
+9:["$","script","script-3",{"src":"/_next/static/chunks/31h969n4v2hj-.js","async":true}]
+a:["$","script","script-4",{"src":"/_next/static/chunks/3jdtt27vsqdhv.js","async":true}]
+b:["$","script","script-5",{"src":"/_next/static/chunks/2tjyiqfr-dvv2.js","async":true}]
+c:["$","script","script-6",{"src":"/_next/static/chunks/3bnu8tn1tutt3.js","async":true}]
+d:["$","script","script-7",{"src":"/_next/static/chunks/3rtg097ua8kwc.js","async":true}]
+e:["$","script","script-8",{"src":"/_next/static/chunks/3077shfl7bb0t.js","async":true}]
+f:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+13:null

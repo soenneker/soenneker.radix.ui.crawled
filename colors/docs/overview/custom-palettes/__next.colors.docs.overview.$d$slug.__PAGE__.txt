@@ -1,0 +1,37 @@
+1:"$Sreact.fragment"
+2:I[45132,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js","/_next/static/chunks/0wyu2zzsf7kd5.js","/_next/static/chunks/0e6c4jb5ckuqx.js","/_next/static/chunks/3y3fmysh2u9-x.js","/_next/static/chunks/09oevjrsfesd9.js","/_next/static/chunks/32h4i3jbw7n6-.js","/_next/static/chunks/3tfinbp4ga4qa.js","/_next/static/chunks/31h969n4v2hj-.js","/_next/static/chunks/3jdtt27vsqdhv.js","/_next/static/chunks/2tjyiqfr-dvv2.js","/_next/static/chunks/3bnu8tn1tutt3.js","/_next/static/chunks/3rtg097ua8kwc.js","/_next/static/chunks/3077shfl7bb0t.js"],"MdxContent"]
+10:I[20212,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js","/_next/static/chunks/0wyu2zzsf7kd5.js","/_next/static/chunks/0e6c4jb5ckuqx.js","/_next/static/chunks/3y3fmysh2u9-x.js","/_next/static/chunks/09oevjrsfesd9.js","/_next/static/chunks/32h4i3jbw7n6-.js","/_next/static/chunks/3tfinbp4ga4qa.js","/_next/static/chunks/31h969n4v2hj-.js","/_next/static/chunks/3jdtt27vsqdhv.js","/_next/static/chunks/2tjyiqfr-dvv2.js","/_next/static/chunks/3bnu8tn1tutt3.js","/_next/static/chunks/3rtg097ua8kwc.js","/_next/static/chunks/3077shfl7bb0t.js"],"QuickNav"]
+11:I[1145,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+:HL["/_next/static/chunks/2lh8zg7jzz4mb.css","style"]
+3:Tf76,var Component=(()=>{var u=Object.create;var n=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var w=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),y=(t,e)=>{for(var r in e)n(t,r,{get:e[r],enumerable:!0})},l=(t,e,r,s)=>{if(e&&typeof e=="object"||typeof e=="function")for(let a of m(e))!f.call(t,a)&&a!==r&&n(t,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return t};var x=(t,e,r)=>(r=t!=null?u(g(t)):{},l(e||!t||!t.__esModule?n(r,"default",{value:t,enumerable:!0}):r,t)),C=t=>l(n({},"__esModule",{value:!0}),t);var c=w((v,i)=>{i.exports=_jsx_runtime});var S={};y(S,{default:()=>h,frontmatter:()=>b});var o=x(c()),b={metaTitle:"Custom palettes",metaDescription:"How to create custom Radix Colors palettes."};function d(t){let e={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",ul:"ul",...t.components},{Description:r}=e;return r||k("Description",!0),(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(e.h1,{id:"custom-palettes",children:"Custom palettes"}),`
+`,(0,o.jsx)(r,{children:"Learn how to create custom Radix Colors palettes."}),`
+`,(0,o.jsxs)(e.p,{children:["Use the ",(0,o.jsx)(e.a,{href:"/colors/custom",children:"custom color palette tool"})," to generate a Radix Colors scale based just on a couple reference colors. Once you are happy with the result, paste the generated CSS into your project and use them the same way you would use the regular Radix Colors scales."]}),`
+`,(0,o.jsx)(e.p,{children:"The generated scales are based on the Radix Colors scales themselves, so they will work well with similar component designs. As long as you use a reasonable background color, the contrast ratios will be similar to what Radix Colors provide."}),`
+`,(0,o.jsx)(e.h2,{id:"what-you-get",children:"What you get"}),`
+`,(0,o.jsx)(e.p,{children:"Your custom color palette will include Radix Colors steps 1 through 12, as well as their alpha variants and wide-gamut color definitions. Wide-gamut color definitions are needed to ensure that alpha colors are displayed with full saturation in wide-gamut color spaces, such as on Apple\u2019s displays that support P3. This is because alpha blending works differently in P3 than in sRGB."}),`
+`,(0,o.jsxs)(e.p,{children:["Learn about the base palette composition in the ",(0,o.jsx)(e.a,{href:"/colors/docs/palette-composition/understanding-the-scale",children:"Understanding the scale"})," guide. The generated CSS also includes a few extra colors used exclusively in ",(0,o.jsx)(e.a,{href:"/themes/docs",children:"Radix Themes"}),", such as:"]}),`
+`,(0,o.jsxs)(e.ul,{children:[`
+`,(0,o.jsxs)(e.li,{children:["Surface color, used by certain ",(0,o.jsx)(e.code,{children:'variant="surface"'})," components"]}),`
+`,(0,o.jsx)(e.li,{children:"Indicator color, used by components like Checkbox, Radio, and Tabs"}),`
+`,(0,o.jsx)(e.li,{children:"Track color, used by components like Slider and Progress Bar"}),`
+`]}),`
+`,(0,o.jsx)(e.p,{children:"Feel free to remove colors from the generated CSS that you don\u2019t need."}),`
+`,(0,o.jsx)(e.h2,{id:"color-formats",children:"Color formats"}),`
+`,(0,o.jsxs)(e.p,{children:["You can use any common CSS color format in the input fields, or even wide-gamut color spaces, such as ",(0,o.jsx)(e.code,{children:"color(display-p3 1 0.5 0)"}),". The generated CSS will provide the closest sRGB fallbacks."]}),`
+`,(0,o.jsx)(e.h2,{id:"dark-theme",children:"Dark theme"}),`
+`,(0,o.jsx)(e.p,{children:"To generate dark theme colors, toggle the appearance to dark in the website header. Make sure to paste the generated CSS after your light theme color overrides."})]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,o.jsx)(e,{...t,children:(0,o.jsx)(d,{...t})}):d(t)}function k(t,e){throw new Error("Expected "+(e?"component":"object")+" `"+t+"` to be defined: you likely forgot to import, pass, or provide it.")}return C(S);})();
+;return Component;0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"code":"$3","frontmatter":{"metaTitle":"Custom palettes","metaDescription":"How to create custom Radix Colors palettes.","slug":"custom-palettes"},"scope":"colors-overview"}],"$L4"],["$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"],"$Lf"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"jC6k949nH9gw9rTVveHLH"}
+4:["$","$L10","custom-palettes",{}]
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2lh8zg7jzz4mb.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/09oevjrsfesd9.js","async":true}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/32h4i3jbw7n6-.js","async":true}]
+8:["$","script","script-2",{"src":"/_next/static/chunks/3tfinbp4ga4qa.js","async":true}]
+9:["$","script","script-3",{"src":"/_next/static/chunks/31h969n4v2hj-.js","async":true}]
+a:["$","script","script-4",{"src":"/_next/static/chunks/3jdtt27vsqdhv.js","async":true}]
+b:["$","script","script-5",{"src":"/_next/static/chunks/2tjyiqfr-dvv2.js","async":true}]
+c:["$","script","script-6",{"src":"/_next/static/chunks/3bnu8tn1tutt3.js","async":true}]
+d:["$","script","script-7",{"src":"/_next/static/chunks/3rtg097ua8kwc.js","async":true}]
+e:["$","script","script-8",{"src":"/_next/static/chunks/3077shfl7bb0t.js","async":true}]
+f:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+13:null

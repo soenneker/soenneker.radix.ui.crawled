@@ -1,0 +1,91 @@
+1:"$Sreact.fragment"
+2:I[45132,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js","/_next/static/chunks/0wyu2zzsf7kd5.js","/_next/static/chunks/0e6c4jb5ckuqx.js","/_next/static/chunks/3y3fmysh2u9-x.js","/_next/static/chunks/09oevjrsfesd9.js","/_next/static/chunks/32h4i3jbw7n6-.js","/_next/static/chunks/3tfinbp4ga4qa.js","/_next/static/chunks/31h969n4v2hj-.js","/_next/static/chunks/3jdtt27vsqdhv.js","/_next/static/chunks/2tjyiqfr-dvv2.js","/_next/static/chunks/3bnu8tn1tutt3.js","/_next/static/chunks/3rtg097ua8kwc.js","/_next/static/chunks/3077shfl7bb0t.js"],"MdxContent"]
+10:I[20212,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js","/_next/static/chunks/0wyu2zzsf7kd5.js","/_next/static/chunks/0e6c4jb5ckuqx.js","/_next/static/chunks/3y3fmysh2u9-x.js","/_next/static/chunks/09oevjrsfesd9.js","/_next/static/chunks/32h4i3jbw7n6-.js","/_next/static/chunks/3tfinbp4ga4qa.js","/_next/static/chunks/31h969n4v2hj-.js","/_next/static/chunks/3jdtt27vsqdhv.js","/_next/static/chunks/2tjyiqfr-dvv2.js","/_next/static/chunks/3bnu8tn1tutt3.js","/_next/static/chunks/3rtg097ua8kwc.js","/_next/static/chunks/3077shfl7bb0t.js"],"QuickNav"]
+11:I[1145,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+:HL["/_next/static/chunks/2lh8zg7jzz4mb.css","style"]
+3:T3198,var Component=(()=>{var T=Object.create;var p=Object.defineProperty;var B=Object.getOwnPropertyDescriptor;var I=Object.getOwnPropertyNames;var M=Object.getPrototypeOf,G=Object.prototype.hasOwnProperty;var P=(o,r)=>()=>(r||o((r={exports:{}}).exports,r),r.exports),z=(o,r)=>{for(var n in r)p(o,n,{get:r[n],enumerable:!0})},k=(o,r,n,h)=>{if(r&&typeof r=="object"||typeof r=="function")for(let c of I(r))!G.call(o,c)&&c!==n&&p(o,c,{get:()=>r[c],enumerable:!(h=B(r,c))||h.enumerable});return o};var A=(o,r,n)=>(n=o!=null?T(M(o)):{},k(r||!o||!o.__esModule?p(n,"default",{value:o,enumerable:!0}):n,o)),j=o=>k(p({},"__esModule",{value:!0}),o);var w=P((U,S)=>{S.exports=_jsx_runtime});var _={};z(_,{default:()=>C,frontmatter:()=>L});var e=A(w()),L={metaTitle:"Use cases",metaDescription:"How to use Radix Colors."};function x(o){let r={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",p:"p",ul:"ul",...o.components},{Button:n,ColorScale01:h,ColorScale02:c,ColorScale03:f,ColorScale04:g,ColorScale05:v,Description:b,Flex:d,Grid:m,IconButton:t,MenuItemButton:l,Note:u,PlusIcon:s,Text:a,UseCasesTable:y}=r;return n||i("Button",!0),h||i("ColorScale01",!0),c||i("ColorScale02",!0),f||i("ColorScale03",!0),g||i("ColorScale04",!0),v||i("ColorScale05",!0),b||i("Description",!0),d||i("Flex",!0),m||i("Grid",!0),t||i("IconButton",!0),l||i("MenuItemButton",!0),u||i("Note",!0),s||i("PlusIcon",!0),a||i("Text",!0),y||i("UseCasesTable",!0),(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(r.h1,{id:"understanding-the-scale",children:"Understanding the scale"}),`
+`,(0,e.jsx)(b,{children:(0,e.jsx)(r.p,{children:"Learn which scale step is the most appropriate for each use case."})}),`
+`,(0,e.jsx)(r.h2,{id:"use-cases",children:"Use cases"}),`
+`,(0,e.jsx)(r.p,{children:"There are 12 steps in each scale. Each step was designed for at least one specific use case."}),`
+`,(0,e.jsx)(r.p,{children:"This table is a simple overview of the most common use case for each step. However, there are many exceptions and caveats to factor in, which are covered in further detail below."}),`
+`,(0,e.jsx)(y,{}),`
+`,(0,e.jsx)(r.h2,{id:"steps-12-backgrounds",children:"Steps 1\u20132: Backgrounds"}),`
+`,(0,e.jsx)(h,{}),`
+`,(0,e.jsxs)(r.p,{children:["Steps ",(0,e.jsx)(r.code,{children:"1"})," and ",(0,e.jsx)(r.code,{children:"2"})," are designed for app backgrounds and subtle component backgrounds. You can use them interchangeably, depending on the vibe you're going for."]}),`
+`,(0,e.jsx)(r.p,{children:"Appropriate applications include:"}),`
+`,(0,e.jsxs)(r.ul,{children:[`
+`,(0,e.jsx)(r.li,{children:"Main app background"}),`
+`,(0,e.jsx)(r.li,{children:"Striped table background"}),`
+`,(0,e.jsx)(r.li,{children:"Code block background"}),`
+`,(0,e.jsx)(r.li,{children:"Card background"}),`
+`,(0,e.jsx)(r.li,{children:"Sidebar background"}),`
+`,(0,e.jsx)(r.li,{children:"Canvas area background"}),`
+`]}),`
+`,(0,e.jsx)(u,{children:(0,e.jsxs)(r.p,{children:["You may want to use white for your app background in light mode, and Step ",(0,e.jsx)(r.code,{children:"1"}),`
+or `,(0,e.jsx)(r.code,{children:"2"}),` from a gray or coloured scale in dark mode. In this case, set up a
+`,(0,e.jsx)(r.a,{href:"/colors/docs/overview/aliasing#mutable-aliases",children:"mutable alias"})," for ",(0,e.jsx)(r.code,{children:"AppBg"}),`
+and map it to a different color for each color mode.`]})}),`
+`,(0,e.jsx)(r.h2,{id:"steps-35-component-backgrounds",children:"Steps 3\u20135: Component backgrounds"}),`
+`,(0,e.jsx)(c,{}),`
+`,(0,e.jsxs)(r.p,{children:["Steps ",(0,e.jsx)(r.code,{children:"3"}),", ",(0,e.jsx)(r.code,{children:"4"}),", and ",(0,e.jsx)(r.code,{children:"5"})," are designed for UI component backgrounds."]}),`
+`,(0,e.jsxs)(r.ul,{children:[`
+`,(0,e.jsxs)(r.li,{children:["Step ",(0,e.jsx)(r.code,{children:"3"})," is for normal states."]}),`
+`,(0,e.jsxs)(r.li,{children:["Step ",(0,e.jsx)(r.code,{children:"4"})," is for hover states."]}),`
+`,(0,e.jsxs)(r.li,{children:["Step ",(0,e.jsx)(r.code,{children:"5"})," is for pressed or selected states."]}),`
+`]}),`
+`,(0,e.jsxs)(d,{wrap:"wrap",gap:"5",my:"5",children:[(0,e.jsx)(t,{variant:"soft",color:"gray",children:(0,e.jsx)(s,{})}),(0,e.jsx)(t,{variant:"soft",color:"pink",children:(0,e.jsx)(s,{})})," ",(0,e.jsxs)(d,{direction:"column",maxWidth:"max-content",children:[(0,e.jsx)(l,{color:"gray","data-state":"active",children:"Menu item"}),(0,e.jsx)(l,{color:"gray",children:"Second menu item"}),(0,e.jsx)(l,{color:"gray",children:"Third menu item"})]}),(0,e.jsxs)(d,{direction:"column",maxWidth:"max-content",children:[(0,e.jsx)(l,{color:"pink","data-state":"active",children:"Menu item"}),(0,e.jsx)(l,{color:"pink",children:"Second menu item"}),(0,e.jsx)(l,{color:"pink",children:"Third menu item"})]})]}),`
+`,(0,e.jsxs)(r.p,{children:["If your component has a transparent background in its default state, you can use Step ",(0,e.jsx)(r.code,{children:"3"})," for its hover state."]}),`
+`,(0,e.jsxs)(d,{wrap:"wrap",gap:"5",my:"5",children:[(0,e.jsx)(t,{variant:"ghost",color:"gray",children:(0,e.jsx)(s,{})}),(0,e.jsx)(t,{variant:"ghost",color:"blue",children:(0,e.jsx)(s,{})}),(0,e.jsx)(t,{variant:"ghost",color:"red",children:(0,e.jsx)(s,{})})]}),`
+`,(0,e.jsx)(u,{children:(0,e.jsxs)(r.p,{children:["Steps ",(0,e.jsx)(r.code,{children:"11"})," and ",(0,e.jsx)(r.code,{children:"12"}),`\u2014which are designed for text\u2014are guaranteed to Lc 60 and Lc
+90 APCA contrast ratio on top of a step `,(0,e.jsx)(r.code,{children:"2"})," background from the same scale."]})}),`
+`,(0,e.jsx)(r.h2,{id:"steps-68-borders",children:"Steps 6\u20138: Borders"}),`
+`,(0,e.jsx)(f,{}),`
+`,(0,e.jsxs)(r.p,{children:["Steps ",(0,e.jsx)(r.code,{children:"6"}),", ",(0,e.jsx)(r.code,{children:"7"}),", and ",(0,e.jsx)(r.code,{children:"8"})," are designed for borders."]}),`
+`,(0,e.jsxs)(r.ul,{children:[`
+`,(0,e.jsxs)(r.li,{children:["Step ",(0,e.jsx)(r.code,{children:"6"})," is designed for subtle borders on components which are not interactive. For example sidebars, headers, cards, alerts, and separators."]}),`
+`,(0,e.jsxs)(r.li,{children:["Step ",(0,e.jsx)(r.code,{children:"7"})," is designed for subtle borders on interactive components."]}),`
+`,(0,e.jsxs)(r.li,{children:["Step ",(0,e.jsx)(r.code,{children:"8"})," is designed for stronger borders on interactive components and focus rings."]}),`
+`]}),`
+`,(0,e.jsxs)(m,{columns:"7",gap:"3",my:"5",children:[(0,e.jsx)(n,{variant:"surface",color:"gold",children:"Gold"}),(0,e.jsx)(n,{variant:"surface",color:"bronze",children:"Bronze"}),(0,e.jsx)(n,{variant:"surface",color:"brown",children:"Brown"}),(0,e.jsx)(n,{variant:"surface",color:"yellow",children:"Yellow"}),(0,e.jsx)(n,{variant:"surface",color:"amber",children:"Amber"}),(0,e.jsx)(n,{variant:"surface",color:"orange",children:"Orange"}),(0,e.jsx)(n,{variant:"surface",color:"tomato",children:"Tomato"}),(0,e.jsx)(n,{variant:"surface",color:"red",children:"Red"}),(0,e.jsx)(n,{variant:"surface",color:"ruby",children:"Ruby"}),(0,e.jsx)(n,{variant:"surface",color:"crimson",children:"Crimson"}),(0,e.jsx)(n,{variant:"surface",color:"pink",children:"Pink"}),(0,e.jsx)(n,{variant:"surface",color:"plum",children:"Plum"}),(0,e.jsx)(n,{variant:"surface",color:"purple",children:"Purple"}),(0,e.jsx)(n,{variant:"surface",color:"violet",children:"Violet"}),(0,e.jsx)(n,{variant:"surface",color:"iris",children:"Iris"}),(0,e.jsx)(n,{variant:"surface",color:"indigo",children:"Indigo"}),(0,e.jsx)(n,{variant:"surface",color:"blue",children:"Blue"}),(0,e.jsx)(n,{variant:"surface",color:"cyan",children:"Cyan"}),(0,e.jsx)(n,{variant:"surface",color:"teal",children:"Teal"}),(0,e.jsx)(n,{variant:"surface",color:"jade",children:"Jade"}),(0,e.jsx)(n,{variant:"surface",color:"green",children:"Green"}),(0,e.jsx)(n,{variant:"surface",color:"grass",children:"Grass"}),(0,e.jsx)(n,{variant:"surface",color:"lime",children:"Lime"}),(0,e.jsx)(n,{variant:"surface",color:"mint",children:"Mint"}),(0,e.jsx)(n,{variant:"surface",color:"sky",children:"Sky"})]}),`
+`,(0,e.jsx)(r.h2,{id:"steps-910-solid-backgrounds",children:"Steps 9\u201310: Solid backgrounds"}),`
+`,(0,e.jsx)(g,{}),`
+`,(0,e.jsxs)(r.p,{children:["Steps ",(0,e.jsx)(r.code,{children:"9"})," and ",(0,e.jsx)(r.code,{children:"10"})," are designed for solid backgrounds."]}),`
+`,(0,e.jsxs)(r.p,{children:["Step ",(0,e.jsx)(r.code,{children:"9"})," has the highest chroma of all steps in the scale. In other words, it's the purest step, the step mixed with the least amount of white or black. Because ",(0,e.jsx)(r.code,{children:"9"})," is the purest step, it has a wide range of applications:"]}),`
+`,(0,e.jsxs)(r.ul,{children:[`
+`,(0,e.jsx)(r.li,{children:"Website/App backgrounds"}),`
+`,(0,e.jsx)(r.li,{children:"Website section backgrounds"}),`
+`,(0,e.jsx)(r.li,{children:"Header backgrounds"}),`
+`,(0,e.jsx)(r.li,{children:"Component backgrounds"}),`
+`,(0,e.jsx)(r.li,{children:"Graphics/Logos"}),`
+`,(0,e.jsx)(r.li,{children:"Overlays"}),`
+`,(0,e.jsx)(r.li,{children:"Coloured shadows"}),`
+`,(0,e.jsx)(r.li,{children:"Accent borders"}),`
+`]}),`
+`,(0,e.jsxs)(r.p,{children:["Step ",(0,e.jsx)(r.code,{children:"10"})," is designed for component hover states, where step ",(0,e.jsx)(r.code,{children:"9"})," is the component's normal state background."]}),`
+`,(0,e.jsx)(u,{children:(0,e.jsxs)(r.p,{children:["Most step 9 colors are designed for white foreground text. ",(0,e.jsx)(r.code,{children:"Sky"}),", ",(0,e.jsx)(r.code,{children:"Mint"}),`,
+`,(0,e.jsx)(r.code,{children:"Lime"}),", ",(0,e.jsx)(r.code,{children:"Yellow"}),", and ",(0,e.jsx)(r.code,{children:"Amber"}),` are designed for dark foreground text and steps
+`,(0,e.jsx)(r.code,{children:"9"})," and ",(0,e.jsx)(r.code,{children:"10"}),"."]})}),`
+`,(0,e.jsxs)(m,{columns:"7",gap:"3",my:"5",children:[(0,e.jsx)(n,{variant:"solid",color:"gold",children:"Gold"}),(0,e.jsx)(n,{variant:"solid",color:"bronze",children:"Bronze"}),(0,e.jsx)(n,{variant:"solid",color:"brown",children:"Brown"}),(0,e.jsx)(n,{variant:"solid",color:"yellow",children:"Yellow"}),(0,e.jsx)(n,{variant:"solid",color:"amber",children:"Amber"}),(0,e.jsx)(n,{variant:"solid",color:"orange",children:"Orange"}),(0,e.jsx)(n,{variant:"solid",color:"tomato",children:"Tomato"}),(0,e.jsx)(n,{variant:"solid",color:"red",children:"Red"}),(0,e.jsx)(n,{variant:"solid",color:"ruby",children:"Ruby"}),(0,e.jsx)(n,{variant:"solid",color:"crimson",children:"Crimson"}),(0,e.jsx)(n,{variant:"solid",color:"pink",children:"Pink"}),(0,e.jsx)(n,{variant:"solid",color:"plum",children:"Plum"}),(0,e.jsx)(n,{variant:"solid",color:"purple",children:"Purple"}),(0,e.jsx)(n,{variant:"solid",color:"violet",children:"Violet"}),(0,e.jsx)(n,{variant:"solid",color:"iris",children:"Iris"}),(0,e.jsx)(n,{variant:"solid",color:"indigo",children:"Indigo"}),(0,e.jsx)(n,{variant:"solid",color:"blue",children:"Blue"}),(0,e.jsx)(n,{variant:"solid",color:"cyan",children:"Cyan"}),(0,e.jsx)(n,{variant:"solid",color:"teal",children:"Teal"}),(0,e.jsx)(n,{variant:"solid",color:"jade",children:"Jade"}),(0,e.jsx)(n,{variant:"solid",color:"green",children:"Green"}),(0,e.jsx)(n,{variant:"solid",color:"grass",children:"Grass"}),(0,e.jsx)(n,{variant:"solid",color:"lime",children:"Lime"}),(0,e.jsx)(n,{variant:"solid",color:"mint",children:"Mint"}),(0,e.jsx)(n,{variant:"solid",color:"sky",children:"Sky"})]}),`
+`,(0,e.jsx)(r.h2,{id:"steps-1112-text",children:"Steps 11\u201312: Text"}),`
+`,(0,e.jsx)(v,{}),`
+`,(0,e.jsxs)(r.p,{children:["Steps ",(0,e.jsx)(r.code,{children:"11"})," and ",(0,e.jsx)(r.code,{children:"12"})," are designed for text."]}),`
+`,(0,e.jsxs)(r.ul,{children:[`
+`,(0,e.jsxs)(r.li,{children:["Step ",(0,e.jsx)(r.code,{children:"11"})," is designed for low-contrast text."]}),`
+`,(0,e.jsxs)(r.li,{children:["Step ",(0,e.jsx)(r.code,{children:"12"})," is designed for high-contrast text."]}),`
+`]}),`
+`,(0,e.jsxs)(d,{gap:"2",direction:"column",my:"5",children:[(0,e.jsx)(a,{size:"3",style:{color:"var(--pink-11)"},children:"This text is Pink 11"}),(0,e.jsx)(a,{size:"3",style:{color:"var(--slate-11)"},children:"This text is Slate 11"}),(0,e.jsx)(a,{size:"3",style:{color:"var(--gray-11)"},children:"This text is Gray 11"}),(0,e.jsx)(a,{size:"3",weight:"bold",style:{color:"var(--pink-12)"},children:"This text is Pink 12"}),(0,e.jsx)(a,{size:"3",weight:"bold",style:{color:"var(--slate-12)"},children:"This text is Slate 12"}),(0,e.jsx)(a,{size:"3",weight:"bold",style:{color:"var(--gray-12)"},children:"This text is Gray 12"})]})]})}function C(o={}){let{wrapper:r}=o.components||{};return r?(0,e.jsx)(r,{...o,children:(0,e.jsx)(x,{...o})}):x(o)}function i(o,r){throw new Error("Expected "+(r?"component":"object")+" `"+o+"` to be defined: you likely forgot to import, pass, or provide it.")}return j(_);})();
+;return Component;0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"code":"$3","frontmatter":{"metaTitle":"Use cases","metaDescription":"How to use Radix Colors.","slug":"understanding-the-scale"},"scope":"colors-palette"}],"$L4"],["$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"],"$Lf"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"jC6k949nH9gw9rTVveHLH"}
+4:["$","$L10","understanding-the-scale",{}]
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2lh8zg7jzz4mb.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/09oevjrsfesd9.js","async":true}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/32h4i3jbw7n6-.js","async":true}]
+8:["$","script","script-2",{"src":"/_next/static/chunks/3tfinbp4ga4qa.js","async":true}]
+9:["$","script","script-3",{"src":"/_next/static/chunks/31h969n4v2hj-.js","async":true}]
+a:["$","script","script-4",{"src":"/_next/static/chunks/3jdtt27vsqdhv.js","async":true}]
+b:["$","script","script-5",{"src":"/_next/static/chunks/2tjyiqfr-dvv2.js","async":true}]
+c:["$","script","script-6",{"src":"/_next/static/chunks/3bnu8tn1tutt3.js","async":true}]
+d:["$","script","script-7",{"src":"/_next/static/chunks/3rtg097ua8kwc.js","async":true}]
+e:["$","script","script-8",{"src":"/_next/static/chunks/3077shfl7bb0t.js","async":true}]
+f:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+13:null

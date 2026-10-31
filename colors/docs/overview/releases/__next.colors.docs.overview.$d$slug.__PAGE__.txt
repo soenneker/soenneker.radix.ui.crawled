@@ -1,0 +1,67 @@
+1:"$Sreact.fragment"
+2:I[45132,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js","/_next/static/chunks/0wyu2zzsf7kd5.js","/_next/static/chunks/0e6c4jb5ckuqx.js","/_next/static/chunks/3y3fmysh2u9-x.js","/_next/static/chunks/09oevjrsfesd9.js","/_next/static/chunks/32h4i3jbw7n6-.js","/_next/static/chunks/3tfinbp4ga4qa.js","/_next/static/chunks/31h969n4v2hj-.js","/_next/static/chunks/3jdtt27vsqdhv.js","/_next/static/chunks/2tjyiqfr-dvv2.js","/_next/static/chunks/3bnu8tn1tutt3.js","/_next/static/chunks/3rtg097ua8kwc.js","/_next/static/chunks/3077shfl7bb0t.js"],"MdxContent"]
+10:I[20212,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js","/_next/static/chunks/0wyu2zzsf7kd5.js","/_next/static/chunks/0e6c4jb5ckuqx.js","/_next/static/chunks/3y3fmysh2u9-x.js","/_next/static/chunks/09oevjrsfesd9.js","/_next/static/chunks/32h4i3jbw7n6-.js","/_next/static/chunks/3tfinbp4ga4qa.js","/_next/static/chunks/31h969n4v2hj-.js","/_next/static/chunks/3jdtt27vsqdhv.js","/_next/static/chunks/2tjyiqfr-dvv2.js","/_next/static/chunks/3bnu8tn1tutt3.js","/_next/static/chunks/3rtg097ua8kwc.js","/_next/static/chunks/3077shfl7bb0t.js"],"QuickNav"]
+11:I[1145,["/_next/static/chunks/39wfb642gpkyk.js","/_next/static/chunks/2riekexfde2o4.js","/_next/static/chunks/2gf62n4hg0gxh.js","/_next/static/chunks/08yzetchn8418.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+:HL["/_next/static/chunks/2lh8zg7jzz4mb.css","style"]
+3:T1071,var Component=(()=>{var u=Object.create;var d=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),k=(r,e)=>{for(var i in e)d(r,i,{get:e[i],enumerable:!0})},o=(r,e,i,l)=>{if(e&&typeof e=="object"||typeof e=="function")for(let c of p(e))!f.call(r,c)&&c!==i&&d(r,c,{get:()=>e[c],enumerable:!(l=m(e,c))||l.enumerable});return r};var A=(r,e,i)=>(i=r!=null?u(y(r)):{},o(e||!r||!r.__esModule?d(i,"default",{value:r,enumerable:!0}):i,r)),b=r=>o(d({},"__esModule",{value:!0}),r);var s=x((C,h)=>{h.exports=_jsx_runtime});var j={};k(j,{default:()=>g,frontmatter:()=>_});var n=A(s()),_={metaTitle:"Releases",metaDescription:"Radix Colors changelog."};function a(r){let e={code:"code",h1:"h1",h2:"h2",li:"li",strong:"strong",ul:"ul",...r.components},{Description:i,Note:l}=e;return i||t("Description",!0),l||t("Note",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h1,{id:"releases",children:"Releases"}),`
+`,(0,n.jsx)(i,{children:"Radix Colors releases and changelog."}),`
+`,(0,n.jsx)(e.h2,{id:"300",children:"3.0.0"}),`
+`,(0,n.jsx)(l,{children:" October 2, 2023 "}),`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsxs)(e.li,{children:["[",(0,n.jsx)(e.strong,{children:"Breaking"}),"] A complete rework of all colors."]}),`
+`,(0,n.jsx)(e.li,{children:"Add P3 colorspace versions of all scales."}),`
+`]}),`
+`,(0,n.jsx)(e.h2,{id:"210",children:"2.1.0"}),`
+`,(0,n.jsx)(l,{children:"August 21, 2023"}),`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsxs)(e.li,{children:["Add ",(0,n.jsx)(e.code,{children:"ruby"}),", ",(0,n.jsx)(e.code,{children:"iris"}),", and ",(0,n.jsx)(e.code,{children:"jade"})," scales"]}),`
+`]}),`
+`,(0,n.jsx)(e.h2,{id:"201",children:"2.0.1"}),`
+`,(0,n.jsx)(l,{children:"August 7, 2023"}),`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsxs)(e.li,{children:["Fix some of the dark ",(0,n.jsx)(e.code,{children:"a2"})," colors being too opaque."]}),`
+`]}),`
+`,(0,n.jsx)(e.h2,{id:"200",children:"2.0.0"}),`
+`,(0,n.jsx)(l,{children:"August 7, 2023"}),`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsxs)(e.li,{children:["[",(0,n.jsx)(e.strong,{children:"Breaking"}),"] A complete rework of all colors, dramatically improving contrast across the board."]}),`
+`]}),`
+`,(0,n.jsx)(e.h2,{id:"100",children:"1.0.0"}),`
+`,(0,n.jsx)(l,{children:"June 23, 2023"}),`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsxs)(e.li,{children:["[",(0,n.jsx)(e.strong,{children:"Breaking"}),"] CSS variables were changed to use the hyphen-separated naming:",`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:"gray1"})," \u2192 ",(0,n.jsx)(e.code,{children:"gray-1"})]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:"grayA1"})," \u2192 ",(0,n.jsx)(e.code,{children:"gray-a1"})]}),`
+`]}),`
+`]}),`
+`,(0,n.jsxs)(e.li,{children:["[",(0,n.jsx)(e.strong,{children:"Breaking"}),"] CSS file names were changed to use the hyphen-separated naming:",`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:"gray.css"})," \u2192 ",(0,n.jsx)(e.code,{children:"gray.css"})]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:"grayA.css"})," \u2192 ",(0,n.jsx)(e.code,{children:"gray-alpha.css"})]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:"grayDark.css"})," \u2192 ",(0,n.jsx)(e.code,{children:"gray-dark.css"})]}),`
+`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.code,{children:"grayDarkA.css"})," \u2192 ",(0,n.jsx)(e.code,{children:"gray-dark-alpha.css"})]}),`
+`]}),`
+`]}),`
+`]}),`
+`,(0,n.jsx)(e.h2,{id:"019",children:"0.1.9"}),`
+`,(0,n.jsx)(l,{children:"June 19, 2023"}),`
+`,(0,n.jsxs)(e.ul,{children:[`
+`,(0,n.jsxs)(e.li,{children:["Apply light scale CSS variables to ",(0,n.jsx)(e.code,{children:".light-theme"}),` class in addition to
+the `,(0,n.jsx)(e.code,{children:":root"})," element."]}),`
+`]})]})}function g(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(a,{...r})}):a(r)}function t(r,e){throw new Error("Expected "+(e?"component":"object")+" `"+r+"` to be defined: you likely forgot to import, pass, or provide it.")}return b(j);})();
+;return Component;0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{"code":"$3","frontmatter":{"metaTitle":"Releases","metaDescription":"Radix Colors changelog.","slug":"releases"},"scope":"colors-overview"}],"$L4"],["$L5","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"],"$Lf"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"jC6k949nH9gw9rTVveHLH"}
+4:["$","$L10","releases",{}]
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2lh8zg7jzz4mb.css","precedence":"next"}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/09oevjrsfesd9.js","async":true}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/32h4i3jbw7n6-.js","async":true}]
+8:["$","script","script-2",{"src":"/_next/static/chunks/3tfinbp4ga4qa.js","async":true}]
+9:["$","script","script-3",{"src":"/_next/static/chunks/31h969n4v2hj-.js","async":true}]
+a:["$","script","script-4",{"src":"/_next/static/chunks/3jdtt27vsqdhv.js","async":true}]
+b:["$","script","script-5",{"src":"/_next/static/chunks/2tjyiqfr-dvv2.js","async":true}]
+c:["$","script","script-6",{"src":"/_next/static/chunks/3bnu8tn1tutt3.js","async":true}]
+d:["$","script","script-7",{"src":"/_next/static/chunks/3rtg097ua8kwc.js","async":true}]
+e:["$","script","script-8",{"src":"/_next/static/chunks/3077shfl7bb0t.js","async":true}]
+f:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+13:null
